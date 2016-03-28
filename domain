@@ -1,0 +1,16 @@
+Domains in openstack:
+
+1.	Domain usage - http://beta.rdoproject.org/documentation/domains/ .
+2.	available commands - http://docs.openstack.org/developer/python-openstackclient/command-objects/domain.html 
+
+
+How to use?
+1.	Set OS_URL
+# export OS_URL=http://127.0.0.1:35357/v3
+2.	Set OS_TOKEN
+# export OS_TOKEN=`grep ^admin_token /etc/keystone/keystone.conf | awk -F'=' '{print $2}'` 
+3.	Create Domain
+# openstack --os-identity-api-version 3 domain create --description "Admin Domain" admin
+4.	List Domains
+# openstack --os-identity-api-version 3 domain list
+
