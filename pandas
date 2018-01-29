@@ -1,0 +1,859 @@
+Data Structures in pandas:
+
+===========================
+
+
+
+1. Series:
+
+        Series is same as numpy array but with indexes.
+
+        So, series is indexed arrays built over numpy arrays.
+
+       Also series can contain any kind of data i.e. string, function name like sum, diff, print, len etc          but numpy array can hold this kind of data.
+
+
+
+So, benefit of pandas series is indexed search/lookup which will be quite fast like hash-table or dict
+
+
+
+      pd.series(data=list/numpyArray,
+
+                      index=listForIndex,
+
+                      dtype=None,
+
+                      name='series_name',
+
+                      copy=True/False,
+
+                      fastpath=True/False
+
+                     )
+
+
+
+          Ex,
+
+          import numpy as np
+
+          import pandas as pd
+
+          index_list = ['a','b','c']
+
+          data_list = [10,20,30]
+
+          numpy_array = np.array(data_list)
+
+          pd.Series(data=numpy_array,
+
+                           index=index_list, 
+
+                           name='pandas_series',
+
+                           copy=False,
+
+                           fastpath=False)
+
+or
+
+
+
+          pd.Series(data= numpy_array,
+
+                           index=index_list,
+
+                           name='pandas_series')
+
+or
+
+
+
+          pd.Series(numpy_array,
+
+                           index_list,
+
+                           dtype=None,
+
+                           name='pandas1_series',
+
+                           copy=False,
+
+                           fastpath=False)
+
+or
+
+          pandas_series=pd.Series(data= numpy_array,
+
+                                                  index=index_list)
+
+          print(pandas_series)
+
+     a    10
+          b    20
+          c    30
+          dtype: int64
+          pandas_series=pd.Series(data= [sum,print ]) # here only inbuilt function can be used else keep                                                                                    #them in quotes like 'test', 'sheel' etc
+
+     print(pandas_series)
+
+          out:
+
+          0      
+                   1    
+               dtype: object
+
+
+Other fastest way to create series is to use dictionary as data.
+
+        Ex,
+
+          python_dict = {1:'x',2:'y',3:'z'}
+
+          pd.Series(python_dict)
+
+              out:
+
+               1    x
+
+               2    y
+
+               3    z
+
+               dtype: object
+
+             Note: As data is x,y,z i.e. characters,, datatype is shown as object
+
+or
+
+          python_dict = {'x':1,'y':2,'z':3}
+
+          pd.Series(python_dict)
+
+              out:
+
+               x    1
+
+               y    2
+
+               z    3
+
+               dtype: int64
+
+            Note: As data is 1,2,3 i.e. integer, datatype is shown as int 64
+
+
+
+Accessing Series elements:
+
+===================
+
+          python_dict = {'x':1,'y':2,'z':3}
+
+          series=pd.Series(python_dict)
+
+              out:
+
+               x    1
+
+               y    2
+
+               z    3
+
+               dtype: int64
+
+    series['x']
+
+    out: 1
+
+Operations on Series:
+
+===============
+
+          python_dict1 = {'a':2,'x':1,'y':2,'z':3}
+
+          series1=pd.Series(python_dict1)
+
+           -----------------------------------------
+
+              out:
+
+           a    2
+           x    1
+           y    2
+           z    3
+           dtype: int64
+       ---------------------------
+
+
+          python_dict2 = {'x':1,'y':2,'z':3,'a':4, 'b':5}
+
+          series2=pd.Series(python_dict2)
+
+           -----------------------------------------
+
+              out:
+
+           a    4
+           b    5
+           x    1
+           y    2
+           z    3
+           dtype: int64
+    -----------------------------------------
+
+    series1+series2
+
+    -----------------------------------------
+
+    out:
+
+          a        6.0            # converted to float to keep all information after airthmatic operations.
+
+     b    NaN      # as there is no match in series1 and series2 for 'b'
+          x    2.0
+          y    4.0
+          z    6.0
+          dtype: float64
+
+    -----------------------------------------
+
+
+    series1*series2
+
+
+    -----------------------------------------
+
+
+    out:
+
+
+
+     a    8.0
+          b    NaN
+          x    1.0
+          y    4.0
+          z    9.0
+          dtype: float64
+
+
+
+2. dataframe:
+
+    This is the main tool of pandas built over series.
+
+      import pandas as pd
+
+      pd.DataFrame(data=list/numpyArray,
+
+                              index=listForIndex,
+
+                              columns=None,
+
+                              dtype=None,
+
+                              copy=True/False
+
+                     )
+
+
+
+        Ex,
+
+               import numpy as np
+
+               import pandas as pd
+
+               df=pd.DataFrame(data=np.ones((4,4)),
+
+                                              index=['row1','row2', 'row3', 'row4'],
+
+                                              columns=['col1', 'col2', 'col3', 'col4'],
+
+                                              dtype=None,
+
+                                              copy=False
+
+                                             )
+
+               df
+
+               out:
+
+                         col1  col2  col3  col4
+
+               row1  1.0     1.0    1.0  1.0
+
+               row2  1.0     1.0    1.0  1.0
+
+               row3  1.0     1.0    1.0  1.0
+
+               row4  1.0     1.0    1.0  1.0             
+
+
+
+               This output is what we call dataframe which is formed from 4 series.
+
+               Each column represent one series.
+
+               for ex,
+
+                       type(df['col1'])
+
+                       out:
+
+                             pandas.core.series.Series
+
+
+
+                       df['col1'] 
+
+                       out:
+
+                              row1    1.0
+
+                              row2    1.0
+
+                              row3    1.0
+
+                              row4    1.0
+
+                              Name: col1, dtype: float64
+
+
+
+                       df[['col1','col2']]
+
+                       out:
+
+                                 col1  col2
+
+                       row1  1.0     1.0
+
+                       row2  1.0     1.0
+
+                       row3  1.0     1.0
+
+                       row4  1.0     1.0
+
+
+
+                 df['new_col']= df['col1']+df['col2']
+
+                 df
+
+                     out:
+
+                         col1  col2  col3  col4  new_col
+
+                 row1  1.0          1.0        1.0      1.0     2.0
+
+                 row2  1.0          1.0      1.0     1.0     2.0
+
+                 row3  1.0          1.0     1.0     1.0     2.0
+
+                 row4  1.0          1.0          1.0          1.0          2.0
+
+
+
+                df.drop(labels, axis=0, level=None, inplace=False, errors='raise')
+
+                       : Return new object with labels in requested axis removed.
+
+                Parameters
+
+                ----------
+
+               labels : single label 'col1'/row1 or list-like ['col1','col2'] or ['row1','row2']
+
+                         axis : int or axis name,
+
+                          if axis=0, we need to use row as labels.
+
+                          if axis=1, we need to use col as labels.
+
+              level : int or level name, default None
+
+                        For MultiIndex
+
+              inplace : bool, default False
+
+                             If True, do operation inplace and return None.
+
+             errors : {'ignore', 'raise'}, default 'raise'
+
+                          If 'ignore', suppress error and existing labels are dropped.
+
+            df
+
+                     col1 col2 col3 col4 new_col
+
+            row1  1.0  1.0  1.0  1.0  2.0
+
+            row2  1.0  1.0  1.0  1.0  2.0
+
+            row3  1.0  1.0  1.0  1.0  2.0
+
+            row4  1.0  1.0  1.0  1.0  2.0
+
+
+
+         x=df.drop('col1', axis=1)
+
+         =========================
+
+         x
+
+                 col2 col3 col4 new_col
+
+        row1  1.0  1.0  1.0  2.0
+
+        row2  1.0  1.0  1.0  2.0
+
+        row3  1.0  1.0  1.0  2.0
+
+        row4  1.0  1.0  1.0  2.0
+
+
+
+        y=df.drop('row1', axis=0)
+
+        ==================
+
+        y
+
+               col1  col2 col3 col4 new_col
+
+        row2  1.0  1.0  1.0  1.0  2.0
+
+        row3  1.0  1.0  1.0  1.0  2.0
+
+        row4  1.0  1.0  1.0  1.0  2.0
+
+       
+
+       Note: we are using x and y to print updated values after using drop() function.
+
+                  This is because it will not update the dataframe inline.
+
+                  To update inline, use inplace=True command.
+
+
+
+     Accessing Rows:
+
+     ============
+
+     Its easy to find the column data by just passing col name in df, ex, df['col1'] or df[ ['col1','col2'] ].
+
+     But to find rows data, we have 2 ways a. loc  b. iloc. These returns row data.
+
+            df
+
+                     col1 col2 col3 col4 new_col
+
+            row1  1.0  1.0  1.0  1.0  2.0
+
+            row2  1.0  1.0  1.0  1.0  2.0
+
+            row3  1.0  1.0  1.0  1.0  2.0
+
+            row4  1.0  1.0  1.0  1.0  2.0
+
+
+
+          df.loc['row1']   : location based index
+
+          out:
+
+             col1       1.0
+
+             col2       1.0
+
+             col3       1.0
+
+             col4       1.0
+
+             new_col    2.0
+
+             Name: row1, dtype: float64
+
+
+
+
+
+          df.iloc[0]  : integer based location
+
+          out:
+
+             col1       1.0
+
+             col2       1.0
+
+             col3       1.0
+
+             col4       1.0
+
+             new_col    2.0
+
+             Name: row1, dtype: float64
+
+
+
+       Note: We can use numpy way of accessing array elements to fetch dataframe values.
+
+           df.loc['row1','col1'] 
+
+               out:    1.0
+
+
+
+          df.loc['row1':'row3', 'col1':'col2']
+
+               out: 
+
+                col1  col2
+
+              row1  1.0  1.0
+
+              row2  1.0  1.0
+
+              row3  1.0  1.0
+
+
+
+
+
+     Conditional Selection from DataFrame:
+
+     =============================
+
+               import numpy as np
+
+               import pandas as pd
+
+               df=pd.DataFrame(data=np.ones((4,4)),
+
+                                              index=['row1','row2', 'row3', 'row4'],
+
+                                              columns=['col1', 'col2', 'col3', 'col4'],
+
+                                              dtype=None,
+
+                                              copy=False
+
+                                             )
+
+                df
+
+                   out:
+
+                            col1 col2 col3 col4 new_col
+
+                      row1  1.0  1.0  1.0  1.0  2.0
+
+                      row2  1.0  1.0  1.0  1.0  2.0
+
+                      row3  1.0  1.0  1.0  1.0  2.0
+
+                      row4  1.0  1.0  1.0  1.0  2.0
+
+
+
+              df&gt;1  
+
+                 out:
+
+                         col1  col2  col3  col4  new_col
+
+                      row1  False  False  False  False  True
+
+                      row2  False  False  False  False  True
+
+                      row3  False  False  False  False  True
+
+                      row4  False  False  False  False  True
+
+
+
+               df[df&gt;1]  : accessing all values of df where specified condition is True.
+
+                 out:
+
+                                 col1  col2   col3  col4  new_col
+
+                      row1  NaN  NaN  NaN  NaN  2.0
+
+                      row2  NaN  NaN  NaN  NaN  2.0
+
+                      row3  NaN  NaN  NaN  NaN  2.0
+
+                      row4  NaN  NaN  NaN  NaN  2.0
+
+
+
+
+
+         multiple conditions:
+
+         df[df['x']&gt;0] will return only x column values where x is greater than 0.
+
+         df[   (df['x']&gt;0)  &amp;   (df['y']&gt;0)    ]   : will return df['x'] and df['y'] values as per specified conds.
+
+         ==============================================
+
+          Note: using AND instead of &amp; will not work as AND only handles single values and not series.
+
+          True and True will work but
+
+          A=[1,2,3,]  B=[2,3,4]
+
+          A AND B will not work as AND works with single values only.
+
+         ==============================================
+
+         For AND use &amp;
+
+         For OR use |
+
+       
+
+        Indexes:
+
+            a. df.reset_index() :  to set index of dataframe i,e, df to 0,1,2,etc...
+
+            b. df.set_index(['a','b','c','d','e'])
+
+                  It will set the index to 'a','b','c','d','e'
+
+        Create Multi Level Index:
+
+           c. df.multiIndex.from_tuples(list)
+
+               outside = ['G1','G1','G1','G2','G2','G2']
+
+               inside = [1,2,3,1,2,3]
+
+               hier_index = list(zip(outside,inside))
+
+             [('G1', 1), ('G1', 2), ('G1', 3), ('G2', 1), ('G2', 2), ('G2', 3)]
+               hier_index = pd.MultiIndex.from_tuples(hier_index)
+
+           MultiIndex(levels=[['G1', 'G2'], [1, 2, 3]],
+                      labels=[[0, 0, 0, 1, 1, 1], [0, 1, 2, 0, 1, 2]])
+             Here levels refers to level of index i.e indexLevel1 or outerIndex, 
+                                                      indexLevel2 or innerIndex.
+             Here lables refers to values inside the dataframe.
+             from_tuples: specifies row column number selected from 
+                          tublelevel i.e. (0,1) for G1,G2 tuple values.
+                          tupleLabel i.e. (0,1,2) for 1,2,3 tuple values.
+                df = pd.DataFrame(np.random.randn(6,2),index=hier_index,columns=['A','B'])
+
+
+
+           
+
+               
+
+               A        
+
+               B         
+
+       G1          
+
+      1      
+
+0.592596
+
+-0.978252
+
+2
+
+1.131982
+
+0.576665
+
+3
+
+0.178319
+
+0.018078
+
+G2
+
+1
+
+0.692408
+
+0.366236
+
+2
+
+2.109450
+
+-0.509104
+
+3
+
+0.680040
+
+0.395082
+
+        
+
+
+
+         Naming Index in multi-level indexes:
+
+          df.indexs.names
+
+                    [None, None]
+
+          df.index.names=['outerIndex', 'innerIndex'] : It will set outer and inner index names.
+
+ 
+
+A
+
+B
+
+outerIndex      
+
+innerIndex     
+
+                          
+
+                     
+
+G1
+
+1
+
+-1.557131
+
+-0.896537
+
+2
+
+-0.379128
+
+-0.295808
+
+3
+
+0.230577
+
+0.274339
+
+G2
+
+1
+
+1.031217
+
+-0.219200
+
+2
+
+-0.461037
+
+-0.681466
+
+3
+
+0.938666
+
+-1.454934
+
+
+
+
+
+
+
+        Accessing index values in multi Level indexes:
+
+          df.loc['outerIndexName'].loc['innerIndexName']
+
+        ex, df.loc['G1'].loc[2]
+
+               A   -0.379128
+               B   -0.295808
+                   Name: 2, dtype: float64
+        Accessing cross section index values in multi Level indexes:
+
+          df.xs(innerIndexValue,  level = innerIndexName)
+
+             ex, df.xs(1,level='innerIndex')
+
+                     Note: here [] is not used, rather () is used in xs, as xs is a function.
+
+       
+
+  A
+
+B
+
+outerIndex   
+
+G1
+
+-1.557131   
+
+-0.896537
+
+G2
+
+1.031217
+
+-0.219200  
+
+
+
+
+
+
+
+Handle Missing Values
+
+=================
+
+df.dropna() : It is used to drop all rows or all columns which contains NA values.
+
+                       :df.dropna(axis=1) : drops columns.
+
+                       :df.dropna(axis=0) : drops rows.
+
+        specifying threshold of values for which rows/columns are to be dropped.
+
+                       :df.dropna(thres=2) :
+
+                            only those rows will be dropped which have 2 or more na values in it.
+
+
+
+df.fillna(value=) : This function is used to fill NA values instead of dropping those rows/columns 
+
+                             which do not have values in it.
+
+
+
+                 ex, df.fillna(value=10): it will fill all NA values with 10.
+
+                       df.fillna(value=df['B'].mean() ) : replaing NAs with mean of B column values.
+
+                 
+
+
+
+
+
+GroupBy: used to group together rows on basis of some column. Then further it can be used to
+
+                   implement aggregate functions (like sum, average) on grouped rows.
+
+
+
+
+
