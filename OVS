@@ -1,0 +1,29 @@
+Creating tap ports:
+===================
+ip tuntap add mode tap vport1
+ip tuntap add mode tap vport2
+ifconfig vport1 up 
+ifconfig vport2 up
+
+
+Adding tap ports (vport1 & vport2) to ovs bridge:
+=================================================
+ovs-vsctl add-port mybridge vport1
+ovs-vsctl add-port mybridge vport2
+
+or
+
+ovs-vsctl add-port mybridge vport1 -- add-port mybridge vport1
+
+connect VMs to these tap ports using virtual box networkSettings:
+      bridge Adapter 
+ 	  vport1
+
+final diagram (after connectivity)
+===================================
+eth0 ---  mybridge(ovs)  
+           |          |
+          vport1  vport2
+           eth0    eth0
+		   VM1      VM2
+		  
