@@ -1,0 +1,98 @@
+ovs-vsctl: ovs-vswitchd management utility
+	ovs-vsctl list-br
+	ovs-vsctl add-br br1
+	ovs-vsctl add-port br1 eth0
+  ovs-vsctl list port br1
+	ovs-vsctl list-ifaces br1 
+     Ex,     ovs-vsctl list-ifaces br-ctlplane
+                              p2p2
+                              phy-br-ctlplane
+
+  ovs-vsctl list interface
+     Ex,     ovs-vsctl list interface br-ctlplane
+                              _uuid               : aab86e93-d256-4cbf-bc77-e9649528c3b8
+                              admin_state         : up
+                              bfd                 : {}
+                              bfd_status          : {}
+                              cfm_fault           : []
+                              cfm_fault_status    : []
+                              cfm_flap_count      : []
+                              cfm_health          : []
+                              cfm_mpid            : []
+                              cfm_remote_mpids    : []
+                              cfm_remote_opstate  : []
+                              duplex              : []
+                              error               : []
+                              external_ids        : {}
+                              ifindex             : 12
+                              ingress_policing_burst: 0
+                              ingress_policing_rate: 0
+                              lacp_current        : []
+                              link_resets         : 1
+                              link_speed          : []
+                              link_state          : up
+                              lldp                : {}
+                              mac                 : []
+                              mac_in_use          : "a0:36:9f:3f:56:16"
+                              mtu                 : 1500
+                              mtu_request         : []
+                              name                : br-ctlplane
+                              ofport              : 65534
+                              ofport_request      : []
+                              options             : {}
+                              other_config        : {}
+                              statistics          : {collisions=0, rx_bytes=2847156, rx_crc_err=0, rx_dropped=0, rx_errors=0, rx_frame_err=0, rx_over_err=0, rx_packets=53889, tx_bytes=396479040, tx_dropped=0, tx_errors=0, tx_packets=6375}
+                              status              : {driver_name=openvswitch}
+                              type                : internal
+                              
+	ovs-vsctl emer-reset
+	-> various database commands (list, get, set, add, remove etc.)
+
+ovs-vsctl list bridge
+ovs-vsctl list port
+
+
+
+
+
+ovs-vsctl list interface | egrep 'options|name                :'
+
+ovs-appctl: for querying and controlling Open vSwitch daemon
+	logging stuff
+	-V
+
+ovs-dpctl: Open vSwitch datapath management utility
+	add-dp datapath
+	dump-dps
+	dump-flows datapath
+
+ovs-ofctl: OpenFlow switch management utility
+	show SWITCH
+	dump-flows SWITCH
+	add-flow SWITCH FLOW
+	mod-port SWITCH IFACE ACT (hmm?)
+
+
+
+
+ovs-controller: OpenFlow controller
+	tcp:IP[:PORT] -H, --hub etc.
+	--detach
+
+
+ovs-pki, for managing a simple OpenFlow public key infrastructure
+
+ovs-benchmark: Open vSwitch flow setup benchmark utility
+	(between controller and switch, setting up flows etc.)
+
+
+Setting up:
+
+ovs-controller ptcp:6633 --detach
+ovs-vswitchd --detach etc.
+/etc/init.d/network restart
+	ifconfig eth1 0.0.0.0
+	ifconfig eth2 0.0.0.0
+	ifconfig br0 192.168.1.1
+
+subnet test: 192.168.1.188 - 192.168.1.198
