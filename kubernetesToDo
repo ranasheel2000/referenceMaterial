@@ -1,0 +1,71 @@
+kubernetes Reference For cinder integration with ZUN:
+
+------------------------------------------------------
+
+https://github.com/kubernetes/kubernetes/blob/8bee44b65f2fbf170f70c535b5ec1b3cbfad44b6/examples/mysql-cinder-pd/README.md
+
+https://github.com/kubernetes/kubernetes/blob/8bee44b65f2fbf170f70c535b5ec1b3cbfad44b6/examples/mysql-cinder-pd/mysql.yaml
+
+
+
+https://kubernetes.io/docs/resources-reference/v1.6/#persistentvolumespec-v1-core
+
+
+
+
+
+
+
+#Containers and kubernetes concepts:
+
+-----------------------------------
+
+https://kubernetes.io/docs/concepts/
+
+https://github.com/kubernetes/community/blob/master/README.md#special-interest-groups-sig
+
+
+
+#Resources:
+
+-----------------------------------
+
+1. https://x-team.com/blog/introduction-kubernetes-architecture/
+
+2. Defintions:
+
+   https://htmlpreview.github.io/?https://github.com/kubernetes/kubernetes/blob/HEAD/docs/api-reference/v1/definitions.html
+
+3. All about Kubernetes:
+
+   https://kubernetes.io/docs/home/
+
+   
+
+   Start with minicube to setup single node setup.
+
+        https://kubernetes.io/docs/getting-started-guides/minikube/
+
+4. https://htmlpreview.github.io/?https://github.com/kubernetes/kubernetes/blob/HEAD/docs/api-reference/v1/operations.html
+
+
+
+
+
+
+
+
+
+Community:
+
+
+
+1. Slack Login:
+
+   https://kubernetes.slack.com
+
+   sheel.rana
+
+   
+
+2.
