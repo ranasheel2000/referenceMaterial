@@ -1,0 +1,74 @@
+# GIT:
+
+Basic commands:
+===============
+  1. git init                        : initiates git repository.
+
+  2. touch filename
+     git add filename                : Adds file to local git repository
+  3. git rm filename                 : delete file from local git repository
+  4. git status                      : shows staged or unstaged(untracked) files.
+
+Branching commands:
+===================
+  1. git branch branch1              : Creates new branch "branch1" but does not switch to it.
+  2. git checkout -b branch2         : creates new branch and switch to it.
+  3. git checkout branch1            : switch to existing branch "branch1".
+  4. git branch -d branchName        : deletes branch
+
+Branch Merge commands:
+======================
+  move to any base branch where you want to merge some branch and then use "merge" command to merge branch into base branch.
+  
+  1. git checkout master      : moves to master branch, it can be any branch to which we want to merge feature branch.
+  2. git merge branch_name    : merges "branch_name" branch to master branch.
+
+
+How to create and link repository to some remote repository:
+============================================================
+
+1. Create LOCAL repository:
+     git init : it will create git repository, it will be local repository
+   
+2. Add remote location:
+     git remote add sheel https://github.com/ranasheel2000/GIT.git
+
+3. pull latest code from remote:
+     git pull sheel master      (here master is the branch name)	
+
+4. push updated changes to remote:
+     git push sheel master      (here master is the branch name)
+     
+5. Stash: Saves temporary changes which are not ready for commit.
+   1. git stash : stashes current uncommitted code.
+   
+   2. git stash list : lists different versions of stash created.
+   
+           VirtualBox gitproj # git stash list
+           stash@{0}: WIP on master: edaaeaf Merge branch 'master' of https://github.com/ranasheel2000/GIT
+           stash@{1}: WIP on master: edaaeaf Merge branch 'master' of https://github.com/ranasheel2000/GIT
+
+
+   3. git stash show {stash version} : shows contents of specific stash version.
+   
+           VirtualBox gitproj # git stash list
+           stash@{0}: WIP on master: edaaeaf Merge branch 'master' of https://github.com/ranasheel2000/GIT
+           stash@{1}: WIP on master: edaaeaf Merge branch 'master' of https://github.com/ranasheel2000/GIT
+		   
+            VirtualBox gitproj # git stash show stash@{0}
+            iu | 4 ++++
+            1 file changed, 4 insertions(+)
+
+   4. git stash apply
+          
+           VirtualBox gitproj # git stash list
+           stash@{0}: WIP on master: edaaeaf Merge branch 'master' of https://github.com/ranasheel2000/GIT
+           stash@{1}: WIP on master: edaaeaf Merge branch 'master' of https://github.com/ranasheel2000/GIT
+
+        VirtualBox gitproj # git stash apply stash@{0}
+                 
+            On branch master
+            Changes to be committed:
+            (use "git reset HEAD <file>..." to unstage)
+	        new file:   iu
+			
