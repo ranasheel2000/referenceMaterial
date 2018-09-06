@@ -1,19 +1,12 @@
 B.   VIMRC Settings for Pylint:
-
 ==============================
-
 Reference:
-
 1.       https://www.pylint.org/#install
-
 2.       https://github.com/vim-syntastic/syntastic
 
-
-
-Easy Steps:
+Steps:
 1.       mkdir –p ~/.vim/compiler
 2.       “vi ~/.vimrc“ paste “autocmd FileType python compiler pylint” in
-
 And
 “vi pylint.vim” and paste below contents
 
