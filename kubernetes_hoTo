@@ -1,5 +1,82 @@
+**************************************************************************************************************
+************************               SINGLE NODE SETUP(MINIKUBE)                    ************************
+**************************************************************************************************************
 
 
+Install VirtualBox on linux(Ubuntu)
+==================================
+sudo apt-get update
+sudo apt-get upgrade
+
+wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
+wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
+
+sudo add-apt-repository "deb http://download.virtualbox.org/virtualbox/debian `lsb_release -cs` contrib"
+
+sudo apt-get update
+sudo apt-get install virtualbox-5.2
+
+Install KubeCtl
+================
+sudo apt-get update && sudo apt-get install -y apt-transport-https
+sudo apt install curl
+curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+sudo touch /etc/apt/sources.list.d/kubernetes.list 
+echo "deb http://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee -a /etc/apt/sources.list.d/kubernetes.list
+sudo apt-get update
+sudo apt-get install -y kubectl
+
+Installing minikube
+====================
+curl -Lo minikube https://storage.googleapis.com/minikube/releases/v0.28.2/minikube-linux-amd64 && chmod +x minikube && sudo mv minikube /usr/local/bin/
+chmod +x minikube 
+sudo mv minikube /usr/local/bin/
+
+=============================================
+kubernetes on single node with virtualbox
+=============================================
+sudo apt install docker.io
+
+curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 && chmod +x minikube
+chmod +x minikube 
+sudo mv minikube /usr/local/bin/
+
+curl -Lo kubectl https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl && chmod +x kubectl
+
+export MINIKUBE_WANTUPDATENOTIFICATION=false
+export MINIKUBE_WANTREPORTERRORPROMPT=false
+export MINIKUBE_HOME=$HOME
+export CHANGE_MINIKUBE_NONE_USER=true
+mkdir -p $HOME/.kube
+touch $HOME/.kube/config
+
+export KUBECONFIG=$HOME/.kube/config
+sudo -E /usr/local/bin/minikube start --vm-driver=none
+
+# waits until kubectl can access the api server that Minikube has created
+for i in {1..150}; do # timeout for 5 minutes
+   kubectl get po &> /dev/null
+   if [ $? -ne 1 ]; then
+      break
+  fi
+  sleep 2
+done
+
+# kubectl commands are now able to interact with Minikube 
+
+
+Installing Go
+================
+export PATH=$PATH:/usr/local/go/bin
+
+
+
+
+
+
+***********************************************************************************************************************
+*********************************       Kubernetes resource create            *****************************************
+***********************************************************************************************************************
 
 Create a pod for a container:
 ===========================
