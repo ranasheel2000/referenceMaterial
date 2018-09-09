@@ -15,3 +15,27 @@ Install GO:
          export GOPATH=/usr/sheel/go 
                                     where $HOME is home directory for user "sheel".
 
+
+
+
+
+$ mkdir $GOPATH/src/github.com/user/hello
+       write program in hello.go inside hello directory.
+$ build and install program : 
+      go install github.com/user/hello : It will create binary hello file at same location.
+      go build  github.com/user/hello  : It will create hello binary file in $GOPATH/bin/hello
+      
+$ run program: $GOPATH/bin/hello
+               or  
+               $GOPATH/src/github.com/user/hello
+
+GO Project code structure inside /home/sheel/go:
+-----------------------------------------------
+bin/
+    hello                 # command executable
+src/
+    github.com/user/
+        helloMain/
+            hello.go      # command source
+        helloUtil/
+            util.go       # package source
