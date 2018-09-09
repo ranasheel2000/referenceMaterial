@@ -1,3 +1,6 @@
+
+
+
 Install GO:
 ===========
 - downlaod golang: 
@@ -39,3 +42,20 @@ src/
             hello.go      # command source
         helloUtil/
             util.go       # package source
+            
+Basics:            
+1. Each of the .go file will contain  "package packageName"
+   for ex, in hellpUtil/util.go, use 
+                                 "package helloUtil"
+   Same way, "import hellpUtil" will be used in callig package.
+   Refer "Importing packages" for further details.
+2. If we want to export some function outside of package, then that funtion name must be started with capital letter;
+   else its scope will be within same package only.
+   for ex, func Exported(){
+   }
+Importing packages:
+===================
+In /home/sheel/go/src/github.com/user/helloMain/hello.go
+
+             import "github.com/user/helloUtil"         # Note: we are not using file name rather directory name.
+     
