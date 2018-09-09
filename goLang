@@ -1,4 +1,3 @@
-
 Install GO:
 ===========
 - downlaod golang: 
@@ -6,11 +5,12 @@ Install GO:
 - copy downloaded golang repo to /usr/local/
 - set GOROOT: 
              GOROOT is go installation directory i.e. /usr/local/go/bin/
-             export PATH=$PATH:/usr/local/go/bin
+         export PATH=$PATH:/usr/local/go/bin
 
 - set GOPATH : 
              GOPATH is environment variable which specifies the location of your workspace(working directory) 
              i.e. directory where go code is stored. 
              It defaults to a directory named go inside your home directory, so $HOME/go on Unix
-             
- 
+         export GOPATH=/usr/sheel/go/ 
+                                    where $HOME is home directory for user "sheel".
+
