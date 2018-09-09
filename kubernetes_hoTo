@@ -1,0 +1,30 @@
+
+
+
+Create a pod for a container:
+===========================
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: sheel-pod
+  labels:
+    zone: prod
+    version: v1
+    name: sheel-pod
+spec:
+  containers:
+  - name: sheel-ctr
+    image: myimage:v0.5
+    command: ["sh", "-c", "tail -f /dev/null"]
+    ports:
+    - containerPort: 5000
+      name: http
+      protocol: TCP 
+
+
+Expose a pod:
+=============
+kubectl expose pod sheel-pod --type=NodePort --port=5000
+
+
