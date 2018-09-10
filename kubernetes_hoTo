@@ -118,8 +118,32 @@ Ingress rule:   Ingress rule routes user request to specific service.
 1.)Name-Based Virtual Hosting Ingress rule:
    ----------------------------------------
     Following ingress rule specify the route;
+                - if user makes request for ranasheel2000.github.com, ingress rule will routes request to svc-1 service.
+                - if user makes request for kubernetes.github.com, ingress will routes request to svc-2 service.
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: web-ingress
+  namespace: default
+spec:
+  rules:
+  - host: ranasheeel2000.github.com
+    http:
+      paths:
+      - backend:
+          serviceName: svc-1
+          servicePort: 80
+  - host: kubernetes.github.com
+    http:
+      paths:
+      - backend:
+          serviceName: svc-2
+          servicePort: 80
+2.) Fan Out Ingress rule:
+     In this rule, we can specify the doamin name and can route requests according to preeceeding url.
+     For ex, github.com/ranasheel2000 and github.com/kubernetes
                 - if user makes request for github.com/ranasheel2000, ingress rule will routes request to svc-1 service.
-                - if user makes request for https://github.com/kubernetes, ingress will routes request to svc-2 service.
+                - if user makes request for github.com/kubernetes, ingress will routes request to svc-2 service.
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
@@ -133,7 +157,7 @@ spec:
       - backend:
           serviceName: svc-1
           servicePort: 80
-  - host: https://github.com/kubernetes
+  - host: github.com/kubernetes
     http:
       paths:
       - backend:
