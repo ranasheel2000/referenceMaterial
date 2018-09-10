@@ -187,3 +187,4 @@ Steps to deploy Ingress and access service through Ingress:
           kubectl describe ingress {name-of-ingress-resource}
     
     
+Application can be deployed usig [Deployments, Services, Volume Claims, Ingress] etc
