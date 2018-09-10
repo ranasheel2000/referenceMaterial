@@ -69,6 +69,7 @@ Installing Go
 ================
 - downlaod golang: 
              https://golang.org/dl/
+
 - copy downloaded golang repo to /usr/local/
 - set GOROOT: 
              GOROOT is go installation directory i.e. /usr/local/go/bin/
@@ -113,8 +114,12 @@ kubectl expose pod sheel-pod --type=NodePort --port=5000
 
 Ingress rule:   Ingress rule routes user request to specific service.
 =============
-                For ex, if user makes request for github.com/ranasheel2000, ingress will routes request to svc-1 service.
-                        if user makes request for https://github.com/kubernetes, ingress will routes request to svc-2 service.
+                
+1.)Name-Based Virtual Hosting Ingress rule:
+   ----------------------------------------
+    Following ingress rule specify the route;
+                - if user makes request for github.com/ranasheel2000, ingress rule will routes request to svc-1 service.
+                - if user makes request for https://github.com/kubernetes, ingress will routes request to svc-2 service.
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
