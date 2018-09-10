@@ -120,6 +120,8 @@ Ingress rule:   Ingress rule routes user request to specific service.
     Following ingress rule specify the route;
                 - if user makes request for ranasheel2000.github.com, ingress rule will routes request to svc-1 service.
                 - if user makes request for kubernetes.github.com, ingress will routes request to svc-2 service.
+ingress.yaml
+------------
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
@@ -163,3 +165,22 @@ spec:
       - backend:
           serviceName: svc-2
           servicePort: 80
+
+
+Ingress controller: is used for request forwarding from ingress endpoint to service. 
+==================
+                   It is an application which watches Master Node's API server for changes in the Ingress resources and 
+                   updates the Layer 7 Load Balancer accordingly.
+
+Steps to deploy Ingress and access service through Ingress:
+=================================================
+    1. Deploy Ingress Controller with Minikube
+          minikube addons enable ingress
+    2. create Ingress Resource: This is done after deploying ingress controller.
+          kubectl create -f ingress.yaml
+
+    3. update /etc/hosts, map minikubeIP and URLs to access ser-1 and ser-2.
+       We are mapping it to minikubeIP as ingress rules will be created within minikube scope.
+        127.0.0.1     localhost.undercloud
+        ::1           localhost.undercloud
+        {minikube IP} github.com/ranasheel2000 github.com/kubernetes 
