@@ -2,7 +2,6 @@
 ************************               SINGLE NODE SETUP(MINIKUBE)                    ************************
 **************************************************************************************************************
 
-
 Install VirtualBox on linux(Ubuntu)
 ==================================
 sudo apt-get update
@@ -169,7 +168,7 @@ spec:
 
 Ingress controller: is used for request forwarding from ingress endpoint to service. 
 ==================
-                   It is an application which watches Master Node's API server for changes in the Ingress resources and 
+                   It is an application which watches Master Node's API server for changes in the Ingress resources(Ingress rules) and 
                    updates the Layer 7 Load Balancer accordingly.
 
 Steps to deploy Ingress and access service through Ingress:
@@ -181,6 +180,10 @@ Steps to deploy Ingress and access service through Ingress:
 
     3. update /etc/hosts, map minikubeIP and URLs to access ser-1 and ser-2.
        We are mapping it to minikubeIP as ingress rules will be created within minikube scope.
-        127.0.0.1     localhost.undercloud
-        ::1           localhost.undercloud
-        {minikube IP} github.com/ranasheel2000 github.com/kubernetes 
+          127.0.0.1     localhost.undercloud
+          ::1           localhost.undercloud
+          {minikube IP} github.com/ranasheel2000 github.com/kubernetes 
+    4. List ingress rules:    
+          kubectl describe ingress {name-of-ingress-resource}
+    
+    
