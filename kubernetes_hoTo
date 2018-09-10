@@ -110,3 +110,27 @@ Expose a pod:
 kubectl expose pod sheel-pod --type=NodePort --port=5000
 
 
+
+Ingress rule:   Ingress rule routes user request to specific service.
+=============
+                For ex, if user makes request for github.com/ranasheel2000, ingress will routes request to svc-1 service.
+                        if user makes request for https://github.com/kubernetes, ingress will routes request to svc-2 service.
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: web-ingress
+  namespace: default
+spec:
+  rules:
+  - host: github.com/ranasheel2000
+    http:
+      paths:
+      - backend:
+          serviceName: svc-1
+          servicePort: 80
+  - host: https://github.com/kubernetes
+    http:
+      paths:
+      - backend:
+          serviceName: svc-2
+          servicePort: 80
