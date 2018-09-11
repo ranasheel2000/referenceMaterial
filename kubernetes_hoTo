@@ -109,9 +109,8 @@ spec:
 
 Expose a pod:
 =============
-kubectl expose pod sheel-pod --type=NodePort --port=5000
-
-
+kubectl expose pod sheel-pod --type=NodePort --port=8080
+kubectl expose deployment sheel-depolyment-1 --port=8080 --target-port=
 
 Ingress rule:   Ingress rule routes user request to specific service.
 =============
@@ -206,4 +205,12 @@ kubeproxy     -> is a network proxy and load balancer for a service on a single 
                  It takes care of the network routing for TCP and UDP packets.
                  communicates with etcd, to get information about services and write the details about newly created ones.
 
+
+Basic docker commands:
+======================
+docker images
+docker pull {docker-image name like ngnix}
+docker run {container-name}
+docker exec -it {container-name} /bin/bash
+ctrl+d to run out of container entered through "docker exec -it"
 
