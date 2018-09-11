@@ -200,7 +200,8 @@ Ex of different controllers is:
    
 kubectl       -> CLI which manages the PODs etc using API Server.
 Controller    -> watches state of cluster using API Server. 
-kubelet       -> worker service which gets pod configuration from apiserver, ensures described containers are up and running.
+kubelet       -> kubelet is an agent for managing the node and communicating with the Kubernetes master. 
+                 It gets pod configuration from apiserver, ensures described containers are up and running.
 kubeproxy     -> is a network proxy and load balancer for a service on a single worker node.
                  It takes care of the network routing for TCP and UDP packets.
                  communicates with etcd, to get information about services and write the details about newly created ones.
@@ -213,4 +214,17 @@ docker pull {docker-image name like ngnix}
 docker run {container-name}
 docker exec -it {container-name} /bin/bash
 ctrl+d to run out of container entered through "docker exec -it"
+
+Basic kubectl commands:
+======================
+kubectl cluster-info
+
+kubectl get nodes :It will list all nodes/VMs running which are ok to accept any deployments.
+
+kubectl get pod {name-of-pod}
+kubectl get deployment {name-of-deployment}
+kubectl get service {name-of-service}
+
+
+
 
