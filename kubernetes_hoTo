@@ -190,3 +190,20 @@ Steps to deploy Ingress and access service through Ingress:
     
     
 Application can be deployed usig [Deployments, Services, Volume Claims, Ingress] etc
+
+Controllers:  A controller uses apiserver to watch the shared state of the cluster and
+===========       makes corrective changes to the current state to change it to the desired one.
+Ex of different controllers is:
+    1. endpoint controller : takes care of the endpoint and their availibility.
+    2. namespace controller : 
+    3. service account controller : takes care of the services and their desired state.
+    4. Replication controller  : takes care of the number of PODs in the kubernetes system.
+   
+kubectl       -> CLI which manages the PODs etc using API Server.
+Controller    -> watches state of cluster using API Server. 
+kubelet       -> worker service which gets pod configuration from apiserver, ensures described containers are up and running.
+kubeproxy     -> is a network proxy and load balancer for a service on a single worker node.
+                 It takes care of the network routing for TCP and UDP packets.
+                 communicates with etcd, to get information about services and write the details about newly created ones.
+
+
