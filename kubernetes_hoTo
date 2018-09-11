@@ -77,7 +77,9 @@ Installing Go
              GOPATH is environment variable which specifies the location of your workspace(working directory) 
              i.e. directory where go code is stored. 
              It defaults to a directory named go inside your home directory, so $HOME/go on Unix
-
+             cd $HOME   (ex, /home/sheel)
+             mkdir go
+             export GOPATH=$HOME/go
 
 ***********************************************************************************************************************
 *********************************       Kubernetes resource create            *****************************************
