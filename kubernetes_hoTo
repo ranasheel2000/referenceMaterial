@@ -238,9 +238,13 @@ kubectl commands:
   delete         Delete resources by filenames, stdin, resources and names, or by resources and label selector
 
 Deploy Commands:
-  run            Run a particular image on the cluster
-         kubectl run kubernetes-bootcamp --image=gcr.io/google-samples/kubernetes-bootcamp:v1 --port=8080
-      
+  run            Deploy a application(sheel-app) by using any image on the cluster
+         kubectl run sheel-app --image={any-image-name} --port=8080
+  get            list all current deployments on cluster. 
+         $ kubectl get deployments
+              NAME                  DESIRED   CURRENT   UP-TO-DATE   AVAILABLE   AGE
+              sheel-app             1         1         1            0           8s
+
   run-container  Run a particular image on the cluster. This command is deprecated, use "run" instead
   rollout        Manage the rollout of a resource
   rolling-update Perform a rolling update of the given ReplicationController
