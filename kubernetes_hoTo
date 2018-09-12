@@ -276,6 +276,23 @@ Basic Flow:
             NAME                  TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
             kubernetes            ClusterIP   10.96.0.1        <none>        443/TCP          1m
   =======   kubernetes-bootcamp   NodePort    10.105.169.187   <none>        8080:32653/TCP   16s  ========
+  
+  
+          $ kubectl describe services/kubernetes-bootcamp
+            Name:                     kubernetes-bootcamp
+            Namespace:                default
+            Labels:                   run=kubernetes-bootcamp
+            Annotations:              <none>
+            Selector:                 run=kubernetes-bootcamp
+            Type:                     NodePort                      ============
+            IP:                       10.104.87.14                 ================
+            Port:                     <unset>  8080/TCP              =========
+            TargetPort:               8080/TCP
+            NodePort:                 <unset>  30775/TCP
+            Endpoints:                172.18.0.4:8080,172.18.0.5:8080,172.18.0.6:8080 + 2 more...
+            Session Affinity:         None
+            External Traffic Policy:  Cluster
+            Events:                   <none>
 
      Check external connectivity to service:
      --------------------------------------
@@ -335,8 +352,20 @@ Basic Flow:
 Scaling: is done by increasing number of "Replicas of PODs" to handle the increased traffic.
 =======
 
+   kubectl scale deployments {name of deployment} --replica=4
+       $ kubectl scale deployments kubernetes-bootcamp --replicas=5
+         deployment "kubernetes-bootcamp" scaled
 
-
+LoadBalancing:  Service by default has a load balancer.
+                We can check if load balancing is done by service or not.
+                On each access to deployment, different POD would be serving the request.
+                Refer following:
+                  $ curl $(minikube ip):$NODE_PORT
+                      Hello Kubernetes bootcamp! | Running on: kubernetes-bootcamp-5dbf48f7d4-vtf4q | v=1
+                  $ curl $(minikube ip):$NODE_PORT
+                      Hello Kubernetes bootcamp! | Running on: kubernetes-bootcamp-5dbf48f7d4-t65xd | v=1
+                  $ curl $(minikube ip):$NODE_PORT
+                      Hello Kubernetes bootcamp! | Running on: kubernetes-bootcamp-5dbf48f7d4-kn5c7 | v=1
 
 
 AutoScaling:
@@ -346,8 +375,10 @@ AutoScaling:
 
 
 
-Rolling updates:
-================
+Rolling updates:    Rolling updates allow Deployments' update to take place with zero downtime by incrementally updating Pods 
+===============     instances with new ones. 
+                    The new Pods will be scheduled on Nodes with available resources.
+
 
 
 
@@ -403,6 +434,10 @@ Troubleshooting and Debugging Commands:
                  can be used with node, pods, deployments resources.
           kubectl describe pods : will describe all pods.
           kubectl describe pod sheel-pod   : will describe sepcific(sheel-pod) only.
+          
+          kubectl describe pod/{pod-name}                  or kubectl describe pod {pod-name}
+          kubectl describe deployments/{deployment-name}   or kubectl describe deployments {deployment-name}
+          kubectl describe services/{service-name}         or kubectl describe services/{service-name} 
   
   logs           print the logs from a container in a pod
           kubectl logs
