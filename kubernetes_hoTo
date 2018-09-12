@@ -264,13 +264,30 @@ Cluster Management Commands:
   
 Troubleshooting and Debugging Commands:
   describe       Show details of a specific resource or group of resources
+                 can be used with node, pods, deployments resources.
+          kubectl describe pods : will describe all pods.
+          kubectl describe pod sheel-pod   : will describe sepcific(sheel-pod) only.
+  
   logs           print the logs from a container in a pod
           kubectl logs
+          $ kubectl logs sheel-pod
+            Sheel App Started At: 2018-09-12T04:46:42.191Z | Running On:  sheel-pod
+          
   attach         Attach to a running container
   exec           Execute a command in a container
             kubectl exec
   port-forward   Forward one or more local ports to a pod
   proxy          Run a proxy to the Kubernetes API server
+            kubectl proxy : it will create proxy server to communicate with PODs/deployments/applicatoins through kubernetes API server.
+                            kubectl proxy retruns api server url and port which can be used to communicate with different resources on worker node.
+            $ kubectl proxy
+            Starting to serve on 127.0.0.1:8001
+            
+            curl http://localhost:8001/api/v1/namespaces/default/pods/<POD_NAME>/proxy/
+            ex,
+            $ curl http://localhost:8001/api/v1/namespaces/default/pods/sheel-pod/proxy/
+              Hello All! | Running on: sheel-pod | v=1
+             
   cp             Copy files and directories to and from containers.
   auth           Inspect authorization
 
@@ -293,5 +310,7 @@ Other Commands:
   plugin         Runs a command-line plugin
   version        Print the client and server version information
   
+
+
 
 
