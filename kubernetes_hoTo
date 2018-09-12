@@ -237,7 +237,7 @@ Basic Flow:
          kubectl exec {PODNAME} {cmd}  
      ex, $ kubectl exec sheel-pod env
   
-4. Service(expose a deployment): 
+4. Service(publically expose a deployment): 
    ========
    A Service in Kubernetes is an abstraction which defines a logical set of Pods and a policy by which to access them.
    A Service routes traffic across a set of Pods. 
@@ -325,6 +325,31 @@ Basic Flow:
                    Labels:         app=v1
                                    pod-template-hash=1869049380
                                    run=kubernetes-bootcamp
+             Delete Service using Label
+             --------------------------
+             $ kubectl delete service -l run=kubernetes-bootcamp
+             This will delete the service but application will still be running.
+             Same can be confirmed by running "kubectl exec -ti $POD_NAME curl localhost:8080"
+
+
+Scaling: is done by increasing number of "Replicas of PODs" to handle the increased traffic.
+=======
+
+
+
+
+
+AutoScaling:
+============
+
+
+
+
+
+Rolling updates:
+================
+
+
 
 
 
