@@ -283,8 +283,9 @@ Troubleshooting and Debugging Commands:
             $ kubectl proxy
             Starting to serve on 127.0.0.1:8001
             
-            curl http://localhost:8001/api/v1/namespaces/default/pods/<POD_NAME>/proxy/
-            ex,
+            Now we can use route to API of the Pod to communicate.(/api/v1/namespaces/default/pods/<POD_NAME>/proxy/)
+            i.e. complete url: "localhost:8001/api/v1/namespaces/default/pods/<POD_NAME>/proxy/"
+            Ex,
             $ curl http://localhost:8001/api/v1/namespaces/default/pods/sheel-pod/proxy/
               Hello All! | Running on: sheel-pod | v=1
              
