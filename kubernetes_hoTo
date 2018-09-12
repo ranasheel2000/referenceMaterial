@@ -291,7 +291,8 @@ Troubleshooting and Debugging Commands:
             NPM_CONFIG_LOGLEVEL=info
             NODE_VERSION=6.3.1
             HOME=/root
- 
+         root@sheel-pod:/# /# exit
+         exit
         exec using bash shell:
         ----------------------
             $ kubectl exec -ti $POD_NAME bash
