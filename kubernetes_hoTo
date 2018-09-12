@@ -378,12 +378,34 @@ AutoScaling:
 Rolling updates:    Rolling updates allow Deployments' update to take place with zero downtime by incrementally updating Pods 
 ===============     instances with new ones. 
                     The new Pods will be scheduled on Nodes with available resources.
+                    By default, the maximum number of Pods that can be unavailable during the update and
+                               the maximum number of new Pods that can be created,
+                    is one. 
+                    Both options can be configured to either numbers or percentages (of Pods)
 
+                    Similar to application Scaling, if a Deployment is exposed publicly,
+                    the Service will load-balance the traffic only to available Pods during the update
 
-
-
-
-
+        update to image of Application: Updating image will automatically trigger rolling update operation.
+        -------------------------------  
+              $ kubectl set image deployments/kubernetes-bootcamp kubernetes-bootcamp=jocatalin/kubernetes-bootcamp:v2
+              
+              Status of upudate  can be confirmed 
+                a. by checking POD status. Old PODs would be Terminating status.
+                     $ kubectl get pods
+                      NAME                                   READY     STATUS        RESTARTS   AGE
+                      kubernetes-bootcamp-5dbf48f7d4-fgf4q   1/1       Terminating   0          58s
+                      kubernetes-bootcamp-5dbf48f7d4-hm9rc   1/1       Terminating   0          58s
+                      kubernetes-bootcamp-7689dc585d-dh4q4   1/1       Running       0          11s
+                      kubernetes-bootcamp-7689dc585d-swjrg   1/1       Running       0          14s 
+                or 
+                b. by rollout status command
+                    $ kubectl rollout status deployments/kubernetes-bootcamp
+                      deployment "kubernetes-bootcamp" successfully rolled out
+       undo rolling update:
+       --------------------
+            $ kubectl rollout undo deployments/kubernetes-bootcamp
+       
 kubectl commands:
 =================
   create         Create a resource from a file or from stdin.
