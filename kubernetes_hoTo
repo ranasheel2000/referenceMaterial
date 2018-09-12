@@ -277,10 +277,54 @@ Basic Flow:
             kubernetes            ClusterIP   10.96.0.1        <none>        443/TCP          1m
   =======   kubernetes-bootcamp   NodePort    10.105.169.187   <none>        8080:32653/TCP   16s  ========
 
+     Check external connectivity to service:
+     --------------------------------------
+          curl $(minikube ip):$NODE_PORT
+          Ex,
+            $ curl 172.17.0.74:32653
+              Hello Kubernetes bootcamp! | Running on: kubernetes-bootcamp-5dbf48f7d4-ltk7f | v=1
 
 
-
-
+     Using label:     Deployment already creates a label for application, if not specified specifically.
+     -----------
+           $ kubectl describe deployment
+                    Name:                   kubernetes-bootcamp
+                    Namespace:              default
+                    CreationTimestamp:      Wed, 12 Sep 2018 08:00:03 +0000
+                    Labels:                 run=kubernetes-bootcamp           ==================
+                    Annotations:            deployment.kubernetes.io/revision=1
+                    Selector:               run=kubernetes-bootcamp
+                    Replicas:               1 desired | 1 updated | 1 total | 1 available | 0 unavailable
+                    StrategyType:           RollingUpdate
+                    MinReadySeconds:        0
+                    RollingUpdateStrategy:  1 max unavailable, 1 max surge
+             List with specific label:
+             ----------------------------
+             use -l parameter to list resources like pod, services etc....
+             a. PODs:
+                 $ kubectl get pods -l run=kubernetes-bootcamp                           #here run=kubernetes-bootcamp is a label
+                    NAME                                   READY     STATUS    RESTARTS   AGE
+                    kubernetes-bootcamp-5dbf48f7d4-ltk7f   1/1       Running   0          12m
+             a. Services:                   
+                 $ kubectl get services -l run=kubernetes-bootcamp
+                    NAME                  TYPE       CLUSTER-IP      EXTERNAL-IP   PORT(S)          AGE
+                    kubernetes-bootcamp   NodePort   10.111.87.231   <none>        8080:30548/TCP   13m
+             Apply Label:
+             ------------
+             use label command followed by the <object type> <object name> <new label>
+                $ kubectl label pod $POD_NAME app=v1
+                   pod "kubernetes-bootcamp-5dbf48f7d4-ltk7f" labeled
+                $ kubectl get  pod -l app=v1
+                   NAME                                   READY     STATUS    RESTARTS   AGE
+                   kubernetes-bootcamp-5dbf48f7d4-ltk7f   1/1       Running   0          25m
+                $ kubectl describe pods $POD_NAME
+                   Name:           kubernetes-bootcamp-5dbf48f7d4-ltk7f
+                   Namespace:      default
+                   Node:           host01/172.17.0.74
+                   Start Time:     Wed, 12 Sep 2018 08:00:06 +0000
+                   Labels:         app=v1
+                                   pod-template-hash=1869049380
+                                   run=kubernetes-bootcamp
 
 
 
