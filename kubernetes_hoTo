@@ -275,7 +275,48 @@ Troubleshooting and Debugging Commands:
           
   attach         Attach to a running container
   exec           Execute a command in a container
-            kubectl exec
+            kubectl exec  
+            ex, 
+            $ kubectl exec sheel-pod env
+            PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+            HOSTNAME=sheel-pod
+            KUBERNETES_SERVICE_HOST=10.96.0.1
+            KUBERNETES_SERVICE_PORT=443
+            KUBERNETES_SERVICE_PORT_HTTPS=443
+            KUBERNETES_PORT=tcp://10.96.0.1:443
+            KUBERNETES_PORT_443_TCP=tcp://10.96.0.1:443
+            KUBERNETES_PORT_443_TCP_PROTO=tcp
+            KUBERNETES_PORT_443_TCP_PORT=443
+            KUBERNETES_PORT_443_TCP_ADDR=10.96.0.1
+            NPM_CONFIG_LOGLEVEL=info
+            NODE_VERSION=6.3.1
+            HOME=/root
+ 
+        exec using bash shell:
+        ----------------------
+            $ kubectl exec -ti $POD_NAME bash
+            root@sheel-pod:/#
+            
+            root@sheel-pod:/# env            
+              NODE_VERSION=1.2.6
+              HOSTNAME=sheel-pod
+              KUBERNETES_PORT_443_TCP_PORT=443
+              KUBERNETES_PORT=tcp://10.96.0.1:443
+              TERM=xterm
+              KUBERNETES_SERVICE_PORT=443
+              KUBERNETES_SERVICE_HOST=10.96.0.1
+              NPM_CONFIG_LOGLEVEL=info
+              PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+              PWD=/
+              SHLVL=1
+              HOME=/root
+              KUBERNETES_PORT_443_TCP_PROTO=tcp
+              KUBERNETES_SERVICE_PORT_HTTPS=443
+              KUBERNETES_PORT_443_TCP_ADDR=10.96.0.1
+              KUBERNETES_PORT_443_TCP=tcp://10.96.0.1:443
+              _=/usr/bin/env
+              root@sheel-pod:/# 
+              
   port-forward   Forward one or more local ports to a pod
   proxy          Run a proxy to the Kubernetes API server
             kubectl proxy : it will create proxy server to communicate with PODs/deployments/applicatoins through kubernetes API server.
