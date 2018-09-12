@@ -250,7 +250,12 @@ Deploy Commands:
   rolling-update Perform a rolling update of the given ReplicationController
   scale          Set a new size for a Deployment, ReplicaSet, Replication Controller, or Job
   autoscale      Auto-scale a Deployment, ReplicaSet, or ReplicationController
-
+  logs           print the logs from a container in a pod
+          kubectl logs
+  exec           execute a command on a container in a pod
+          kubectl exec
+          
+              
 Cluster Management Commands:
   certificate    Modify certificate resources.
   cluster-info   Display cluster info
