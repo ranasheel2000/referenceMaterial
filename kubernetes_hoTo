@@ -216,6 +216,25 @@ docker exec -it {container-name} /bin/bash
 ctrl+d to run out of container entered through "docker exec -it"
 
 
+Basic Flow:
+=========
+1. deploy app
+    kubectl run sheel-app --image={docker-image-name} --port=8080
+    kubectl get deployment sheel-app
+2. set proxy
+            $ kubectl proxy
+            Starting to serve on 127.0.0.1:8001
+            
+            Now we can use "route to API" on Pod to communicate.(/api/v1/namespaces/default/pods/<POD_NAME>/proxy/)
+            i.e. complete url: "localhost:8001/api/v1/namespaces/default/pods/<POD_NAME>/proxy/"
+            Ex,
+            $ curl http://localhost:8001/api/v1/namespaces/default/pods/sheel-pod/proxy/
+              Hello All! | Running on: sheel-pod | v=1
+              
+3. access application(on proxy url) using exec
+         kubectl exec {PODNAME} {cmd}  
+     ex, $ kubectl exec sheel-pod env
+
 
 kubectl commands:
 =================
@@ -275,7 +294,7 @@ Troubleshooting and Debugging Commands:
           
   attach         Attach to a running container
   exec           Execute a command in a container
-            kubectl exec  
+            kubectl exec {PODNAME} {cmd}  
             ex, 
             $ kubectl exec sheel-pod env
             PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
