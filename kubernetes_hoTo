@@ -106,6 +106,36 @@ spec:
       name: http
       protocol: TCP 
 
+Service: 
+========
+   A Service in Kubernetes is an abstraction which defines a logical set of Pods and a policy by which to access them.
+   A Service routes traffic across a set of Pods. 
+   Services are the abstraction that allow pods to die and replicate in Kubernetes without impacting your application.
+   Discovery and routing among dependent Pods is handled by K8S Services.
+   
+   The set of Pods targeted by a Service is usually determined by a LabelSelector.
+   Although each Pod has a unique IP address, those IPs are not exposed outside the cluster without a Service. 
+   Services allow your applications to receive traffic.
+   Service Types:
+   a. ClusterIP (default) - Exposes the Service on an internal IP in the cluster, reachable from within the cluster.
+   b. NodePort            - Exposes the Service on the "same port" of each "selected Node in the cluster" using NAT.
+                            POD is accessible from outside the cluster using <NodeIP>:<NodePort>.
+   c. LoadBalancer        - Creates an external load balancer in the current cloud and assigns a fixed, external IP to the Service. 
+                            Superset of NodePort.
+   d. ExternalName        - Exposes the Service using an arbitrary name (specified by externalName in the spec) by returning a CNAME
+                            record with the name. 
+                            No proxy is used. This needs kube-dns >  V1.7
+          $ kubectl get services
+            NAME         TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE
+            kubernetes   ClusterIP   10.96.0.1    <none>        443/TCP   33s
+          $ kubectl expose deployment/kubernetes-bootcamp --type="NodePort" --port 8080
+            service "kubernetes-bootcamp" exposed
+          $ kubectl get services
+            NAME                  TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+            kubernetes            ClusterIP   10.96.0.1        <none>        443/TCP          1m
+  =======   kubernetes-bootcamp   NodePort    10.105.169.187   <none>        8080:32653/TCP   16s  ========
+
+
 
 Expose a pod:
 =============
@@ -234,6 +264,8 @@ Basic Flow:
 3. access application(on proxy url) using exec
          kubectl exec {PODNAME} {cmd}  
      ex, $ kubectl exec sheel-pod env
+4. Service: 
+   A Service in Kubernetes is an abstraction which defines a logical set of Pods and a policy by which to access them.
 
 
 kubectl commands:
