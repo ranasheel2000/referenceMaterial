@@ -1,0 +1,7 @@
+guestfish --rw -a /home/kube/Downloads/xenial-server-cloudimg-amd64-disk1.img
+<fs> run
+<fs>list-filesystems
+<fs> mount /dev/vda1 /
+<fs> vi /etc/shadow
+
+openstack image create ubuntu--disk-format qcow2 --container-format bare --file /home/kube/Downloads/xenial-server-cloudimg-amd64-disk1.img
