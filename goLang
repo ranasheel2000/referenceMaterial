@@ -30,14 +30,14 @@ $ build and install program :
       
 $ run program: $GOPATH/bin/hello
                or  
-               $GOPATH/src/github.com/user/hello
+               $GOPATH/src/github.com/ranasheel2000/hello   #Use github.com/{githubUserNamewhereCodeRepoIsHostedOrCloned}
 
 GO Project code structure inside /home/sheel/go:
 -----------------------------------------------
 bin/
     hello                 # command executable
 src/
-    github.com/user/
+    github.com/ranasheel2000/
         helloMain/
             hello.go      # command source
         helloUtil/
