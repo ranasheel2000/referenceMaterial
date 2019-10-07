@@ -1,5 +1,16 @@
+OVS LABS:
+----------------------------
+https://keepingitclassless.net/2013/10/introduction-to-open-vswitch/
+https://gist.github.com/djoreilly/1cf74c684cf03da06ea6
+https://sunnynetwork.wordpress.com/2016/03/05/lab-3ovsdb/
+
+docker network using ovs:
+-----------------------------
+https://docker-k8s-lab.readthedocs.io/en/latest/docker/docker-network.html
+
+
 Open vSwitch commands:
-======================
+-----------------------------
     Bridge commands:
     ================
           add-br BRIDGE               create a new bridge named BRIDGE
