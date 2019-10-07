@@ -1,7 +1,8 @@
 https://serverascode.com/2017/08/11/install-openstack-octavia-loadbalancer.html
 https://medium.com/@sankasathyaji/octavia-loadbalancer-installation-on-openstack-7ad19eea38dd
 https://access.redhat.com/documentation/en-us/red_hat_openstack_platform/13/html/networking_guide/sec-octavia
-
+https://dataops.ga/2018/12/octavia/
+https://docs.openstack.org/mitaka/networking-guide/config-lbaas.html
 
 
 Manual Octavia setup:
