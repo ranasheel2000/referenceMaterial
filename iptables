@@ -2,3 +2,155 @@ http://linux-training.be/networking/ch14.html
 
 nat:
 https://www.karlrupp.net/en/computer/nat_tutorial
+
+
+
+
+
+
+How to delete iptables rule using line numbers:
+============================================================================================================
+ iptables -t nat -D POSTROUTING 3
+  iptables -t nat -D POSTROUTING 4
+   iptables -t nat -D POSTROUTING 5
+   
+
+iptables rules on compute node with 1 interface(192.168.122.x, privateN/W) used for tuneling
+============================================================================================================
+[root@comp3 ~]# iptables -nL -t nat --line-numbers
+Chain PREROUTING (policy ACCEPT)
+num  target     prot opt source               destination
+
+Chain INPUT (policy ACCEPT)
+num  target     prot opt source               destination
+
+Chain OUTPUT (policy ACCEPT)
+num  target     prot opt source               destination
+
+Chain POSTROUTING (policy ACCEPT)
+num  target     prot opt source               destination
+1    RETURN     all  --  192.168.122.0/24     224.0.0.0/24
+2    RETURN     all  --  192.168.122.0/24     255.255.255.255
+[root@comp3 ~]#
+
+
+Adding iptables rule and saving them:
+============================================================================================================
+iptables -t nat -A POSTROUTING -s 192.168.122.0/24 -d 224.0.0.0/24 -j RETURN
+iptables -t nat -A POSTROUTING -s 192.168.122.0/24 -d 255.255.255.255 -j RETURN
+service iptables save
+service iptables restart
+
+
+
+
+
+
+
+Route on  controller node:
+---------------------------
+default via 10.11.122.1 dev br-ex 
+10.10.122.0/24 dev br-ex2 proto kernel scope link src 10.10.122.20 
+10.11.122.0/24 dev br-ex proto kernel scope link src 10.11.122.20 
+192.168.122.0/24 dev virbr0 proto kernel scope link src 192.168.122.1 
+
+
+
+
+
+openstack quota show --default   
+nova quota-class-update default --cores 120   
+nova quota-class-update default --ram 122880
+
+openstack network create private
+openstack subnet create --network private --allocation-pool start=192.168.122.100,end=192.168.122.200  --subnet-range 192.168.122.0/24 private_subnet
+
+openstack network create private_cluster2
+openstack subnet create --network private_cluster2 --allocation-pool start=192.168.123.100,end=192.168.123.200  --subnet-range 192.168.123.0/24 private_subnet_cluster2
+
+openstack network create --provider-network-type flat --provider-physical-network physnet1 --external public
+openstack subnet create --network public --allocation-pool start=172.16.18.100,end=172.16.18.200 --no-dhcp --subnet-range 172.16.18.0/24 public_subnet
+
+openstack router create --no-ha router1
+openstack router set --external-gateway public router1
+openstack router add subnet router1 private_subnet
+openstack router add subnet router1 private_subnet_cluster2
+
+
+neutron net-list
+neutron subnet-list
+neutron router-list
+
+
+openstack floating ip create public --floating-ip-address 172.16.18.151
+openstack port create port1 --network private  --fixed-ip subnet=private_subnet,ip-address=192.168.122.151 --enable
+openstack floating ip set --port port1 172.16.18.151
+
+openstack floating ip create public --floating-ip-address 172.16.18.152
+openstack port create port2 --network private  --fixed-ip subnet=private_subnet,ip-address=192.168.122.152 --enable
+openstack floating ip set --port port2 172.16.18.152
+
+openstack floating ip create public --floating-ip-address 172.16.18.153
+openstack port create port3 --network private  --fixed-ip subnet=private_subnet,ip-address=192.168.122.153 --enable
+openstack floating ip set --port port3 172.16.18.153
+
+openstack floating ip create public --floating-ip-address 172.16.18.154
+openstack port create port4 --network private_cluster2  --fixed-ip subnet=private_subnet_cluster2,ip-address=192.168.123.154 --enable
+openstack floating ip set --port port4 172.16.18.154
+
+openstack floating ip create public --floating-ip-address 172.16.18.155
+openstack port create port5 --network private_cluster2  --fixed-ip subnet=private_subnet_cluster2,ip-address=192.168.123.155 --enable
+openstack floating ip set --port port5 172.16.18.155
+
+openstack floating ip create public --floating-ip-address 172.16.18.156
+openstack port create port6 --network private_cluster2  --fixed-ip subnet=private_subnet_cluster2,ip-address=192.168.123.156 --enable
+openstack floating ip set --port port6 172.16.18.156
+
+openstack port list
+openstack floating ip list
+
+
+Clear router interfaces and delete it.
+----------------------------------------------------
+neutron router-gateway-clear "Router"
+neutron router-interface-delete "Router" "SubNet"
+neutron router-delete "Router"
+neutron subnet-delete "SubNet"
+neutron net-delete "Net" 
+
+Adding linux bridge, create pipe to connect br and interfaces.
+--------------------------------------------------------------
+brctl addif br2 ens1f1	
+ifconfig br2 172.16.18.11	
+ip link add end1 type veth peer name end2												
+ip r a 172.16.18.14 dev br2 scope link													
+brctl addif virbr0 end2
+brctl addif br2 end1
+ip link set dev end2 up
+ip link set dev end1 up
+brctl show
+
+
+
+
+vnc changes:
+=============================================================================================================
+controller node:
+---------------
+novncproxy_host=0.0.0.0
+novncproxy_port=6080
+novncproxy_base_url=http://10.10.122.10:6080/vnc_auto.html
+vncserver_proxyclient_address=10.10.122.10
+vnc_enabled=True
+vnc_keymap=en-us
+
+Compute node:
+-------------
+novncproxy_base_url=http://10.10.122.10:6080/vnc_auto.html   #controller node ip 
+vncproxy_port=6080
+vncserver_listen=0.0.0.0
+vncserver_proxyclient_address=10.10.122.12                   #compute node ip
+enabled=True
+keymap=en-us
+
+Restart compute service.
