@@ -82,6 +82,29 @@ Installing Go
              export GOPATH=$HOME/go
 
 ***********************************************************************************************************************
+K8S Code commit commands:
+***********************************************************************************************************************
+  git remote add upstream https://github.com/kubernetes/cloud-provider-openstack
+  git remote -v
+  git fetch upstream
+  git checkout master
+  git rebase upstream/master
+  git checkout -b LogIssueContributors
+  git fetch upstream
+  git rebase upstream/master
+
+  git commit -a
+
+  git push -f origin LogIssueContributors
+
+  git config --global user.name "Sheel Rana"
+  git config --global user.email "ranasheel2000@gmail.com"
+  git commit --amend --reset-author
+  git log
+  git push --force
+  git push -f origin LogIssueContributors
+  
+***********************************************************************************************************************
 *********************************       Kubernetes resource create            *****************************************
 ***********************************************************************************************************************
 
