@@ -1,0 +1,11 @@
+Forward Proxy: It is at the end of client - intermediary that the client puts forward between itself and any server. 
+               The forward proxy is the intermediary on the client side of the internet.
+
+
+Reverse proxy: It is at the end of server – intermediary that the server puts forward between itself and any client.
+               The reverse proxy is an intermediary on the server side of the internet. 
+               This is an intermediary point between a web server’s back-end and the client.
+               For ex, server which provides loadbalancing to the client requests. 
+                       Client does not know which server will serve to its request. 
+                       (loadbalancer server decides, using reverse proxy, which server will serve client's request)
+               
