@@ -1,11 +1,20 @@
+Forward Proxy and Reverse proxy are just different format of proxy and easy to identify depending upon place where proxy is used.
+If proxy is used at client side-it is forward proxy.
+If proxy is used at server side-it is reverse proxy.
+
 Forward Proxy: It is at the end of client - intermediary that the client puts forward between itself and any server. 
                The forward proxy is the intermediary on the client side of the internet.
-
+               
+               For ex, server which provides internet access to users on firewall-restricted network.
+               User sends a connection request to forward proxy and the forward proxy inturn retrieves data from the internet.
+               It usually lets users on an firewall-restricted network to access the internet.
 
 Reverse proxy: It is at the end of server – intermediary that the server puts forward between itself and any client.
                The reverse proxy is an intermediary on the server side of the internet. 
                This is an intermediary point between a web server’s back-end and the client.
-               For ex, server which provides loadbalancing to the client requests. 
-                       Client does not know which server will serve to its request. 
-                       (loadbalancer server decides, using reverse proxy, which server will serve client's request)
                
+               For ex, server which provides loadbalancing to the client requests. 
+               (loadbalancer server decides, using reverse proxy, which server will serve client's request)
+               A server owner can use a reverse proxy and hide the rest of it's servers behind a firewall that is only accessible via the reverse proxy. 
+               client will see the reverse proxy as the target server, client does not know which server will serve to its request actually.
+               Reverse proxy is generally used to improve website/server speed by keeping cache content on reverse proxy.
