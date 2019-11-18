@@ -1,0 +1,7 @@
+Layer 4: When user requests are load balanced to different backends on the basis of IP addresse and port numbers.
+        For ex, 192.168.122.1:80, 192.168.122.1:8080, 192.168.122.1:32123 will be directed to different webservers/backends. 
+
+
+
+Layer 7: Application layerl loadbalancer, when user requests are load balanced to different backends on the basis of request contents.
+        For ex, /, /vm, /volume, /object will be directed to different webservers/backends.
