@@ -1,0 +1,24 @@
+I think this will be hard to fix within ironic(-inspector). A bit of context: here's how ironic-inspector introspects a node, given the TripleO defaults.
+
+1) Ironic-inspector updates the undercloud's firewall settings so the node can see inspector's DHCP server but not neutron-dhcp-agent's.
+2) Ironic-inspector tells ironic to set the node's boot mode to PXE (this is hardcoded in Inspector).
+3) Ironic-inspector tells ironic to reboot the node.
+4) The node reboots and contacts inspector-dnsmasq to ask for a PXE-boot image.
+5) If the node is already running iPXE (some network cards have it built-in), go to 9. Steps 5, 6 and 10 are specified in the file /etc/ironic-inspector/dnsmasq.conf, which is generated from a template by puppet-ironic: https://github.com/openstack/puppet-ironic/blob/master/templates/inspector_dnsmasq_http.erb.
+6) Inspector-dnsmasq tells the node to fetch iPXE over TFTP.
+7) The node makes a TFTP request to the undercloud; this is handled by xinetd, which hands it off to tftpd (called in.tftpd on Red Hat-like systems). This is configured via /etc/xinetd.d/tftp, which is installed from an operating system package along with tftpd.
+8) The node PXE-boots into iPXE.
+9) The node makes a DHCP request to the undercloud, identifying itself as iPXE.
+10) Inspector-dnsmasq tells the node to fetch the file inspector.ipxe over HTTP.
+11) iPXE fetches inspector.ipxe from the undercloud's Apache instance, which serves it up from the filesystem.
+12) inspector.ipxe contains HTTP URLs for the Ironic Python Agent kernel and ramdisk. These URLs are generated at `openstack undercloud install` time by puppet-ironic: https://github.com/openstack/puppet-ironic/blob/master/templates/inspector_ipxe.erb.
+13) iPXE fetches IPA over HTTP, and then boots into it.
+14) IPA introspects the node and reports back to Ironic.
+
+Some things to note:
+
+a) Currently, inspector has no ability to provide the IPA image using virtual media, even if the node is being managed by an Ironic driver that does support virtual media. A patch to fix this (https://review.openstack.org/#/c/239729/) exists, but it hasn't been touched since late 2015.
+b) The bottleneck is in steps 5-7, "fetch iPXE over TFTP". We don't even need to wait for IPA to boot before we can start PXE-booting the next batch of nodes, we only need to wait for iPXE to boot, because everything after that stage (step 9 above) happens over HTTP. If we can manage that, pipelining should perform much better.
+c) Unfortunately, steps 5-13 are invisible to both ironic and ironic-inspector. inspector-dnsmasq knows that we've reached step 9, and Apache knows we've reached step 11, but they don't report this fact back to ironic.
+d) There are AFAICT two xinetd settings that control number of simultaneous connections, "instances" and "wait". We're leaving "instances" as the default (infinity), and setting "wait" to "yes", ie only service one connection at a time; this is typical for UDP services like TFTP (see https://linux.die.net/man/5/xinetd.conf), and in jkilpatr's tests setting wait=no made TFTP totally break.
+e) dnsmasq does have the ability to provide round-robin load-balancing of TFTP servers: search for "Instead of an IP address" in http://www.thekelleys.org.uk/dnsmasq/docs/dnsmasq-man.html. This requires each TFTP server to have its own IP address, though.
