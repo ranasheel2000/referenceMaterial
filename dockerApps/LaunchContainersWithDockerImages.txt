@@ -1,0 +1,40 @@
+=================================================================================
+PoD1:
+=================================================================================
+$ cat app1.yaml 
+apiVersion: v1
+kind: Pod
+metadata:
+  name: app-5001
+  namespace: default
+  labels:
+    app: app1
+spec:
+      containers:
+      - name: app-5001
+        image: ranasheel2000/ranasheel2000:app-5001
+        ports:
+        - containerPort: 5001
+$
+
+=================================================================================
+PoD2:
+=================================================================================
+
+$ cat app2.yaml 
+apiVersion: v1
+kind: Pod
+metadata:
+  name: app-5002
+  namespace: default
+  labels:
+    app: app2
+spec:
+      containers:
+      - name: app-5002
+        image: ranasheel2000/ranasheel2000:app-5002
+        ports:
+        - containerPort: 5002
+$
+
+=================================================================================
