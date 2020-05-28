@@ -1,0 +1,34 @@
+
+sudo docker login
+username : ranasheel2000
+password : 
+
+=================================================================================================
+App1
+=================================================================================================
+cd referenceMaterial/dockerApps/pythonServer1/
+#Build application present in current directory (Dockerfile spcifies application details)
+sudo docker build --tag pythonServer1 .
+
+
+#tag local image, use <docker accont username/repositoryname:tagNameToBeUsedForImageAtHand>
+sudo docker tag pythonServer1 ranasheel2000/ranasheel2000:app-5001
+
+#push locally tagged image inside docker repository
+sudo docker push ranasheel2000/ranasheel2000:app-5001
+
+=================================================================================================
+App2
+=================================================================================================
+cd referenceMaterial/dockerApps/pythonServer2/
+#Build application present in current directory (Dockerfile spcifies application details)
+sudo docker build --tag pythonServer2 .
+
+
+#tag local image, use <docker accont username/repositoryname:tagNameToBeUsedForImageAtHand>
+sudo docker tag pythonServer2 ranasheel2000/ranasheel2000:app-5002
+
+#push locally tagged image inside docker repository
+sudo docker push ranasheel2000/ranasheel2000:app-5002
+
+=================================================================================================
