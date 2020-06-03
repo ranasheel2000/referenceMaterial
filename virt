@@ -1,0 +1,20 @@
+qemu-img create -f qcow2 /var/lib/libvirt/images/nfsserver2.qcow2 8G 
+sudo virt-install --virt-type kvm --name master-2 --ram 16384 --vcpus=4 --graphics vnc,listen=0.0.0.0 --noautoconsole --arch x86_64 --os-type=linux --virt-type kvm --os-variant=rhel7 --cdrom=/tmp/rhcos-4.1.0-x86_64-installer.iso --disk /var/lib/libvirt/images/ma-2.qcow2,format=qcow2
+
+sudo virt-install --virt-type kvm  --name nfsserver2  --ram 4096  --vcpus=2  --graphics vnc,listen=0.0.0.0  --noautoconsole  --arch x86_64  --os-type=linux  --virt-type kvm  --os-variant=rhel7  --location=/home/opc/CentOS-7-x86_64-DVD-1908.iso  --disk /var/lib/libvirt/images/nfsserver2.qcow2,format=qcow2
+
+virsh list --all
+virsh dumpxml xyz
+virsh net-edit xyz
+virsh snapshot-create xyz_snapshot --domain xyz
+virsh snapshot-list --domain xyz
+virsh snapshot-revert --domain xyz --snapshotname xyz_snapshot
+virsh shutdown --domain xyz
+virsh start xyz
+virsh undefine
+virsh destroy
+virsh domifaddr
+
+
+
+oc get node
