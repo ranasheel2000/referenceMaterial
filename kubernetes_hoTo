@@ -137,6 +137,23 @@ Expose a pod:
 kubectl expose pod sheel-pod --type=NodePort --port=8080
 kubectl expose deployment sheel-depolyment-1 --port=8080 --target-port=
 
+NodePort Service:
+================
+apiVersion: v1
+kind: Service
+metadata:
+  name: NodePortService
+spec:
+  type: NodePort
+  selector:
+    name: sheel-pod
+  ports:
+    - protocol: TCP
+      port: 80            # this is service port
+      targetPort: 5000    # this is container port
+      nodePort: 32231     # this is node port exposed through nodePort service.
+
+
 Ingress rule:   Ingress rule routes user request to specific service.
 =============
                 
