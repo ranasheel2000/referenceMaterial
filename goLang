@@ -24,18 +24,29 @@ Install GO:
 - set GOPATH : 
              GOPATH is environment variable which specifies the location of your workspace(working directory) 
              i.e. directory where go code is stored. 
-             It defaults to a directory named go inside your home directory, so $HOME/go on Unix
-         export GOPATH=/usr/sheel/go 
-                                    where $HOME is home directory for user "sheel".
+         export GOPATH=/usr/sheel/go or export GOPATH=/root/anyDirectory/goodAsHomeDir/go
+                                    where $GOPATH may be set to home directory for user "sheel" 
+                                    or any other directory where you want to set your go workspace.
 
-
-
-
-
-$ mkdir $GOPATH/src/github.com/user/hello
+After setting workspace and declaring it with GOPATH env variable, create src directory for your module:
+$ mkdir $GOPATH/src/github.com/ranasheel2000/hello
+$ cd $GOPATH/src/github.com/ranasheel2000/hello
        write program in hello.go inside hello directory.
+       
+Choose a module path (github.com/ranasheel2000/hello) and create a go.mod file that declares import path for it.   
+$ go mod init github.com/ranasheel2000/hello
+go: creating new go.mod: module github.com/ranasheel2000/hello
+$  ls
+go.mod  hello.go
+$  cat go.mod
+module github.com/ranasheel2000/hello
+
+go 1.14
+$ 
+
 $ build and install program : 
-      go install github.com/user/hello : It will create binary hello file at same location.
+      go install github.com/user/hello : It will create binary hello file at same location if GOPATH is not set.
+                                         If GOPATH is set, it will create binary file "hello" in bin directoty at $GOPATH/bin/.
       go build  github.com/user/hello  : It will create hello binary file in $GOPATH/bin/hello
       
 $ run program: $GOPATH/bin/hello
@@ -59,13 +70,16 @@ Basics:
                                  "package helloUtil"
    Same way, "import hellpUtil" will be used in callig package.
    Refer "Importing packages" for further details.
+   
+   
 2. If we want to export some function outside of package, then that funtion name must be started with capital letter;
    else its scope will be within same package only.
    for ex, func Exported(){
    }
-Importing packages:
+Importing packages:   Refer "https://github.com/golang-standards/project-layout"
 ===================
 In /home/sheel/go/src/github.com/user/helloMain/hello.go
 
-             import "github.com/user/helloUtil"         # Note: we are not using file name rather directory name.
+             import "github.com/user/helloUtil"         # Note: we are not using file name but using till directory name.
+             (This import path is same as module name stored in go.mod file of package).
      
