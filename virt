@@ -18,3 +18,157 @@ virsh domifaddr
 
 
 oc get node
+
+
+
+
+
+
+CLI based kvm VM installation : 10 Steps, 10 Minutes.
+==========================================================
+Network Configuration: HOST Machine
+==========================================================
+
+1. Define Network Configuration
+# cat sh-network.xml
+
+<network>
+  <name>sh-network
+  <forward mode='nat'/>
+  <bridge name='virbr150' stp='on' delay='0'/>
+  <dns>
+    <forwarder addr='192.168.150.196'/>
+  </dns>
+  <ip address='192.168.150.1' netmask='255.255.255.0'>
+    <dhcp>
+      <range start='192.168.150.195' end='192.168.1540.200'/>
+    </dhcp>
+  </ip>
+</network>
+
+
+2. Create Network
+# sudo virsh net-define sh-network.xml
+
+3. Start Network
+# sudo virsh net-autostart sh-network
+# virsh net-start sh-network
+
+# virsh net-list --all
+Name              State        Auto-start   Continuous
+----------------------------------------------------------
+ sh-network      Running    Yes (yes)    Yes (yes)
+
+4. Create kickstart file for VMs
+=======
+# cat ks.cfg
+autopart --type=lvm
+# Partition clearing information
+clearpart --none --initlabel
+# Use text install
+text
+# Use CDROM installation media
+cdrom
+# Keyboard layouts
+keyboard --vckeymap=us --xlayouts='us'
+# System language
+lang en_US.UTF-8
+# Do not configure the X Window System
+skipx
+# System services
+services --disabled="chronyd"
+# System timezone
+timezone Asia/Kolkata --isUtc --nontp
+#Root password
+#rootpw root
+#Root password
+rootpw root
+#Initial user
+user --name "sheel"  --password root
+# Network information
+#network  --bootproto=dhcp --device=link --ipv6=auto --activate
+# DHCP
+#network  --bootproto=dhcp --device=ens3 --noipv6 --activate
+# STATIC
+#network  --bootproto=static --device=ens3 --ip=192.168.150.196 --netmask=255.255.255.0 --nameserver=8.8.8.8 --activate --noipv6
+network  --bootproto=static --device=ens3 --ip=192.168.150.196 --netmask=255.255.255.0 --nameserver=8.8.8.8 --activate
+network  --hostname=worker1.domain.com
+# Accept Eula
+eula --agreed
+# Reboot when the install is finished.
+reboot
+=======
+
+5. copy kickstart file and os image to /tmp/ directory.
+    # it may be any location which is accessible by qemu user.
+#cp CentOS-8.2.2004-x86_64-minimal.iso /tmp/CentOS-8.2.2004-x86_64-minimal.iso
+#cp ks.cfg /tmp/ks.cfg
+
+6. launch VM
+sudo virt-install --name sh-master --memory 4096 --vcpus 2  --disk size=15  --location /tmp/CentOS-8.2.2004-x86_64-minimal.iso  --os-variant rhel8.0 --network bridge=virbr150,model=virtio --graphics none  --initrd-inject /tmp/ks.cfg --extra-args="ks=file:/ks.cfg console=tty0 console=ttyS0,115200n8"
+
+# network related information is stored in ks.cfg file.
+
+7. Login to VM as per password specified in ks.cfg file.
+master login: root
+Password:
+[root@master ~]#
+[root@master ~]#
+[root@master ~]#
+
+
+8. Network tests:
+[root@master ~]# ip a s
+1: lo: mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host
+       valid_lft forever preferred_lft forever
+2: ens3: mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 52:54:00:5a:02:7a brd ff:ff:ff:ff:ff:ff
+    inet 192.168.150.195/24 brd 192.168.154.255 scope global noprefixroute ens3
+       valid_lft forever preferred_lft forever
+    inet6 fe80::f269:59:f7ed:fef1/64 scope link noprefixroute
+       valid_lft forever preferred_lft forever
+[root@master ~]#
+
+[root@master ~]# ip r s
+192.168.150.0/24 dev ens3 proto kernel scope link src 192.168.150.195 metric 100
+[root@master ~]# 
+[root@master ~]# 
+[root@master ~]# ping 8.8.8.8
+connect: Network is unreachable
+[root@master ~]#
+[root@master ~]#
+
+9. Set default route for network accessibility.
+[root@master ~]# ip r a default via 192.168.150.1 dev ens3
+[root@master ~]# 
+[root@master ~]# 
+[root@master ~]# ip r s
+default via 192.168.150.1 dev ens3
+192.168.150.0/24 dev ens3 proto kernel scope link src 192.168.150.195 metric 100
+[root@master ~]#
+[root@master ~]# 
+[root@master ~]# ping 8.8.8.8
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=114 time=2.40 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=114 time=2.61 ms
+--- 
+---
+[root@master ~]#
+[root@master ~]#
+[root@master ~]# yum update
+CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Errors during downloading metadata for repository 'AppStream':
+  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+[root@master ~]#
+[root@master ~]#
+
+10. Set nameserver (only if not specified inside ks.cfg file)
+[root@master ~]# vi /etc/resolv.conf
+nameserver 8.8.8.8
+nameserver 8.8.4.4
+[root@master ~]#
