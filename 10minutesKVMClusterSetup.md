@@ -150,6 +150,7 @@ network  --hostname=worker2.sheel.com
 ```
 
 **5. Place kickstart file and OS image**.
+
 Copy kickstart file and OS image to /tmp/ directory.
 (Any location accessible by qemu user.)
 
