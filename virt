@@ -483,5 +483,6 @@ rtt min/avg/max/mdev = 3.274/3.274/3.274/0.000 ms
 [root@master1 ~]#
 ```
 
+
 All Set now. (wait for next post on Kubernetes setup over this VM cluster)
 Enjoy!!
