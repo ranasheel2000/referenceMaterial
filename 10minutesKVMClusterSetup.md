@@ -1,3 +1,22 @@
+*Basic virt commands*
+```
+qemu-img create -f qcow2 /var/lib/libvirt/images/nfsserver2.qcow2 8G 
+
+virsh list --all
+virsh dumpxml domainXYZ
+virsh net-edit netXYZ
+virsh snapshot-create snapshotXYZ --domain domainXYZ
+virsh snapshot-list --domain domainXYZ
+virsh snapshot-revert --domain domainXYZ --snapshotname snapshotXYZ
+virsh shutdown --domain domainXYZ
+virsh start domainXYZ
+virsh undefine domainXYZ
+virsh destroy domainXYZ
+virsh domifaddr domainXYZ
+```
+
+
+
 This 10minutes tutorial will create 3 VMs: master, worker1, worker2
 - Each VM with 2 network interfaces.
 - Each VMs with external network access (provided your host machine has internet access and default routes are configured on host machine)
