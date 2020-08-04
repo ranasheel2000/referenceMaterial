@@ -1,4 +1,4 @@
-3 VMs will be up: master, worker1, worker2
+This 10minutes tutorial will create 3 VMs: master, worker1, worker2
 - Each VM with 2 network interfaces.
 - Each VMs with external network access (provided your host machine has internet access and default routes are configured on host machine)
 - Each VM ping-able from each other.
@@ -25,7 +25,6 @@ For K8S-External Network (For internet Access)
 </ip>
 </network>
 ```
-
 *2nd Linux network.*
 ```
 # cat sh1-network.xml
@@ -61,7 +60,6 @@ For K8S-External Network (For internet Access)
 # sudo virsh net-list — all
 
 ```
-
 *List Networks*:
 ```
 # sudo virsh net-list --all
@@ -100,7 +98,7 @@ user --name "sheel"  --password root
 #network  --bootproto=dhcp --device=ens3 --noipv6 --activate --onboot=off #or --onboot=on
 # For STATIC IP assignment
 #network  --bootproto=static --device=ens3 --ip=192.168.154.196 --gateway=192.168.154.1 
-#                    --netmask=255.255.255.0 --nameserver=8.8.8.8 --activate --noipv6   
+#                       --netmask=255.255.255.0 --nameserver=8.8.8.8 --activate --noipv6   
                          #Here --noipv6/--noipv4 disables ipv6 or ipv4
 #network  --hostname=sheel.domain.com
 # 1st interface with default route:
@@ -166,12 +164,10 @@ Copy kickstart file and OS image to /tmp/ directory.
 ```
 sudo virt-install — name sh-master1 — memory 4096 — vcpus 2 — disk size=15 — location /tmp/CentOS-8.2.2004-x86_64-minimal.iso — os-variant rhel8.0 — network bridge=virbr154,model=virtio — network bridge=virbr155,model=virtio — graphics none — initrd-inject /tmp/master1.cfg — extra-args=”ks=file:/master1.cfg console=tty0 console=ttyS0,115200n8"
 ```
-
 Worker1 VM:
 ```
 sudo virt-install — name sh-worker1 — memory 8192 — vcpus 2 — disk size=15 — location /tmp/CentOS-8.2.2004-x86_64-minimal.iso — os-variant rhel8.0 — network bridge=virbr154,model=virtio — network bridge=virbr155,model=virtio — graphics none — initrd-inject /tmp/master1.cfg — extra-args=”ks=file:/worker1.cfg console=tty0 console=ttyS0,115200n8"
 ```
-
 Worker2 VM:
 ```
 sudo virt-install — name sh-worker2 — memory 8192 — vcpus 2 — disk size=15 — location /tmp/CentOS-8.2.2004-x86_64-minimal.iso — os-variant rhel8.0 — network bridge=virbr154,model=virtio — network bridge=virbr155,model=virtio — graphics none — initrd-inject /tmp/master1.cfg — extra-args=”ks=file:/worker2.cfg console=tty0 console=ttyS0,115200n8"
