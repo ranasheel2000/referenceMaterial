@@ -30,7 +30,7 @@ Install GO:
 
 After setting workspace and declaring it with GOPATH env variable, create src directory for your module:
 $ mkdir $GOPATH/src/github.com/ranasheel2000/hello
-$ cd $GOPATH/src/github.com/ranasheel2000/hello
+$ cd $GOPATH/src/github.com/ranasheel2000/hello           ($GOPATH\src\github.com\ranasheel2000\referenceMaterial\GoLang\Practice)
        write program in hello.go inside hello directory.
 --------------------------------------------------------------  
 ~/.bashrc in linux
