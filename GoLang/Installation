@@ -32,7 +32,32 @@ After setting workspace and declaring it with GOPATH env variable, create src di
 $ mkdir $GOPATH/src/github.com/ranasheel2000/hello
 $ cd $GOPATH/src/github.com/ranasheel2000/hello
        write program in hello.go inside hello directory.
-       
+--------------------------------------------------------------  
+~/.bashrc in linux
+--------------------------------------------------------------
+export PATH=$PATH:/usr/local/go/bin
+export GOPATH=/usr/sheel/go
+echo ""
+echo "GOROOT is set to =/usr/local/go/bin"
+echo ""
+echo "GOPATH is set to = /usr/sheel/go"
+echo ""
+echo "Lets move to GOPARTH for practice"
+--------------------------------------------------------------
+~/.bashrc in windows (using git bash) : copy paste go zip in "/c/" and unzip it "/c/Go..."
+--------------------------------------------------------------
+export PATH=$PATH:/c/Go/bin
+export GOPATH=/d/GoPractice
+echo ""
+echo "GOROOT is set to =/c/Go/bin"
+echo ""
+echo "GOPATH is set to = /d/GoPractice"
+echo ""
+echo "Lets move to GOPARTH for practice"
+--------------------------------------------------------------
+
+
+
 Choose a module path (github.com/ranasheel2000/hello) and create a go.mod file that declares import path for it.   
 $ go mod init github.com/ranasheel2000/hello
 go: creating new go.mod: module github.com/ranasheel2000/hello
