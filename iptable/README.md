@@ -1,8 +1,2 @@
-This directory contents are downloaded from following drive
-   
-https://drive.google.com/drive/folders/1XBaDrlnDS5TBZek6ZzSWAbTwyyP-5zmD
-
-source : https://www.udemy.com/share/101Hl6AkYacF1UQ3g=/
-    
-Author : Andrei Dumitrescu (DevOps Engineer and Professional Trainer)
-
+**Linux Security: The Complete Iptables Firewall Guide **
+https://www.udemy.com/course/linux-security-the-complete-iptables-firewall-guide/?referralCode=36A7315343CFB110068B
