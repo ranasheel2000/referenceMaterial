@@ -118,3 +118,28 @@ Step6: Code commit
 	
 Step5: Code Push
         git review
+
+
+Openstack Document Building process:
+====================================
+Reference: https://docs.openstack.org/doc-contrib-guide/docs-builds.html
+
+Note: 
+1. Use non-root user with sudo rights.
+2. Use pip2 insted off pip3.
+
+Step1: Install python and resolve dependencies using bindep:
+  sudo yum install epel-release
+  sudo yum install python2-pip
+  sudo pip2 install tox
+  sudo tox -e bindep
+
+Step2: Make document related changes.
+  cd tacker/doc/source
+
+Step3: Build Documents.
+  cd tacker/doc/
+  tox -e docs
+
+Step4: Access built html files.
+  cd tacker/doc/build/  
