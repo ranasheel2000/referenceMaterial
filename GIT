@@ -71,4 +71,50 @@ How to create and link repository to some remote repository:
             Changes to be committed:
             (use "git reset HEAD <file>..." to unstage)
 	        new file:   iu
-			
+		
+		
+		
+Openstack Git Review:
+======================
+Reference URL: 
+    https://docs.opendev.org/opendev/infra-manual/latest/gettingstarted.html#getting-started
+
+Steps
+Step1: First of all add your ssh key to gerrit:
+       (https://review.opendev.org/#/settings/ssh-keys)
+        $ssh-keygen
+        <keep on entering for all questions>
+
+         cat ~/.ssh/id_rsa.pub
+         copy & paste the contents into box appeared after clicking Add button on following URL:
+            https://review.opendev.org/#/settings/ssh-keys
+
+        *Only use public key (id_rsa.pub) and not private key (id_rsa)
+
+
+Step2: Open your terminal and configure Git:
+        git config --global user.name "Sheel Rana"
+        git config --global user.email "ranasheel2000@gmail.com"
+        git config --list --global
+
+Step3: Git-Review
+        pip install git-review
+
+        git config --global gitreview.username yourgerritusername
+        git config --list --global
+
+Step4: Code Pull
+        git clone https://github.com/openstack/tacker.git
+        cd tacker
+	
+Step5: Configure git review for code
+        git review -s
+
+Step6: Code commit
+        git checkout -b "commitName"
+        #Make Changes
+        #Commit local changes:
+        git commit -a
+	
+Step5: Code Push
+        git review
