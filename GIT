@@ -143,3 +143,123 @@ Step3: Build Documents.
 
 Step4: Access built html files.
   cd tacker/doc/build/  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  [stack@worker1 ~]$ cat admin-openrc
+export OS_PROJECT_DOMAIN_NAME=default
+export OS_USER_DOMAIN_NAME=default
+export OS_PROJECT_NAME=admin
+export OS_USERNAME=admin
+export OS_PASSWORD=devstack
+#export OS_AUTH_URL=http://controller:35357/v3
+export OS_AUTH_URL=http://127.0.0.1/identity
+export OS_IDENTITY_API_VERSION=3
+export OS_IMAGE_API_VERSION=2
+[stack@worker1 ~]$ cat nfv-openrc
+export OS_PROJECT_DOMAIN_NAME=default
+export OS_USER_DOMAIN_NAME=default
+export OS_PASSWORD=devstack
+export OS_AUTH_URL=http://127.0.0.1/identity
+export OS_IDENTITY_API_VERSION=3
+export OS_IMAGE_API_VERSION=2
+export OS_USERNAME=nfv_user
+export OS_PROJECT_NAME=nfv
+
+[stack@worker1 ~]$
+
+
+
+
+[stack@worker1 ~]$ cat subscription_create.json
+{
+  "filter": {
+    "notificationTypes": [
+      "VnfLcmOperationOccurrenceNotification"
+    ],
+    "vnfInstanceSubscriptionFilter": {
+      "vnfdIds": [],
+      "vnfProductsFromProviders": {
+        "vnfProvider": "Vnf Provider 1",
+        "vnfProducts": [
+          {
+            "vnfProductName": "Vnf Product 1",
+            "versions": [
+              {
+                  "vnfSoftwareVersion": "v1",
+                  "vnfdVersions": ["vnfd.v1.1"]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "callbackUri": "http://0.0.0.0:8000/"
+}
+
+[stack@worker1 ~]$ cat update_vnf_user_data.json
+{
+   "userDefinedData": {
+      "name": "Rana Sheel"
+   }
+}
+[stack@worker1 ~]$
+
+
+
+
+[stack@worker1 ~]$ cat vnflcm_name_description_modify.json
+{
+  "vnfInstanceDescription": "adding details to vnf-a80a2313-bd36-4b51-a0aa-27e64429eb91",
+  "vnfInstanceName": "updated-vnf-a80a2313-bd36-4b51-a0aa-27e64429eb91"
+}
+
+[stack@worker1 ~]$ cat get_token.json
+{
+  "auth": {
+    "identity": {
+      "methods": [
+        "password"
+      ],
+      "password": {
+        "user": {
+          "name": "nfv_user",
+          "password": "devstack",
+          "domain": {
+            "name": "Default"
+          }
+        }
+      }
+    },
+    "scope": {
+      "project": {
+        "name": "nfv",
+        "domain": {
+          "name": "Default"
+        }
+      }
+    }
+  }
+}
+[stack@worker1 ~]$
+[stack@worker1 ~]$
+[stack@worker1 ~]$ cat vnflcm_modify.json
+{
+  "vnfInstanceDescription": "Testing it"
+}
+[stack@worker1 ~]$
+[stack@worker1 ~]$
+[stack@worker1 ~]$
+[stack@worker1 ~]$ cat vnflcm_name_modify.json
+{
+  "vnfInstanceName": "vnf-a80a2313-bd36-4b51-a0aa-27e64429eb91"
+}
+[stack@worker1 ~]$
+
