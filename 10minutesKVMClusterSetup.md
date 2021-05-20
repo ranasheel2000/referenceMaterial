@@ -180,21 +180,23 @@ Copy kickstart file and OS image to /tmp/ directory.
 ```
 #cp CentOS-8.2.2004-x86_64-minimal.iso /tmp/CentOS-8.2.2004-x86_64-minimal.iso
 #cp master1.cfg /tmp/master1.cfg
+#cp worker1.cfg /tmp/worker1.cfg
+#cp worker21.cfg /tmp/worker2.cfg
 ```
 
 **6. launch VMs**
 
 *Master VM:*
 ```
-sudo virt-install — name sh-master1 — memory 4096 — vcpus 2 — disk size=15 — location /tmp/CentOS-8.2.2004-x86_64-minimal.iso — os-variant rhel8.0 — network bridge=virbr154,model=virtio — network bridge=virbr155,model=virtio — graphics none — initrd-inject /tmp/master1.cfg — extra-args=”ks=file:/master1.cfg console=tty0 console=ttyS0,115200n8"
+sudo virt-install — name sh-master1111 — memory 4096 — vcpus 2 — disk size=15 — location /tmp/CentOS-8.2.2004-x86_64-minimal.iso — os-variant rhel8.0 — network bridge=virbr154,model=virtio — network bridge=virbr155,model=virtio — graphics none — initrd-inject /tmp/master1.cfg — extra-args=”ks=file:/master1.cfg console=tty0 console=ttyS0,115200n8"
 ```
 Worker1 VM:
 ```
-sudo virt-install — name sh-worker1 — memory 8192 — vcpus 2 — disk size=15 — location /tmp/CentOS-8.2.2004-x86_64-minimal.iso — os-variant rhel8.0 — network bridge=virbr154,model=virtio — network bridge=virbr155,model=virtio — graphics none — initrd-inject /tmp/master1.cfg — extra-args=”ks=file:/worker1.cfg console=tty0 console=ttyS0,115200n8"
+sudo virt-install — name sh-worker1111 — memory 8192 — vcpus 2 — disk size=15 — location /tmp/CentOS-8.2.2004-x86_64-minimal.iso — os-variant rhel8.0 — network bridge=virbr154,model=virtio — network bridge=virbr155,model=virtio — graphics none — initrd-inject /tmp/worker1.cfg — extra-args=”ks=file:/worker1.cfg console=tty0 console=ttyS0,115200n8"
 ```
 Worker2 VM:
 ```
-sudo virt-install — name sh-worker2 — memory 8192 — vcpus 2 — disk size=15 — location /tmp/CentOS-8.2.2004-x86_64-minimal.iso — os-variant rhel8.0 — network bridge=virbr154,model=virtio — network bridge=virbr155,model=virtio — graphics none — initrd-inject /tmp/master1.cfg — extra-args=”ks=file:/worker2.cfg console=tty0 console=ttyS0,115200n8"
+sudo virt-install — name sh-worker2111 — memory 8192 — vcpus 2 — disk size=15 — location /tmp/CentOS-8.2.2004-x86_64-minimal.iso — os-variant rhel8.0 — network bridge=virbr154,model=virtio — network bridge=virbr155,model=virtio — graphics none — initrd-inject /tmp/worker2.cfg — extra-args=”ks=file:/worker2.cfg console=tty0 console=ttyS0,115200n8"
 ```
 
 *Refer other network related information stored in corresponding kickstart files*
