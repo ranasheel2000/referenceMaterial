@@ -147,20 +147,24 @@ curl
 #/usr/sbin/subscription-manager register --username=sheel@rana.com --password=secret --serverurl=sheel-serverurl.rana.com
 #--org="Admin Group" --environment="Dev" --servicelevel=standard --release="8.0"
 #%end
-For each VM , create different kickstart files.
-master1.cfg
+
+# For each VM , create different kickstart files.
+
+# for master1.cfg
 network  --bootproto=static --device=ens3 --ip=192.168.154.195 --netmask=255.255.255.0 --gateway=192.168.154.1 --nameserver=8.8.8.8 --activate
 # 2nd Interface, without defroute (--nodefroute)
 network  --bootproto=static --device=ens4 --ip=192.168.155.195 --netmask=255.255.255.0  --nameserver=8.8.8.8 --activate --nodefroute
 #set hostname
 network  --hostname=master1.sheel.com
-worker1.cfg
+
+# for worker1.cfg
 network  --bootproto=static --device=ens3 --ip=192.168.154.196 --netmask=255.255.255.0 --gateway=192.168.154.1 --nameserver=8.8.8.8 --activate
 # 2nd Interface, without defroute (--nodefroute)
 network  --bootproto=static --device=ens4 --ip=192.168.155.196 --netmask=255.255.255.0  --nameserver=8.8.8.8 --activate --nodefroute
 #set hostname
 network  --hostname=worker1.sheel.com
-worker2.cfg
+
+# for worker2.cfg
 network  --bootproto=static --device=ens3 --ip=192.168.154.197 --netmask=255.255.255.0 --gateway=192.168.154.1 --nameserver=8.8.8.8 --activate
 # 2nd Interface, without defroute (--nodefroute)
 network  --bootproto=static --device=ens4 --ip=192.168.155.197 --netmask=255.255.255.0  --nameserver=8.8.8.8 --activate --nodefroute
