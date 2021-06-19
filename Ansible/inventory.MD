@@ -37,7 +37,7 @@ default inventory file - **/etc/ansible/hosts**
 
 To check connections with all hosts/servers mentioned in inventory.txt, run following command:  
 **ansible -i inventory.txt -m ping**  
-&nbsp;  Need to connect with all hosts manually using ssh and accept "add ssh key fingerprint for hosts" during prompt before trying ansible ping commmand
+&nbsp;  Need to connect with all hosts manually using ssh and accept "add ssh key fingerprint for hosts" during prompt before trying ansible ping commmand  
 &nbsp;  or make change in /etc/ansible/ansible.cfg ->  "host_key_checking=False"
   
  
