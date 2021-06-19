@@ -3,7 +3,7 @@ Playbook contains details of a play whereas play refers to task or set of differ
 Ex of playbook
 ```
 name: playbook-test
-host: localhost         <----- this host entry must be present in inventory file
+host: localhost         <----- this host entry must present in inventory file
 tasks:
     - name: "description of task"
       command: ls       <------ command is a module which executes command specified in its value field.
