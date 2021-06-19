@@ -35,3 +35,10 @@ db ansible_host=server3.domain.com ansible_connection=ssh ansible_port=22/4444 a
 default inventory file - **/etc/ansible/hosts**
 
 
+To check connections with all hosts/servers mentioned in inventory.txt, run following command:  
+**ansible -i inventory.txt -m ping**  
+&nbsp;  Need to connect with all hosts manually using ssh and accept "add key for hosts" during prompt before trying ansible ping commmand
+  
+ 
+
+
