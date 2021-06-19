@@ -6,18 +6,20 @@ It lists down all servers one by one or can list different servers in different 
 ```
 server1
 server2
-'''
+server3
+```
+
 or
 
 ```
 [frontend]
+server1
+
+[backend]
 server2
 server3
-[backend]
-server4
-server5
 ```
 
-default inventory file - /etc/ansible/hosts
+default inventory file - **/etc/ansible/hosts**
 
 
