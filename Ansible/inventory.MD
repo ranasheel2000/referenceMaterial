@@ -12,21 +12,23 @@ server3.domain.com
 or
 
 ```
+fe server1.domain.com
+be server2.domain.com
+db server3.domain.com
+
 [frontend]
-server1.domain.com
-
+fe
 [backend]
-server2.domain.com
-
-[db]
-server3.domain.com
+be
+[database]
+db
 ```
 or
 
 ```
 frontend ansible_host=server1.domain.com ansible_connection=ssh ansible_port=22/4444 ansible_user=root ansible_ssh_pass=root
 backend ansible_host=server2.domain.com ansible_connection=ssh ansible_port=22/4444 ansible_user=root ansible_ssh_pass=root
-db ansible_host=server3.domain.com ansible_connection=ssh ansible_port=22/4444 ansible_user=root ansible_ssh_pass=root
+database ansible_host=server3.domain.com ansible_connection=ssh ansible_port=22/4444 ansible_user=root ansible_ssh_pass=root
 
    - for windows use "ansible_connection=winrm"
    - for localhost use "ansible_connection=localhost"
