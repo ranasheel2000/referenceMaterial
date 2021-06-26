@@ -1,0 +1,24 @@
+'''Question:
+Find 1 missing element from Array
+
+A=[1,2,5,3,4,7,9,8],
+where
+   - number of array are integer.
+   - starts from 1 and upto N.
+   - only one number is missing.
+   - array may or may not be sorted.
+
+'''
+
+#Solution
+def solution(A):
+    arr_size=len(A)+1 # 1 item is missing from array
+    #print(arr_size)
+    total=int((arr_size*(arr_size+1))/2)
+    #print(total)
+    #print(sum(A))
+    missing=total-sum(A)
+    return(missing)
+
+A=[1,2,5,3,4,7,9,8]
+print(solution(A))
