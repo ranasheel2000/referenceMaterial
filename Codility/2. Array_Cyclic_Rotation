@@ -4,7 +4,7 @@ Cyclic Rotation of Array
 Rotate an Array A upton K times.
 
 For ex,
-AN=[1,2,3,4]
+A=[1,2,3,4]
 K=10
 
 rotate A by K times, output after 10 rotation would be [3,4,1,2]
@@ -12,11 +12,55 @@ rotate A by K times, output after 10 rotation would be [3,4,1,2]
 
 #SOLUTION
 
-def solution(AN,K):
-    RK=K%len(AN)
-    return(AN[-RK:] + AN[:-RK])
+def solution(A,K):
+    R=K%len(A)
+    print("len of Array {}, Rotation={}, Remainder={}".format(len(A),K,R))
+    return(A[-R:]+ A[:-R])
+
+# here A[-R:] means last -R elements
+     # A[:-R] means expect last -R elements
+
+A=[1,2,3,4]
+K=1
+print("Rotation={}, solution={}".format(K,solution(A,K)))
+K=2
+print("Rotation={}, solution={}".format(K,solution(A,K)))
+K=3
+print("Rotation={}, solution={}".format(K,solution(A,K)))
+K=4
+print("Rotation={}, solution={}".format(K,solution(A,K)))
+K=5
+print("Rotation={}, solution={}".format(K,solution(A,K)))
+K=6
+print("Rotation={}, solution={}".format(K,solution(A,K)))
+K=7
+print("Rotation={}, solution={}".format(K,solution(A,K)))
+K=8
+print("Rotation={}, solution={}".format(K,solution(A,K)))
+K=9
+print(K, "=",solution(A,K))
 
 
-AN=[1,2,3,4]
-K=10
-print(solution(AN,K))
+#Output
+'''
+len of Array 4, Rotation=1, Remainder=1
+Rotation=1, solution=[4, 1, 2, 3]
+len of Array 4, Rotation=2, Remainder=2
+Rotation=2, solution=[3, 4, 1, 2]
+len of Array 4, Rotation=3, Remainder=3
+Rotation=3, solution=[2, 3, 4, 1]
+len of Array 4, Rotation=4, Remainder=0
+Rotation=4, solution=[1, 2, 3, 4]
+len of Array 4, Rotation=5, Remainder=1
+Rotation=5, solution=[4, 1, 2, 3]
+len of Array 4, Rotation=6, Remainder=2
+Rotation=6, solution=[3, 4, 1, 2]
+len of Array 4, Rotation=7, Remainder=3
+Rotation=7, solution=[2, 3, 4, 1]
+len of Array 4, Rotation=8, Remainder=0
+Rotation=8, solution=[1, 2, 3, 4]
+len of Array 4, Rotation=9, Remainder=1
+9 = [4, 1, 2, 3]
+'''
+
+
