@@ -1,0 +1,42 @@
+'''
+Question:
+Find paired number from list of number.
+For ex, A=[10,11,12,10,13,12,10,13]
+
+XOR on two same number outputs 0 as result whereas
+XOR on diffent numbers would not be zero as bits would be differnt at some places.
+So, it is easy to find non-pared number by XOR'ing them bit wise.
+i.e.  same bits in both numbers = result zero   i.e. 111^110=001
+      diff bits in both numbers = result one    i.e. 101^010=111
+  Example:
+    stor = 23   ^  25   = 14    (decimal representation)
+    stor = 10111^11001=01110 (actual op happens on binary being binary operator)
+'''
+def solution(A):
+    stor = 0
+    for number in A:
+        stor = stor ^ number
+        #print(stor)
+    return (stor)
+
+A = [9 ,3 ,9 ,3 ,9 ,7, 9]
+print(solution(A))
+
+A=[10,11,12,10,10,12,11]
+print(solution(A))
+
+
+A = [9 ,3 ,9]
+print(solution(A))
+
+A = [9 ,3 ,9,3,3]
+print(solution(A))
+
+
+'''OUTPUT:
+7
+10
+3
+3
+>>>
+'''
