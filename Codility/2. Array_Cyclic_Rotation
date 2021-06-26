@@ -1,0 +1,22 @@
+'''Question
+Cyclic Rotation of Array
+
+Rotate an Array A upton K times.
+
+For ex,
+AN=[1,2,3,4]
+K=10
+
+rotate A by K times, output after 10 rotation would be [3,4,1,2]
+'''
+
+#SOLUTION
+
+def solution(AN,K):
+    RK=K%len(AN)
+    return(AN[-RK:] + AN[:-RK])
+
+
+AN=[1,2,3,4]
+K=10
+print(solution(AN,K))
