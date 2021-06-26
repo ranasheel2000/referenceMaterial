@@ -1,0 +1,45 @@
+'''Question
+Binary Gap
+Find maximum occurrence of 0 in binary number
+ conditions:
+    start and end must be 1, for ex, 0000100101 - answer=2
+                                     1000100000 - answer=3
+                                     1000100001 - answer=4
+'''
+
+#SOLUTION#1
+'''
+def solution(N):
+    N=format(N,'b')
+    print(N)
+    max_occurrence=0
+    last=0
+    start=0
+    count=0
+    for i in N:
+        i=int(i)
+        current=i
+        if(max_occurrence<count and current==1 and start==1):
+            max_occurrence=count
+            count=0
+        if(i==0):
+            if(start==1):
+                count=count+1
+        elif(i==1):
+            start=1
+            count=0
+    return(max_occurrence)
+'''
+
+#SOLUTION#2
+'''
+def solution(N=1041):
+    #return len(max(format(N,'b').strip('0').split('1')))
+    return(len(max(((format(N,'b')).strip('0')).split('1'))))
+'''  
+print(solution())
+
+num=int(input("Enter the number"))
+print(solution(num))
+print('33')
+print(solution(33))
