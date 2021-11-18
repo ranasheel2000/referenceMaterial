@@ -1,0 +1,50 @@
+   60  ls -ltr
+   61  git clone https://github.com/fatih/vim-go.git ~/.vim/pack/plugins/start/vim-go
+   65  sudo apt-get install vim
+   66  sudo su -
+   67  cd  ~/.vim/pack/plugins/start/vim-go/
+
+export KUBECONFIG=$HOME/.kube/config
+  222  export GOPATH=$HOME/go
+  223  cd go
+  224  mkdir k8s.io
+  225  cd k8s.io/
+  226  ls -ltr
+  227  git clone https://github.com/ranasheel2000/kubernetes.git
+  228  cd /home/kube/go/src/k8s.io/kubernetes/
+  231  git remote add upstream https://github.com/kubernetes/kubernetes.git
+         OR
+       git remote add upstream https://github.com/kubernetes/cloud-provider-openstack
+  210  git remote -v
+  211  git fetch upstream
+  212  git checkout master
+  213  git rebase upstream/master
+
+  221  git checkout -b LogIssueContributors
+  225  git fetch upstream
+  226  git rebase upstream/master
+
+  228  git commit -a
+
+  234  git push -f origin LogIssueContributors
+
+  237  git config --global user.name "Sheel Rana"
+       or
+       git config --global user.name "ranasheel2000"
+  238  git config --global user.email "ranasheel2000@gmail.com"
+  239  git commit --amend --reset-author
+  240  git log
+  241  git push --force
+  242  git push -f origin LogIssueContributors
+
+
+
+https://golang.org/doc/effective_go.html
+
+
+
+https://github.com/kubernetes/community/blob/master/contributors/guide/coding-conventions.md
+
+
+
+        
