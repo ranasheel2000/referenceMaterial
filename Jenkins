@@ -3,6 +3,7 @@ On Mac:
 
 Install Docker for Mac:
 -----------------------
+https://docs.docker.com/desktop/mac/install/
 
 Enable Kubernetes in preferences (on docker for mac setup).
 
@@ -12,15 +13,14 @@ tar -zxvf helm-v3.7.2-darwin-amd64.tar
 sudo mv darwin-amd64/helm /usr/local/bin/helm
 	
 
-Download Jenkins image:
-------------------------
-docker pull jenkins/jenkins
-	
+Download Jenkins image and start jenkins pod:
+---------------------------------------------
+docker pull jenkins/jenkins	
 
 kubectl run jenkins --image=jenkins/jenkins:latest 
-k logs jenkins		
+kubectl logs jenkins
 
-rana@Sheels-MacBook-Pro helm % k expose pod jenkins --name=jen-svc --port=8080 --target-port=8080 --type=NodePort -o yaml --dry-run=client >svc1.yml
+kubectl expose pod jenkins --name=jen-svc --port=8080 --target-port=8080 --type=NodePort -o yaml --dry-run=client >svc1.yml
 
 rana@Sheels-MacBook-Pro helm % cat svc1.yml                                                                                                         
 apiVersion: v1
@@ -47,5 +47,6 @@ rana@Sheels-MacBook-Pro helm %
 Use "localhost:nodePort" to access jenkins from local browser.
 http://localhost:31243
 
-Use password from output of "kubectl logs jenkins" 
+Use password from the output of "kubectl logs jenkins" as adminPassword on Jenkins webpage http://localhost:31243 to login.
       #here jenkins is the pod name for jenkins
+
