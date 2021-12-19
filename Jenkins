@@ -1,0 +1,51 @@
+On Mac:
+----------
+
+Install Docker for Mac:
+-----------------------
+
+Enable Kubernetes in preferences (on docker for mac setup).
+
+Download Helm Repo:
+------------------
+tar -zxvf helm-v3.7.2-darwin-amd64.tar                          
+sudo mv darwin-amd64/helm /usr/local/bin/helm
+	
+
+Download Jenkins image:
+------------------------
+docker pull jenkins/jenkins
+	
+
+kubectl run jenkins --image=jenkins/jenkins:latest 
+k logs jenkins		
+
+rana@Sheels-MacBook-Pro helm % k expose pod jenkins --name=jen-svc --port=8080 --target-port=8080 --type=NodePort -o yaml --dry-run=client >svc1.yml
+
+rana@Sheels-MacBook-Pro helm % cat svc1.yml                                                                                                         
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    run: jenkins
+  name: jen-svc
+spec:
+  ports:
+  - port: 8080
+    protocol: TCP
+    targetPort: 8080
+  selector:
+    run: jenkins
+  type: NodePort
+status:
+  loadBalancer: {}
+rana@Sheels-MacBook-Pro helm % 
+
+
+
+Use "localhost:nodePort" to access jenkins from local browser.
+http://localhost:31243
+
+Use password from output of "kubectl logs jenkins" 
+      #here jenkins is the pod name for jenkins
