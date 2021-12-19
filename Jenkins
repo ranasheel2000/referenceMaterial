@@ -20,6 +20,27 @@ docker pull jenkins/jenkins
 kubectl run jenkins --image=jenkins/jenkins:latest 
 kubectl logs jenkins
 
+Add volumes and mount local directory in pod as jenkins_home directory:
+-----------------------------------------------------------------------
+apiVersion: v1
+kind: Pod
+metadata:
+  name: jenkins
+  namespace: default
+spec:
+  containers:
+  - image: jenkins/jenkins:latest
+    name: jenkins
+    volumeMounts:
+    - name: jenkins-home
+      mountPath: /var/jenkins_home
+  volumes:
+  - name: jenkins-home
+    hostPath:
+        path: "/Users/rana/jenkins_home"
+
+
+
 kubectl expose pod jenkins --name=jen-svc --port=8080 --target-port=8080 --type=NodePort -o yaml --dry-run=client >svc1.yml
 
 rana@Sheels-MacBook-Pro helm % cat svc1.yml                                                                                                         
@@ -49,4 +70,8 @@ http://localhost:31243
 
 Use password from the output of "kubectl logs jenkins" as adminPassword on Jenkins webpage http://localhost:31243 to login.
       #here jenkins is the pod name for jenkins
-
+      
+      
+      
+      
+      
