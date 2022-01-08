@@ -19,8 +19,8 @@
             post {
                 failure {   #<- can be 'failure', 'success', 'always' etc
                     emailext body: "${currentBuild.currentResult}: Job ${env.JOB_NAME} build ${env.BUILD_NUMBER}\n Further reference: ${env.BUILD_URL}",
-                        recipientProviders: [[$class: 'DevelopersRecipientProvider'], [$class: 'RequesterRecipientProvider']],
-                        subject: "Jenkins Build ${currentBuild.currentResult}: Job ${env.JOB_NAME}"
+                    recipientProviders: [[$class: 'DevelopersRecipientProvider'], [$class: 'RequesterRecipientProvider']],
+                    subject: "Jenkins Build ${currentBuild.currentResult}: Job ${env.JOB_NAME}"
                 }
             }
         }           
