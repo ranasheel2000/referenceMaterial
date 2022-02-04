@@ -24,3 +24,27 @@
                 }
             }
         }           
+
+
+2. Github folders: "github-branch-source"
+
+
+
+3. Github integration
+
+
+4. Github pull request
+
+5. SSH Agent 
+
+6. Blue ocean
+
+7. Build Timeout
+
+8. Cloudbeees docker hub/registery notification
+
+9. Docker slaves
+
+11. Workspace cleanup 
+
+12. Environment injector plugin
