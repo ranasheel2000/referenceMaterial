@@ -1,0 +1,45 @@
+Java
+  - basics
+  - advance
+Data structure and algorithm
+  -　language: java
+Design patterns:
+  - language: java
+    (head start
+
+Learning Reference: 
+  -　https://hyperskill.org/learn/step/38627
+  -  https://www.geeksforgeeks.org/java/
+
+
+
+LLD
+Learning Reference:
+  -  
+
+HLD
+Learning Reference:
+  -  https://www.youtube.com/playlist?list=PL6W8uoQQ2c63W58rpNFDwdrBnq5G3EfT7
+
+
+Linux Tutorial
+  - Linux Administration
+    - Linux commands
+    - Linux networking
+    - Linux file systems
+
+Learning Reference:
+  -  https://www.geeksforgeeks.org/beginners-guide-to-linux-system-administration/
+
+
+
+Database:
+  - Postgresql
+  - MongoDB
+Cache
+  - Redis
+    - setup (master-slave)
+    - cli commands
+  - cache implementation in java code (discovery)
+    - in memory
+    - using redis
