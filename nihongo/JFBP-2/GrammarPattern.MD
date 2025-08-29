@@ -97,4 +97,12 @@ Lesson Number	| Structure	| Purpose/Details	| Example sentence 1	| Example sente
 
 
 
+| Lesson Number | Structure                                     | Purpose/Details                                                                                               | Example sentence 1               | Example sentence 2                              |
+| ------------- | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | -------------------------------- | ----------------------------------------------- |
+| Lesson 9      | Verb plain form + の (nominalizer)             | Nominalizes a verb phrase (turns it into a noun/clause). Often used to describe or clarify actions or states. | 私は見るのが好きです。 (“I like watching.”) | 彼が来るのを待っています。 (“I am waiting for him to come.”) |
+| Lesson 9      | Clause (verb or sentence) + の + は + adjective | Using nominalized clause as subject/topic with adjective or verb.                                             | 食べるのは楽しいです。 (“Eating is fun.”)   | 勉強するのは大変です。 (“Studying is tough.”)              |
+| Lesson 9      | (Modified clause) + 名詞 (noun)                 | Using verb clauses or sentences to directly modify nouns.                                                     | 来る人 (“the person who is coming”) | 書いた手紙 (“the letter (that someone) wrote”)       |
+
+
+
 
