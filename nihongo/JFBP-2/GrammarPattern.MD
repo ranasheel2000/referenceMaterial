@@ -17,3 +17,17 @@ Lesson Number	| Structure	| Purpose/Details	| Example sentence 1	| Example sente
 | Lesson 2      | \[Item] のほうが \[Item] より \[Adjective] | Comparative structure: “Item A is more \[adj.] than Item B.”                  | このホテルのほうが　あのホテルより　やすいです。    | ビールのほうが　ワインより　にんきがあります。        |
 | Lesson 2      | \[Option] に します                      | Expressing a decision: “I’ll go with…”                                        | わたしは　このカメラに　します。            | プレゼントは　チョコレートに　します。            |
 | Lesson 2      | \[Item] が いいです                       | To express preference or recommend something.                                 | そのレストランが　いいです。              | このカタログが　いいです。                  |
+
+
+
+
+
+
+| Lesson Number | Structure                        | Purpose/Details                                                                    | Example sentence 1                                                 | Example sentence 2   |
+| ------------- | -------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------ | -------------------- |
+| Lesson 3      | 〜は〜が adjective                   | Describing a characteristic of someone/something.                                  | スミスさんはせが高いです。 (“Mr. Smith is tall.”)                               | このくつはデザインがいいです。      |
+| Lesson 3      | 〜は ぎんざより わかい ひとが おおいです           | Making a comparison: “There are more \[X] than \[Y]…”                              | しぶやはぎんざよりわかいひとがおおいです。                                              | 京都は東京よりふるいじんぶつが多いです。 |
+| Lesson 3      | 〜に きます                           | “(Go somewhere) to do something” — going to a place with the purpose of doing V.   | としょかんにほんをかりにきます。 (“I’m coming to the library to borrow a book.”)   | パーティーにたべものをもってきます。   |
+| Lesson 3      | \[Interrogative] 〜ましょうか          | Offering to do something together or suggesting a joint decision.                  | いっしょにさがしましょうか。 (“Shall we search together?”)                       | かえりにかいものしましょうか。      |
+| Lesson 3      | Nounで、〜 / な‑adj で、〜 / い‑adj‑くて、〜 | Connecting related sentences—linking clauses with “and” or descriptive continuity. | かぎはあおいふくろで、おおきいです。                                                 | きのうはあたたかくて、たのしかったです。 |
+| Lesson 3      | V‑ています                           | Describing a current, ongoing state or action.                                     | いまレジでしょるいをみています。 (“I’m looking at the documents at the register.”) | ぼうしをかぶっています。         |
