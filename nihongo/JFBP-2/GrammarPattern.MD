@@ -64,4 +64,11 @@ Lesson Number	| Structure	| Purpose/Details	| Example sentence 1	| Example sente
 | Lesson 6      | Verbて-form + おく           | To do something in advance or prepare for a future event.                         | 明日のためにレポートを書いておきます。 (“I’ll write the report in advance for tomorrow.”) | パーティーの前に掃除しておきます。 (“I’ll clean up before the party.”)  |
 
 
+| Lesson Number | Structure                  | Purpose/Details                                                                               | Example sentence 1                                                                  | Example sentence 2                                        |
+| ------------- | -------------------------- | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | --------------------------------------------------------- |
+| Lesson 7      | Verb dictionary form + まえに | Expresses "before doing (verb)"—used to indicate an action done prior to another.             | 食事をするまえに手をあらいます。 (“I wash my hands before eating.”)                                 | 出かけるまえにかぎをかけます。 (“I lock the door before going out.”)     |
+| Lesson 7      | Verb て-form + から           | Expresses "after doing (verb)"—used to indicate an action done after another action finishes. | 宿題をしてからテレビを見ます。 (“I watch TV after I finish my homework.”)                          | シャワーをあびてからねます。 (“I take a shower and then go to sleep.”)  |
+| Lesson 7      | Verb plain form + ように言います  | Reports what someone said or told you to do (indirect command/request).                       | 先生は「宿題を出してください」と言いました。 → 先生は宿題を出すように言いました。 (“The teacher said to submit homework.”) | 母は早く寝るように言いました。 (“My mother told me to go to bed early.”) |
+| Lesson 7      | Verb て-form + もいいです        | Giving or asking for permission: "You may do (verb)."                                         | ここで写真をとってもいいですか。 (“May I take photos here?”)                                        | タバコを吸ってもいいです。 (“You may smoke.”)                          |
+| Lesson 7      | Verb て-form + はいけません       | Prohibiting an action: "You must not do (verb)."                                              | ここでタバコを吸ってはいけません。 (“You must not smoke here.”)                                      | ごみをすててはいけません。 (“You must not litter.”)                    |
 
