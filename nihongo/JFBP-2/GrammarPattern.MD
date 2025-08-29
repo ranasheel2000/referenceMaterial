@@ -1,34 +1,9 @@
-Chapter | Sudo Pattern | Pattern | Note | Example | PH | PH | PH | PH | PH | PH | PH
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-1 | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH
-2 | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH
-3 | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH
-4 | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH
-5 | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH
-6 | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH
-7 | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH
-8 | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH
-9 | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH
-10 | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH
-11 | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH
-12 | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH
-13 | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH
-14 | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH
-15 | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH
-16 | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH
-17 | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH
-18 | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH
-19 | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH
-20 | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH
-21 | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH
-22 | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH
-23 | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH
-24 | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH
-25 | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH
-26 | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH
-27 | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH
-28 | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH
-29 | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH
-30 | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH
-31 | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH
-32 | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH | PH
+Lesson Number	| Structure	| Purpose/Details	| Example sentence 1	| Example sentence 2
+--- | --- | --- | --- |--- 
+1 |	(Group) で (Item 1) が いちばん Adjective (+ Verb)	| Among a group, one item is the most [adjective]. Superlative form.	スポーツ　で　なに　が　いちばん　すきですか。|	サッカーと　テニスと　どれが　いちばん　すきですか。
+1	| (Item 1) のほうが (Item 2) より Adjective (+ Verb) | 	Comparing two items: “Item 1 is more [adj.] than Item 2.”	| サッカーのほうが　テニスより　おもしろいです。	| コーヒーのほうが　おちゃより　にんきがあります。
+1	| どちらが...か。	| Asks “Which one?” when choosing between two items.	| サッカーと　テニスと　どちらが　すきですか。| 	にくと　さかなと　どちらが　いいですか。
+1	| どれが...か。	| Asks “Which one?” when choosing among three or more items.	| このなかで　どれが　いちばん　たかいですか。| 	プレゼントのなかで　どれが　いいですか。
+1	| なにが / だれが / どこが / いつが + Adjective/Verb	| Interrogatives used as subjects to ask open-ended questions.	| だれが　きますか。	| どこが　いちばん　ゆうめいですか。
+1	|  [Interrogative] + いいでしょうか。 | 	Polite way to ask for a suggestion, advice, or opinion. | 	なにが　いいでしょうか。	| どこが　いいでしょうか。
+1	| V-てみます	| “Try doing [verb]” to see how it goes. Used for experimentation.	| これを　たべてみます。	| このふくを　きてみます。
