@@ -72,3 +72,29 @@ Lesson Number	| Structure	| Purpose/Details	| Example sentence 1	| Example sente
 | Lesson 7      | Verb て-form + もいいです        | Giving or asking for permission: "You may do (verb)."                                         | ここで写真をとってもいいですか。 (“May I take photos here?”)                                        | タバコを吸ってもいいです。 (“You may smoke.”)                          |
 | Lesson 7      | Verb て-form + はいけません       | Prohibiting an action: "You must not do (verb)."                                              | ここでタバコを吸ってはいけません。 (“You must not smoke here.”)                                      | ごみをすててはいけません。 (“You must not litter.”)                    |
 
+
+
+
+
+
+| Lesson Number | Structure                     | Purpose/Details                                                             | Example sentence 1                                            | Example sentence 2                                                  |
+| ------------- | ----------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------------- |
+| Lesson 8      | Noun + に + なります               | To express change into a noun/state: “become (noun).”                       | 医者に なりました。 (“I became a doctor.”)                             | 冬に なりました。 (“It became winter.”)                                     |
+| Lesson 8      | い-adjective (stem) + く + なります | To express change into an adjective state (い-adj): “become (adj).”          | 天気が よく なりました。 (“The weather got better.”)                     | 暑く なりました。 (“It became hot.”)                                        |
+| Lesson 8      | な-adjective + に + なります        | To express change into a な-adjective state: “become (adj).”                 | 静かに なりました。 (“It became quiet.”)                               | 便利に なりました。 (“It became convenient.”)                                |
+| Lesson 8      | ～ようになります                      | To express a change in ability or habit: “come to (do something).”          | 日本語が 話せるようになりました。 (“I’ve come to be able to speak Japanese.”) | 朝早く 起きるようになりました。 (“I’ve come to wake up early.”)                    |
+| Lesson 8      | ～すぎます                         | To express excessiveness: “too much…”                                       | 食べすぎました。 (“I ate too much.”)                                  | 飲みすぎないでください。 (“Please don’t drink too much.”)                       |
+| Lesson 8      | ～て + みます                      | To try doing something to see how it goes.                                  | このケーキを 食べてみます。 (“I’ll try eating this cake.”)                 | 新しいシャツを 着てみます。 (“I’ll try on a new shirt.”)                         |
+| Lesson 8      | Noun + の + とき                 | “When (noun)” — Specify a time/occasion related to a noun.                  | 学生のとき、日本に行きました。 (“When I was a student, I went to Japan.”)    | 子供のとき、よく遊びました。 (“When I was a child, I often played.”)              |
+| Lesson 8      | い-adjective + とき              | “When (adjective)” — Specify a time/occasion related to an adjective state. | 暑いとき、ビールを飲みます。 (“I drink beer when it’s hot.”)                | 忙しいとき、電話に出られません。 (“I can’t answer the phone when I’m busy.”)        |
+| Lesson 8      | な-adjective + な + とき          | “When (na-adjective)” — Same as above, with な before とき.                    | 元気なとき、よく運動します。 (“When I’m well, I exercise a lot.”)           | 静かなとき、勉強します。 (“I study when it’s quiet.”)                           |
+| Lesson 8      | Verb dictionary form + とき     | “When (verb)” — Indicate time or occasion when verb happens.                | 日本へ行くとき、写真を撮ります。 (“I take pictures when I go to Japan.”)      | 電話するとき、静かにしてください。 (“Please be quiet when you call.”)                |
+| Lesson 8      | Verb た-form + とき              | “When (completed verb action)” — Time right after action finishes.          | 食べたとき、電話がありました。 (“I got a call when I finished eating.”)      | 学校が終わったとき、友達に会います。 (“I meet my friends when school finishes.”)      |
+| Lesson 8      | 〜と + 言ってきました                  | Direct quotation reporting: “(Someone) said that…”                          | 彼は「明日行く」と言ってきました。 (“He said he will go tomorrow.”)            | 先生が「宿題を出す」と言ってきました。 (“The teacher said they will assign homework.”) |
+| Lesson 8      | 〜と + 思います                     | Express personal thought/opinion in indirect quotation: “I think that…”     | 明日は雨が降ると思います。 (“I think it will rain tomorrow.”)              | 彼は忙しいと思います。 (“I think he is busy.”)                                 |
+| Lesson 8      | 〜と + 聞きます                     | Report what one has heard or ask for confirmation: “I hear that…”           | 彼は日本に行ったと聞きました。 (“I heard that he went to Japan.”)            | 明日は休みだと聞きました。 (“I heard that tomorrow is a holiday.”)               |
+
+
+
+
+
