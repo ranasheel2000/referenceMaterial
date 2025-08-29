@@ -1,9 +1,11 @@
-shirimasu
+| Lesson Number | Masu form | Dict form | Nai form | Te form | Ta form | Potential form | Volitional form | English meaning     | Furigana |
+| ------------- | --------- | --------- | -------- | ------- | ------- | -------------- | --------------- | ------------------- | -------- |
+| 1             | します       | する        | しない      | して      | した      | できる            | しよう             | to do               | します      |
+| 1             | 行きます      | 行く        | 行かない     | 行って     | 行った     | 行ける            | 行こう             | to go               | いきます     |
+| 1             | 帰ります      | 帰る        | 帰らない     | 帰って     | 帰った     | 帰れる            | 帰ろう             | to return / go home | かえります    |
+| 1             | 食べます      | 食べる       | 食べない     | 食べて     | 食べた     | 食べられる          | 食べよう            | to eat              | たべます     |
+| 1             | 見ます       | 見る        | 見ない      | 見て      | 見た      | 見られる           | 見よう             | to see / watch      | みます      |
+| 1             | 飲みます      | 飲む        | 飲まない     | 飲んで     | 飲んだ     | 飲める            | 飲もう             | to drink            | のみます     |
+| 1             | 来ます       | 来る        | 来ない      | 来て      | 来た      | 来られる           | 来よう             | to come             | きます      |
 
 
-Masu | Dict | Nai | Te | Ta | Potential | Voilitional | PH  | PH | PH | PH | PH
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-shirimasu | shiru | shiranai | shitte | shitta | PH | PH | PH | PH | PH | PH | PH
-te    | te   | te   | te  | te   |te   | te  | te   | te   | te  | te  | te
-te    | te   | te   | te  | te   |te   | te  | te   | te   | te  | te  | te
-te    | te   | te   | te  | te   |te   | te  | te   | te   | te  | te  | te
