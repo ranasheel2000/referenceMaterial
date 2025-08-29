@@ -31,3 +31,13 @@ Lesson Number	| Structure	| Purpose/Details	| Example sentence 1	| Example sente
 | Lesson 3      | \[Interrogative] 〜ましょうか          | Offering to do something together or suggesting a joint decision.                  | いっしょにさがしましょうか。 (“Shall we search together?”)  or にもつを　もちましょうか。 (“Shall I carry your luggage?”)                     | かえりにかいものしましょうか。      |
 | Lesson 3      | Nounで、〜 / な‑adj で、〜 / い‑adj‑くて、〜 | Connecting related sentences—linking clauses with “and” or descriptive continuity. | かぎはあおいふくろで、おおきいです。  or この　かばんは　かるくて、つかいやすいです。 (“This bag is light and easy to use.”)      | きのうはあたたかくて、たのしかったです。 or この　ふくは　べんりで、デザインも　いいです。 (“These clothes are convenient and also well-designed.”)|
 | Lesson 3      | V‑ています  | Describing a current, ongoing state or action.  | いまレジでしょるいをみています。 (“I’m looking at the documents at the register.”) | ぼうしをかぶっています。 or たなかさんは　いま　しごとを　しています。 (“Mr. Tanaka is working right now.”)   or  かのじょは　メガネを　かけています。 (“She is wearing glasses.”)     |
+
+
+
+| Lesson Number | Structure                             | Purpose/Details                                                                               | Example sentence 1                                               | Example sentence 2                                          |
+| ------------- | ------------------------------------- | --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | ----------------------------------------------------------- |
+| Lesson 4      | Verb plain form (dictionary/negative) | Used to convey opinions, facts, or form the basis for explanatory/casual speech.              | 日本語はおもしろいと　思います。 (“I think Japanese is interesting.”)            | 明日は　雨が　降らないと　思います。 (“I don’t think it will rain tomorrow.”) |
+| Lesson 4      | ～と　思います                               | Expresses one’s opinion or belief using plain-form verbs, i-adjectives, or na-adjectives + だ. | このレストランは　安いと　思います。 (“I think this restaurant is cheap.”)         | あの人は　親切だと　思います。 (“I think that person is kind.”)            |
+| Lesson 4      | ～んです／～んですが                            | Used to explain a situation or to seek explanation politely. Adds nuance and natural flow.    | どうして　行かなかったんですか。 (“Why didn’t you go?”)                          | おなかが　いたいんです。 (“It’s because I have a stomachache.”)         |
+| Lesson 4      | ～でしょうか                                | Polite way to ask for confirmation, speculation, or suggestions indirectly.                   | このバスは　駅に　行くでしょうか。 (“Do you think this bus goes to the station?”) | なにが　いいでしょうか。 (“What would be good?”)                        |
+
