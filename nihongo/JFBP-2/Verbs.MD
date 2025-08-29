@@ -4,7 +4,7 @@ shirimasu
 Masu | Dict | Nai | Te | Ta | Potential | Voilitional | PH  | PH | PH | PH | PH
 --- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
 shirimasu | shiru | shiranai | shitte | shitta | PH | PH | PH | PH | PH | PH | PH
-    |    |    |   |    |   |   |    |    |   |   |
+te    | te   | te   | te  | te   |te   | te  | te   | te   | te  | te  | te
     |    |    |   |    |   |   |    |    |   |   |
     |    |    |   |    |   |   |    |    |   |   |
     |    |    |   |    |   |   |    |    |   |   |
