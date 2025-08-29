@@ -52,3 +52,16 @@ Lesson Number	| Structure	| Purpose/Details	| Example sentence 1	| Example sente
 | Lesson 5      | V‑たことがあります (＋か)              | Expressing past experience or asking about it: “have done \[verb] before / have you ever?” | 日本に行ったことがあります。 (“I have been to Japan.”)                                         | 富士山を登ったことがありますか。 (“Have you ever climbed Mt. Fuji?”)                  |
 | Lesson 5      | Frequency expressions + ～ぐらい | Describing frequency of actions (e.g., per week/month/year) and approximations: “about…”   | 毎日１時間ぐらい勉強します。 (“I study about one hour every day.”)                             | 月に一回ぐらい映画を見ます。 (“I see a movie about once a month.”)                  |
 
+
+
+| Lesson Number | Structure                 | Purpose/Details                                                                   | Example sentence 1                                                     | Example sentence 2                                     |
+| ------------- | ------------------------- | --------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------ |
+| Lesson 6      | まだ + Verbて-form + いません    | Expresses "not yet" — an action has not happened up to now.                       | まだ昼ごはんを食べていません。 (“I haven’t eaten lunch yet.”)                         | まだ宿題を終わっていません。 (“I haven’t finished my homework yet.”) |
+| Lesson 6      | Verbて-form + しまいます        | Expresses completion of an action or regret (something happened unintentionally). | 宿題をもうやってしまいました。 (“I already finished my homework.”)                    | 財布をなくしてしまいました。 (“I lost my wallet \[regrettably].”)    |
+| Lesson 6      | Verb stem + ながら           | Expresses two simultaneous actions ("while doing...").                            | 音楽を聞きながら勉強します。 (“I study while listening to music.”)                   | テレビを見ながらご飯を食べます。 (“I eat while watching TV.”)          |
+| Lesson 6      | Verb plain form + ことにします  | To decide to do something (a personal decision).                                  | 来年日本へ行くことにします。 (“I’ve decided to go to Japan next year.”)              | 毎日運動することにします。 (“I’ve decided to exercise every day.”)  |
+| Lesson 6      | Verb plain form + ことがあります | To express experience of doing something before.                                  | 日本に行ったことがあります。 (“I have been to Japan.”)                               | 富士山に登ったことがありますか。 (“Have you ever climbed Mt. Fuji?”)   |
+| Lesson 6      | Verbて-form + おく           | To do something in advance or prepare for a future event.                         | 明日のためにレポートを書いておきます。 (“I’ll write the report in advance for tomorrow.”) | パーティーの前に掃除しておきます。 (“I’ll clean up before the party.”)  |
+
+
+
