@@ -41,3 +41,14 @@ Lesson Number	| Structure	| Purpose/Details	| Example sentence 1	| Example sente
 | Lesson 4      | ～んです／～んですが                            | Used to explain a situation or to seek explanation politely. Adds nuance and natural flow.    | どうして　行かなかったんですか。 (“Why didn’t you go?”)                          | おなかが　いたいんです。 (“It’s because I have a stomachache.”)         |
 | Lesson 4      | ～でしょうか                                | Polite way to ask for confirmation, speculation, or suggestions indirectly.                   | このバスは　駅に　行くでしょうか。 (“Do you think this bus goes to the station?”) | なにが　いいでしょうか。 (“What would be good?”)                        |
 
+
+
+
+| Lesson Number | Structure                    | Purpose/Details                                                                            | Example sentence 1                                                               | Example sentence 2                                                    |
+| ------------- | ---------------------------- | ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| Lesson 5      | ～と 言っていました                   | Indirect speech: “(Someone) said that…”—used to report what someone said.                  | スミスさんは「明日来る」と言っていました。 (“Smith-san said they will come tomorrow.”)                | 先生は「宿題を出します」と言っていました。 (“The teacher said they will assign homework.”) |
+| Lesson 5      | ～てみます                        | To try doing something to see how it goes—“I’ll try \[verb]-ing.”                          | そのシャツを着てみます。 (“I’ll try on that shirt.”)                                         | この料理を作ってみます。 (“I’ll try making this dish.”)                           |
+| Lesson 5      | ～てきます                        | Indicates going somewhere to do something and then returning—“go do and come back.”        | コンビニでお弁当を買ってきます。 (“I’ll go buy a bento at the convenience store and come back.”) | 郵便局へ行ってきます。 (“I’ll go to the post office and come back.”)             |
+| Lesson 5      | V‑たことがあります (＋か)              | Expressing past experience or asking about it: “have done \[verb] before / have you ever?” | 日本に行ったことがあります。 (“I have been to Japan.”)                                         | 富士山を登ったことがありますか。 (“Have you ever climbed Mt. Fuji?”)                  |
+| Lesson 5      | Frequency expressions + ～ぐらい | Describing frequency of actions (e.g., per week/month/year) and approximations: “about…”   | 毎日１時間ぐらい勉強します。 (“I study about one hour every day.”)                             | 月に一回ぐらい映画を見ます。 (“I see a movie about once a month.”)                  |
+
