@@ -5,5 +5,5 @@ Lesson Number	| Structure	| Purpose/Details	| Example sentence 1	| Example sente
 1	| どちらが...か。	| Asks “Which one?” when choosing between two items.	| サッカーと　テニスと　どちらが　すきですか。| 	にくと　さかなと　どちらが　いいですか。| 
 1	| どれが...か。	| Asks “Which one?” when choosing among three or more items.	| このなかで　どれが　いちばん　たかいですか。| 	プレゼントのなかで　どれが　いいですか。| 
 1	| なにが / だれが / どこが / いつが + Adjective/Verb	| Interrogatives used as subjects to ask open-ended questions.	| だれが　きますか。	| どこが　いちばん　ゆうめいですか。| 
-1	|  [Interrogative] + いいでしょうか。 | 	Polite way to ask for a suggestion, advice, or opinion. | 	なにが　いいでしょうか。	| どこが　いいでしょうか。| 
+1	|  [Interrogative] + いいでしょうか。 | 	Asking for advice, suggestion or opinion. | 	なにが　いいでしょうか。	| どこが　いいでしょうか。| 
 1	| V-てみます	| “Try doing [verb]” to see how it goes. Used for experimentation.	| これを　たべてみます。	| このふくを　きてみます。| 
