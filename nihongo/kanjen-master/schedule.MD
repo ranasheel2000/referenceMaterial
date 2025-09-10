@@ -56,11 +56,11 @@
 | Nov 12   | Wed  | Listening + Grammar Rev. | Listening drills, review Ch. 11–14                          |        |
 | Nov 13   | Thu  | Grammar + Vocab          | Grammar Ch. 16, +20 vocab                                   |        |
 | Nov 14   | Fri  | Reading + Listening      | Reading Passage 16, Listening review                        |        |
-| Nov 15   | Sat  | Practice Quiz            | Grammar + Kanji focus                                       |        |
+| Nov 15   | Sat  | Practice Quiz            | Grammar Ch. 17, Kanji focus                                 |        |
 | Nov 16   | Sun  | Rest / Light Review      | Anki, passive listening                                     |        |
-| Nov 17   | Mon  | Final Grammar            | Grammar Ch. 17–18, review all grammar                       |        |
-| Nov 18   | Tue  | Final Kanji + Vocab      | Kanji 91–100, vocab review (~600 words)                    |        |
-| Nov 19   | Wed  | Listening Drill          | Practice full listening section                             |        |
-| Nov 20   | Thu  | Full Review              | Flashcards, grammar notes, test review                      |        |
+| Nov 17   | Mon  | Grammar Final Week       | Grammar Ch. 18–19, review weak points                       |        |
+| Nov 18   | Tue  | Grammar + Vocab Review   | Grammar Ch. 20–21, vocab revision (~600 words)             |        |
+| Nov 19   | Wed  | Listening + Grammar      | Grammar Ch. 22–23, Listening drills                         |        |
+| Nov 20   | Thu  | Final Grammar Wrap-up    | Grammar Ch. 24–25, full summary notes                       |        |
 | Nov 21   | Fri  | Full Mock Test           | Timed full test (all sections)                              |        |
-| Nov 22   | Sat  | Final Review             | Fix weak points, rest brain!                                |        |
+| Nov 22   | Sat  | Final Review             | Flashcards, weak points, confidence boost                   |        |
