@@ -1,72 +1,60 @@
-| Date     | Day  | Main Focus           | Grammar    | Status | Vocab      | Status | Kanji       | Status | Reading      | Status |
-|----------|------|---------------------|------------|--------|------------|--------|-------------|--------|--------------|--------|
-| Sep 22   | Mon  | Grammar + Vocab + Kanji | Ch. 1     |        | Ch. 1      |        | Kanji 1-10  |        | NA           | NA     |
-| Sep 23   | Tue  | Grammar + Kanji + Reading| Ch. 2     |        | NA         | NA     | Kanji 11-20 |        | Passage 1    |        |
-| Sep 24   | Wed  | Grammar + Vocab + Kanji | Ch. 3     |        | Ch. 2      |        | Kanji 21-30 |        | NA           | NA     |
-| Sep 25   | Thu  | Grammar + Kanji + Reading| Ch. 4     |        | NA         | NA     | Kanji 31-40 |        | Passage 2    |        |
-| Sep 26   | Fri  | Grammar + Vocab + Kanji | Ch. 5     |        | Ch. 3      |        | Kanji 41-50 |        | NA           | NA     |
-| Sep 27   | Sat  | Review Day             | Review    |        | Review     |        | Review      |        | Review       |        |
-| Sep 28   | Sun  | Rest / Light Review    | NA         | NA     | NA         | NA     | NA          | NA     | NA           | NA     |
-
-| Sep 29   | Mon  | Grammar + Vocab + Kanji | Ch. 6     |        | Ch. 4      |        | Kanji 51-60 |        | Passage 3    |        |
-| Sep 30   | Tue  | Grammar + Kanji + Reading| Ch. 7     |        | NA         | NA     | Kanji 61-70 |        | NA           | NA     |
-| Oct 1    | Wed  | Grammar + Vocab + Kanji | Ch. 8     |        | Ch. 5      |        | Kanji 71-80 |        | Passage 4    |        |
-| Oct 2    | Thu  | Grammar + Kanji + Reading| Ch. 9     |        | NA         | NA     | Kanji 81-90 |        | NA           | NA     |
-| Oct 3    | Fri  | Grammar + Vocab + Kanji | Ch. 10    |        | Ch. 6      |        | Kanji 91-100|        | Passage 5    |        |
-| Oct 4    | Sat  | Review Day             | Review    |        | Review     |        | Review      |        | Review       |        |
-| Oct 5    | Sun  | Rest / Light Review    | NA         | NA     | NA         | NA     | NA          | NA     | NA           | NA     |
-
-| Oct 6    | Mon  | Grammar + Vocab + Kanji | Ch. 11    |        | Ch. 7      |        | Kanji 101-110|       | Passage 6    |        |
-| Oct 7    | Tue  | Grammar + Kanji + Reading| Ch. 12    |        | NA         | NA     | Kanji 111-120|       | NA           | NA     |
-| Oct 8    | Wed  | Grammar + Vocab + Kanji | Ch. 13    |        | Ch. 8      |        | Kanji 121-130|       | Passage 7    |        |
-| Oct 9    | Thu  | Grammar + Kanji + Reading| Ch. 14    |        | NA         | NA     | Kanji 131-140|       | NA           | NA     |
-| Oct 10   | Fri  | Grammar + Vocab + Kanji | Ch. 15    |        | Ch. 9      |        | Kanji 141-150|       | Passage 8    |        |
-| Oct 11   | Sat  | Review Day             | Review    |        | Review     |        | Review      |        | Review       |        |
-| Oct 12   | Sun  | Rest / Light Review    | NA         | NA     | NA         | NA     | NA          | NA     | NA           | NA     |
-
-| Oct 13   | Mon  | Grammar + Vocab + Kanji | Ch. 16    |        | Ch. 10     |        | Kanji 151-160|       | Passage 9    |        |
-| Oct 14   | Tue  | Grammar + Kanji + Reading| Ch. 17    |        | NA         | NA     | Kanji 161-170|       | NA           | NA     |
-| Oct 15   | Wed  | Grammar + Vocab + Kanji | Ch. 18    |        | Ch. 11     |        | Kanji 171-180|       | Passage 10   |        |
-| Oct 16   | Thu  | Grammar + Kanji + Reading| Ch. 19    |        | NA         | NA     | Kanji 181-190|       | NA           | NA     |
-| Oct 17   | Fri  | Grammar + Vocab + Kanji | Ch. 20    |        | Ch. 12     |        | Kanji 191-200|       | Passage 11   |        |
-| Oct 18   | Sat  | Review Day             | Review    |        | Review     |        | Review      |        | Review       |        |
-| Oct 19   | Sun  | Rest / Light Review    | NA         | NA     | NA         | NA     | NA          | NA     | NA           | NA     |
-
-| Oct 20   | Mon  | Grammar + Vocab + Kanji | Ch. 21    |        | Ch. 13     |        | Kanji 201-210|       | Passage 12   |        |
-| Oct 21   | Tue  | Grammar + Kanji + Reading| Ch. 22    |        | NA         | NA     | Kanji 211-220|       | NA           | NA     |
-| Oct 22   | Wed  | Grammar + Vocab + Kanji | Ch. 23    |        | Ch. 14     |        | Kanji 221-230|       | Passage 13   |        |
-| Oct 23   | Thu  | Grammar + Kanji + Reading| Ch. 24    |        | NA         | NA     | Kanji 231-240|       | NA           | NA     |
-| Oct 24   | Fri  | Grammar + Vocab + Kanji | Ch. 25    |        | Ch. 15     |        | Kanji 241-250|       | Passage 14   |        |
-| Oct 25   | Sat  | Review Day             | Review    |        | Review     |        | Review      |        | Review       |        |
-| Oct 26   | Sun  | Rest / Light Review    | NA         | NA     | NA         | NA     | NA          | NA     | NA           | NA     |
-
-| Oct 27   | Mon  | Vocab + Kanji + Reading  | NA         | NA     | Ch. 16     |        | Kanji 251-260|       | Passage 15   |        |
-| Oct 28   | Tue  | Vocab + Kanji + Reading  | NA         | NA     | Ch. 17     |        | Kanji 261-270|       | Passage 16   |        |
-| Oct 29   | Wed  | Vocab + Kanji + Reading  | NA         | NA     | Ch. 18     |        | Kanji 271-280|       | Passage 17   |        |
-| Oct 30   | Thu  | Vocab + Kanji + Reading  | NA         | NA     | Ch. 19     |        | Kanji 281-290|       | Passage 18   |        |
-| Oct 31   | Fri  | Vocab + Kanji + Reading  | NA         | NA     | Ch. 20     |        | Kanji 291-300|       | Passage 19   |        |
-| Nov 1    | Sat  | Review Day             | Review    |        | Review     |        | Review      |        | Review       |        |
-| Nov 2    | Sun  | Rest / Light Review    | NA         | NA     | NA         | NA     | NA          | NA     | NA           | NA     |
-
-| Nov 3    | Mon  | Vocab + Reading          | NA         | NA     | Ch. 21     |        | NA          | NA     | Passage 20   |        |
-| Nov 4    | Tue  | Vocab + Reading          | NA         | NA     | Ch. 22     |        | NA          | NA     | Passage 21   |        |
-| Nov 5    | Wed  | Vocab + Reading          | NA         | NA     | Ch. 23     |        | NA          | NA     | Passage 22   |        |
-| Nov 6    | Thu  | Vocab + Reading          | NA         | NA     | Ch. 24     |        | NA          | NA     | Passage 23   |        |
-| Nov 7    | Fri  | Vocab + Reading          | NA         | NA     | Ch. 25     |        | NA          | NA     | Passage 24   |        |
-| Nov 8    | Sat  | Review Day             | Review    |        | Review     |        | NA          | NA     | Review       |        |
-| Nov 9    | Sun  | Rest / Light Review    | NA         | NA     | NA         | NA     | NA          | NA     | NA           | NA     |
-
-| Nov 10   | Mon  | Vocab + Reading          | NA         | NA     | Ch. 26     |        | NA          | NA     | Passage 25   |        |
-| Nov 11   | Tue  | Vocab + Reading          | NA         | NA     | Ch. 27     |        | NA          | NA     | Passage 26   |        |
-| Nov 12   | Wed  | Vocab + Reading          | NA         | NA     | Ch. 28     |        | NA          | NA     | Passage 27   |        |
-| Nov 13   | Thu  | Vocab + Reading          | NA         | NA     | Ch. 29     |        | NA          | NA     | Passage 28   |        |
-| Nov 14   | Fri  | Vocab + Reading          | NA         | NA     | Ch. 30     |        | NA          | NA     | Passage 29   |        |
-| Nov 15   | Sat  | Review Day             | Review    |        | Review     |        | NA          | NA     | Review       |        |
-| Nov 16   | Sun  | Rest / Light Review    | NA         | NA     | NA         | NA     | NA          | NA     | NA           | NA     |
-
-| Nov 17   | Mon  | Vocab + Reading          | NA         | NA     | Ch. 31     |        | NA          | NA     | Passage 30   |        |
-| Nov 18   | Tue  | Vocab + Review           | NA         | NA     | Ch. 32     |        | NA          | NA     | Review       |        |
-| Nov 19   | Wed  | Vocab + Review           | NA         | NA     | Ch. 33     |        | NA          | NA     | Review       |        |
-| Nov 20   | Thu  | Full Review              | Review    |        | Review     |        | Review      |        | Review       |        |
-| Nov 21   | Fri  | Full Mock Test           | Review    |        | Review     |        | Review      |        | Review       |        |
-| Nov 22   | Sat  | Final Review             | Review    |        | Review     |        | Review      |        | Review       |        |
+| Date     | Day  | Grammar  | Grammar Status | Vocab  | Vocab Status | Kanji (7/day)  | Kanji Status | Reading Passage | Reading Status |
+|----------|------|----------|----------------|--------|--------------|----------------|--------------|-----------------|----------------|
+| Sep 22   | Sun  |          |                |        |              |                |              |                 |                |
+| Sep 23   | Mon  | Ch. 1    |                | Ch. 1  |              | 1–7            |              | Passage 1       |                |
+| Sep 24   | Tue  |          |                | Ch. 2  |              |                |              |                 |                |
+| Sep 25   | Wed  | Ch. 2    |                | Ch. 3  |              | 8–14           |              | Passage 2       |                |
+| Sep 26   | Thu  |          |                | Ch. 4  |              |                |              |                 |                |
+| Sep 27   | Fri  | Ch. 3    |                | Ch. 5  |              | 15–21          |              | Passage 3       |                |
+| Sep 28   | Sat  | Ch. 4    |                | Ch. 6  |              | 22–28          |              | Passage 4       |                |
+| Sep 29   | Sun  |          |                |        |              |                |              |                 |                |
+| Sep 30   | Mon  | Ch. 5    |                | Ch. 7  |              | 29–35          |              | Passage 5       |                |
+| Oct 1    | Tue  |          |                | Ch. 8  |              |                |              |                 |                |
+| Oct 2    | Wed  | Ch. 6    |                | Ch. 9  |              | 36–42          |              | Passage 6       |                |
+| Oct 3    | Thu  |          |                | Ch. 10 |              |                |              |                 |                |
+| Oct 4    | Fri  | Ch. 7    |                | Ch. 11 |              | 43–49          |              | Passage 7       |                |
+| Oct 5    | Sat  | Ch. 8    |                | Ch. 12 |              | 50–56          |              | Passage 8       |                |
+| Oct 6    | Sun  |          |                |        |              |                |              |                 |                |
+| Oct 7    | Mon  | Ch. 9    |                | Ch. 13 |              | 57–63          |              | Passage 9       |                |
+| Oct 8    | Tue  |          |                | Ch. 14 |              |                |              |                 |                |
+| Oct 9    | Wed  | Ch. 10   |                | Ch. 15 |              | 64–70          |              | Passage 10      |                |
+| Oct 10   | Thu  |          |                | Ch. 16 |              |                |              |                 |                |
+| Oct 11   | Fri  | Ch. 11   |                | Ch. 17 |              | 71–77          |              | Passage 11      |                |
+| Oct 12   | Sat  | Ch. 12   |                | Ch. 18 |              | 78–84          |              | Passage 12      |                |
+| Oct 13   | Sun  |          |                |        |              |                |              |                 |                |
+| Oct 14   | Mon  | Ch. 13   |                | Ch. 19 |              | 85–91          |              | Passage 13      |                |
+| Oct 15   | Tue  |          |                | Ch. 20 |              |                |              |                 |                |
+| Oct 16   | Wed  | Ch. 14   |                | Ch. 21 |              | 92–98          |              | Passage 14      |                |
+| Oct 17   | Thu  |          |                | Ch. 22 |              |                |              |                 |                |
+| Oct 18   | Fri  | Ch. 15   |                | Ch. 23 |              | 99–105         |              | Passage 15      |                |
+| Oct 19   | Sat  | Ch. 16   |                | Ch. 24 |              | 106–112        |              | Passage 16      |                |
+| Oct 20   | Sun  |          |                |        |              |                |              |                 |                |
+| Oct 21   | Mon  | Ch. 17   |                | Ch. 25 |              | 113–119        |              | Passage 17      |                |
+| Oct 22   | Tue  |          |                | Ch. 26 |              |                |              |                 |                |
+| Oct 23   | Wed  | Ch. 18   |                | Ch. 27 |              | 120–126        |              | Passage 18      |                |
+| Oct 24   | Thu  |          |                | Ch. 28 |              |                |              |                 |                |
+| Oct 25   | Fri  | Ch. 19   |                | Ch. 29 |              | 127–133        |              | Passage 19      |                |
+| Oct 26   | Sat  | Ch. 20   |                | Ch. 30 |              | 134–140        |              | Passage 20      |                |
+| Oct 27   | Sun  |          |                |        |              |                |              |                 |                |
+| Oct 28   | Mon  | Ch. 21   |                | Ch. 31 |              | 141–147        |              | Passage 21      |                |
+| Oct 29   | Tue  |          |                | Ch. 32 |              |                |              |                 |                |
+| Oct 30   | Wed  | Ch. 22   |                | Ch. 33 |              | 148–154        |              | Passage 22      |                |
+| Oct 31   | Thu  |          |                | Ch. 34 |              |                |              |                 |                |
+| Nov 1    | Fri  | Ch. 23   |                | Ch. 35 |              | 155–161        |              | Passage 23      |                |
+| Nov 2    | Sat  | Ch. 24   |                | Ch. 36 |              | 162–168        |              | Passage 24      |                |
+| Nov 3    | Sun  |          |                |        |              |                |              |                 |                |
+| Nov 4    | Mon  | Ch. 25   |                | Ch. 37 |              | 169–175        |              | Passage 25      |                |
+| Nov 5    | Tue  |          |                | Ch. 38 |              |                |              |                 |                |
+| Nov 6    | Wed  |          |                | Ch. 39 |              | 176–182        |              | Passage 26      |                |
+| Nov 7    | Thu  |          |                | Ch. 40 |              |                |              |                 |                |
+| Nov 8    | Fri  |          |                | Ch. 41 |              | 183–189        |              | Passage 27      |                |
+| Nov 9    | Sat  |          |                | Ch. 42 |              | 190–196        |              | Passage 28      |                |
+| Nov 10   | Sun  |          |                |        |              |                |              |                 |                |
+| Nov 11   | Mon  |          |                | Ch. 43 |              | 197–203        |              | Passage 29      |                |
+| Nov 12   | Tue  |          |                | Ch. 44 |              |                |              |                 |                |
+| Nov 13   | Wed  |          |                | Ch. 45 |              | 204–210        |              | Passage 30      |                |
+| Nov 14   | Thu  |          |                | Ch. 46 |              |                |              |                 |                |
+| Nov 15   | Fri  |          |                | Ch. 47 |              |                |              |                 |                |
+| Nov 16   | Sat  |          |                | Ch. 48 |              |                |              |                 |                |
+| Nov 17   | Sun  |          |                | Ch. 49 |              |                |              |                 |                |
+| Nov 18   | Mon  |          |                | Ch. 50 |              |                |              |                 |                |
