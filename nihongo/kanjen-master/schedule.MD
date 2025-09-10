@@ -1,5 +1,4 @@
-|Date | Day | Main Focus |Tasks  | Status |
-			
+|Date | Day | Main Focus |Tasks  | Status |			
 |----- |--------  | -------- | -------- |
 | Sep 22| Mon | Grammar + Vocab  | Grammar Ch. 1, 20–25 vocab words |  |
 |Sep 23 | Tue | Kanji + Reading |  Kanji 1–10, Reading Passage 1| |
