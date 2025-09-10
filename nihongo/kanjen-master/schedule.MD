@@ -1,7 +1,5 @@
 # JLPT N4 Daily Study Plan (Sep 22 – Nov 22, 2025)
 
-# JLPT N4 Daily Study Plan (Sep 22 – Nov 22, 2025)
-
 | Date     | Day  | Main Focus              | Tasks                                                      | Status |
 |----------|------|--------------------------|-------------------------------------------------------------|--------|
 | Sep 22   | Mon  | Grammar + Vocab          | Grammar Ch. 1, 20–25 vocab words                            |        |
@@ -9,14 +7,14 @@
 | Sep 24   | Wed  | Listening + Review       | Listening Lesson 1, Review Grammar & Vocab                  |        |
 | Sep 25   | Thu  | Grammar + Vocab          | Grammar Ch. 2, +20 vocab                                    |        |
 | Sep 26   | Fri  | Reading + Listening      | Reading Passage 2, Listening Lesson 2                       |        |
-| Sep 27   | Sat  | Review / Mini Test       | Revise Week 1, mini quiz (grammar/vocab)                   |        |
+| Sep 27   | Sat  | Review / Mini Test       | Revise Week 1, mini quiz (grammar/vocab)                    |        |
 | Sep 28   | Sun  | Rest / Light Review      | Light Anki review only                                      |        |
 | Sep 29   | Mon  | Grammar + Vocab          | Grammar Ch. 3, +20 vocab                                    |        |
 | Sep 30   | Tue  | Kanji + Reading          | Kanji 11–20, Reading Passage 3                              |        |
 | Oct 1    | Wed  | Listening + Review       | Listening Lesson 3, Anki review                             |        |
 | Oct 2    | Thu  | Grammar + Vocab          | Grammar Ch. 4, +20 vocab                                    |        |
 | Oct 3    | Fri  | Reading + Listening      | Reading Passage 4, Listening Lesson 4                       |        |
-| Oct 4    | Sat  | Review / Mini Test       | Mini test (grammar, vocab, kanji)                          |        |
+| Oct 4    | Sat  | Review / Mini Test       | Mini test (grammar, vocab, kanji)                           |        |
 | Oct 5    | Sun  | Rest / Light Review      | Light review, podcast/video                                 |        |
 | Oct 6    | Mon  | Grammar + Vocab          | Grammar Ch. 5, +20 vocab                                    |        |
 | Oct 7    | Tue  | Kanji + Reading          | Kanji 21–30, Reading Passage 5                              |        |
@@ -66,4 +64,3 @@
 | Nov 20   | Thu  | Full Review              | Flashcards, grammar notes, test review                      |        |
 | Nov 21   | Fri  | Full Mock Test           | Timed full test (all sections)                              |        |
 | Nov 22   | Sat  | Final Review             | Fix weak points, rest brain!                                |        |
-
