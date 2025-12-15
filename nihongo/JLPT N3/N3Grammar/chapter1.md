@@ -368,10 +368,13 @@ Vて + もらえますか
 
 ---
 
-⑥ 「ください」まとめ
 
-Form	Who acts?	Use
-Vてください	listener	request
-Vてもいいですか	speaker	ask permission
-Vさせてください	speaker	ask permission (formal)
-Vてもらえますか	listener	polite request
+### ⑥ 「ください」まとめ
+
+| **Form**               | **Who acts?**     | **Use**                                    |
+|------------------------|-------------------|--------------------------------------------|
+| **Vてください**         | Listener          | Request (e.g., Please do something)        |
+| **Vてもいいですか**     | Speaker           | Ask permission (e.g., Is it okay if I do something?) |
+| **Vさせてください**     | Speaker           | Ask permission (formal) (e.g., Please allow me to do something) |
+| **Vてもらえますか**     | Listener          | Polite request (e.g., Could you please do something?) |
+
