@@ -385,8 +385,6 @@ Vて + もらえますか
 
 ---
 
-# **Soumatome N3 - Chapter 2 Grammar Patterns (English)**
-
 ## 1. **～なくちゃ / ～なきゃ**
 
 (Shortened form of ～なければならない / "must do")
