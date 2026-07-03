@@ -1,0 +1,153 @@
+600を下回る見込みのようです。
+- 600を → below 600
+- 下回る → to fall below
+- 見込み → expectation / forecast
+- のようです → it seems
+
+It seems that it is expected to fall below 600.
+
+Explanation:
+
+見込み（みこみ / mikomi）
+English: Expectation, forecast, prospect, prediction
+It is commonly used in news reports and formal Japanese.
+
+Examples:
+- 増える見込みです。
+It is expected to increase.
+- 完成する見込みです。
+It is expected to be completed.
+
+～見込みです
+Meaning: It is expected that...
+Pattern:
+- Verb (dictionary form) + 見込みです
+Examples:
+ 来年完成する見込みです。
+It is expected to be completed next year.
+- 利用者は増える見込みです。
+The number of users is expected to increase.
+
+～ようです
+English: It seems..., Apparently...
+This expresses the speaker's judgment based on evidence or available information.
+Pattern:
+- Verb / Adjective / Noun + の + ようです (for nouns)
+Example:
+- 雨が降るようです。
+It seems it's going to rain.
+- 事故だったようです。
+It seems it was an accident.
+
+
+
+
+yodesu soudesu raishi
+These three expressions are often confused because they can all be translated as "seems" or "looks like," but they are used differently.
+
+| Grammar    | Meaning                       | Based on                                        | Example    | English                           |
+| ---------- | ----------------------------- | ----------------------------------------------- | ---------- | --------------------------------- |
+| **～ようです**  | It seems...                   | Evidence, observation, or reasoning             | 雨が降るようです。  | It seems it's going to rain.      |
+| **～そうです**  | It looks like... (appearance) | What you can see right now                      | 雨が降りそうです。  | It looks like it's about to rain. |
+| **～そうです**  | I heard that... (hearsay)     | Information from someone else                   | 雨が降るそうです。  | I heard it's going to rain.       |
+| **～らしいです** | Apparently... / It seems...   | Reports, reputation, or typical characteristics | 雨が降るらしいです。 | Apparently, it's going to rain.   |
+
+## 1. ～ようです (It seems...)
+
+Used when **you make your own judgment based on evidence**.
+
+**Example**
+
+* 雲が黒いです。雨が降るようです。
+* **English:** The clouds are dark. It seems it's going to rain.
+
+Another example:
+
+* 彼は忙しいようです。
+* **English:** He seems busy.
+
+---
+
+## 2. ～そうです (Looks like...)
+
+Used when something **looks like it is about to happen**.
+
+**Example**
+
+* 雨が降りそうです。
+* **English:** It looks like it's about to rain.
+
+Another example:
+
+* このケーキはおいしそうです。
+* **English:** This cake looks delicious.
+
+Notice:
+
+* This is based on **appearance**, not information from others.
+
+---
+
+## 3. ～そうです (I heard...)
+
+This is a different grammar pattern with the same pronunciation.
+
+Used when **someone told you**.
+
+**Example**
+
+* 天気予報では、雨が降るそうです。
+* **English:** According to the weather forecast, I heard it's going to rain.
+
+Another example:
+
+* 彼は来月結婚するそうです。
+* **English:** I heard he's getting married next month.
+
+---
+
+## 4. ～らしいです (Apparently...)
+
+Used when **you've heard information from various sources** or when something has the **typical characteristics** of something.
+
+**Example (report)**
+
+* 彼は来ないらしいです。
+* **English:** Apparently, he isn't coming.
+
+**Example (typical characteristic)**
+
+* 春らしい天気です。
+* **English:** It's spring-like weather.
+
+---
+
+## Easy way to remember
+
+| Grammar                | Think of it as...                              |
+| ---------------------- | ---------------------------------------------- |
+| **～そうです** (appearance) | **Looks like...** 👀                           |
+| **～そうです** (hearsay)    | **I heard...** 👂                              |
+| **～ようです**              | **I think... because of evidence.** 🧠         |
+| **～らしいです**             | **Apparently... / From what I've heard...** 📰 |
+
+### Example with one situation (rain)
+
+* **雨が降りそうです。**
+
+  * **English:** It looks like it's about to rain. (You see dark clouds.)
+
+* **雨が降るようです。**
+
+  * **English:** It seems it's going to rain. (You conclude this from the weather.)
+
+* **雨が降るそうです。**
+
+  * **English:** I heard it's going to rain. (Someone or the forecast said so.)
+
+* **雨が降るらしいです。**
+
+  * **English:** Apparently, it's going to rain. (That's what people are saying.)
+
+This distinction is part of **JLPT N3** and is one of the most frequently tested grammar comparisons.
+
