@@ -1,0 +1,182 @@
+# JLPT N3 - Day 1: Expressing Cause, Effect & Purpose
+
+## Overview
+Material breakdown into four logical categories based on how to express cause/effect relationships and purpose.
+
+---
+
+## 1. Cause and Effect: Good vs. Bad Results
+
+The critical distinction here is whether the result is **positive or negative**.
+
+### A おかげで B (Thanks to A, B)
+**Meaning:** A causes a good result (B)
+
+**Rules:**
+- ✅ Use ONLY for positive/good results
+- ❌ Cannot use for bad results
+- Can express gratitude (「おかげさまで」)
+
+**Examples:**
+- 留学することができたのは、両親のおかげです。
+  - *I could study abroad thanks to my parents.*
+- ここは、気候が温暖なおかげで、生活しやすいです。
+  - *Thanks to the warm climate, this place is nice to live.*
+- 先生に教えていただいたおかげで、合格することができました。
+  - *Thanks to being taught by my teacher, I could pass the test.*
+- A：具合はいかがですか。/ B：おかげさまで、よくなりました。
+  - *A: How do you feel? / B: Thanks to you, I'm fine.*
+
+---
+
+### A せいで B (Because of A, B)
+**Meaning:** A causes a bad result (B)
+
+**Rules:**
+- ✅ Use ONLY for negative/bad results
+- ❌ Cannot use for good results
+- "Good" vs "bad" depends on YOUR perspective
+
+**Examples:**
+- 熱のせいで、食欲がない。
+  - *Because of a fever, I have no appetite.*
+- 彼女は、わがままなせいで、皆に嫌われている。
+  - *Because of her selfishness, she's hated by everyone.*
+- この店にお客が入らないのは、値段が高いせいだと思う。
+  - *I think that people don't enter this shop because it is expensive.*
+- 子：母さんが起こしてくれなかったせいで、寝坊しちゃったよ。
+  - *Child: Because you didn't wake me up, I overslept.*
+
+---
+
+## 2. Formal and Neutral Cause and Effect
+
+Used primarily in **writing** or **formal situations**. The result can be either good or bad.
+
+### A 結果 B (As a result of A, B)
+**Meaning:** Formal, written expression of cause and effect
+
+**Rules:**
+- Result can be either good or bad
+- ❌ No volitional endings (～たい, ～てください)
+
+**Examples:**
+- 調査の結果、彼が犯人ではないことがわかった。
+  - *As a result of the investigation, we understood he wasn't the offender.*
+- 毎日30分日本のドラマを見続けた結果、聴解力が上がった。
+  - *As a result of watching 30 minutes of Japanese TV show everyday, my listening skills improved.*
+- アンケートを行った。その結果、面白いことがわかった。
+  - *We conducted a survey. As a result, we knew interesting things.*
+
+---
+
+### A ため(に) B (Due to/Because of A, B)
+**Meaning:** Formal, written way to express a cause
+
+**Rules:**
+- ❌ No volitional endings (～たい, ～てください)
+
+**Examples:**
+- 人身事故のため、一部の列車に遅れが出ています。
+  - *Due to a passenger accident, the train is delayed.*
+- この駅は乗り換えが便利なため、利用客が多い。
+  - *As this station is convenient for transfer, there are many passengers.*
+- 今年の夏はあまり暑くなかったため、エアコンが売れなかったそうだ。
+  - *As this year's summer wasn't that hot, air conditioners weren't sold much.*
+- 大型の台風が近づいているため、ハイキングは中止となった。
+  - *As a huge typhoon is coming, hiking has been canceled.*
+
+---
+
+## 3. Expressing Extremes
+
+Used when a situation or emotion is **SO extreme** that it causes a specific (usually negative or unusual) outcome.
+
+### あまりに(も) A
+**Meaning:** A is extreme, surpassing normal level, leading to a bad result
+
+**Rules:**
+- A surpasses regular level/situation
+- Often used to express negative feelings or criticism
+- ❌ No volitional endings
+
+**Examples:**
+- あまりに暑くて、今日は家から一歩も出られなかった。
+  - *As it's extremely hot, I couldn't put one foot out of the house.*
+- 店員の態度があまりにも不親切で、1日中気分が悪かった。
+  - *The clerk's behavior was so unkind that I felt bad the whole day.*
+- 赤ちゃんがあまりに泣くので、どうしたらいいかわからなくなってしまった。
+  - *The baby cried so much that I didn't know what to do.*
+
+---
+
+### A あまり B
+**Meaning:** Extreme emotion/state (A) causes irregular or bad result (B)
+
+**Rules:**
+- A includes a self-feeling or a state
+- A overrides a regular situation
+- ❌ No volitional endings
+
+**Examples:**
+- 彼女は、母親の手術成功の知らせを聞き、嬉しさのあまり泣き出した。
+  - *She was so happy that she cried hearing that her mother's surgery was a success.*
+- 祖母は、外国で暮らす孫を心配するあまり、病気になってしまった。
+  - *The grandmother got sick by being so anxious knowing her grandchild was living abroad.*
+
+---
+
+## 4. Expressing Purpose (Goal)
+
+Two ways to say "in order to," depending on the **type of verb** used for your goal.
+
+### A ため(に) B (In order to A, do B)
+**Meaning:** Goal achieved through action
+
+**Rules:**
+- ✅ Used with **volitional verbs** (actions you control: 見る, 買う, 勉強する, etc.)
+- ❌ NOT used with non-volitional verbs
+- No volitional endings in the final clause
+
+**Examples:**
+- 健康のために、毎日ジョギングしています。
+  - *I do jogging everyday for good health.*
+- 日本で働くために、日本語を勉強しています。
+  - *I study Japanese in order to work in Japan.*
+- 将来、サッカー選手になりたいです。そのために、頑張って練習しています。
+  - *I want to be a soccer player in the future. For that, I'm doing my best to practice.*
+
+---
+
+### A ように B (In order to A, B)
+**Meaning:** Goal achieved through potential/negative/passive actions
+
+**Rules:**
+- ✅ Used with:
+  - **Non-volitional verbs** (見える, わかる, etc.)
+  - Volitional verbs in **negative form** (～ない)
+  - Volitional verbs in **potential form** (～できる)
+  - **Passive form** (～れる)
+- No volitional endings in the final clause
+
+**Examples:**
+- 約束の時間に間に合うように、早く家を出ようと思います。
+  - *In order to be on time for the appointment, I'm thinking about leaving home early.*
+- 落とさないように、ちゃんとかばんにしまってください。
+  - *Please put it in your bag in order to avoid dropping it.*
+- SNG大学に入れるように、頑張って勉強している。
+  - *In order to get into SNG University, I'm doing my best in my studies.*
+- 警官は逃げられないように、どろぼうの腕をつかんだ。
+  - *The police officer grabbed the thief's arm to not let him go.*
+
+---
+
+## ⚠️ Important General Rule
+
+For **almost all** these grammar points (おかげで, せいで, 結果, あまり, ため [reason]), you **cannot use volitional endings** like:
+- ～たい (I want to)
+- ～てください (please do)
+
+---
+
+**Last Modified:** Tuesday, 14 July 2026, 7:04 PM
