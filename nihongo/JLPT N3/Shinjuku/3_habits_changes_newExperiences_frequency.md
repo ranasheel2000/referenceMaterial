@@ -19,10 +19,32 @@ Day 3 covers nine essential grammar structures that express past habits, changes
 9. ～ところが (however/but)
 
 ### 9 Additional Vocabulary Items
-すでに, 気になる, さらに, 身につける, ずっと, 結構, この頃, 絶対に, なるべく
+
+| Vocabulary | Meaning |
+|------------|---------|
+| すでに | Already / Before |
+| 気になる | Feel uneasy / Worry / Be interested |
+| さらに | Furthermore / On top of that / More |
+| 身につける | Wear / Learn / Acquire knowledge |
+| ずっと | All the way / For a long time / Much more |
+| 結構 | Fine / Quite / Enough |
+| この頃 | These days / Recently |
+| 絶対に | Absolutely / Never |
+| なるべく | As much as possible |
 
 ### 10 Essential Kanji
-断, 誘, 流行, お年寄り, 高齢者, 若者, 迷, 悩, 飽
+
+| Kanji | Reading | Meaning |
+|-------|---------|---------|
+| 断 | ことわる | Refuse / Reject / Decline |
+| 誘 | さそう | Invite / Ask |
+| 流行 | りゅうこう / はやる | Fashion / Trend / Come into fashion / Be popular |
+| お年寄り | としより | Older person / Elderly |
+| 高齢者 | こうれいしゃ | Old people / The aged / The elderly (65+) |
+| 若者 | わかもの | Young person / Young people / The youth |
+| 迷 | まよう | Get lost / Lose one's way / Hesitate |
+| 悩 | なやむ | Worry / Be troubled about |
+| 飽 | あきる | Lose interest in / Get tired of |
 
 ---
 
@@ -223,7 +245,7 @@ A. However, B. / A but B. Indicates that B is contrary to expectations from A.
 
 ---
 
-## Vocabulary
+## Vocabulary Details
 
 ### すでに (already)
 **Meaning:** Before / Already
@@ -325,21 +347,20 @@ Meanings:
 
 ---
 
-## Kanji
+## Kanji Details
 
 | Kanji | Reading | Meaning | Example |
 |-------|---------|---------|---------|
-| 断ことわる | ことわる | Refuse / Reject / Decline | 友達ともだちの誘さそいを断ことわった。(I turned down an invitation from a friend.) |
-| 誘さそう | さそう | Invite / Ask | 友達ともだちを映画えいがに誘さそう。(Invite a friend to a movie.) |
-| 流行りゅうこう | りゅうこう | Fashion / Trend / Vogue | インフルエンザが流行りゅうこうしている。(There's a flu epidemic.) |
-| 流行はやる | はやる | Come into fashion / Be popular / Spread (disease) | 今いま、コンビニスイーツが流行はやっている。(Convenience store sweets are popular.) |
-| お年寄より | としより | Older person / Elderly | お年とし寄よりに席せきを譲ゆずりましょう。(Let's give up our seats to the elderly.) |
-| 高齢者こうれいしゃ | こうれいしゃ | Old people / The aged / The elderly (65+) | 世せ界かい中じゅうで高齢者こうれいしゃが増ふえている。(The number of elderly people around the world is increasing.) |
-| 若者わかもの | わかもの | A young person / Young people / The youth | 渋谷しぶやは若者わかものに人気にんきの街まちだ。(Shibuya is a popular town for young people.) |
-| 迷まよう | まよう | Get lost / Lose one's way / Hesitate | 道みちに迷まよってしまった。(I've lost my way.) |
-| 悩なやむ | なやむ | Worry / Be troubled about | 将来しょうらいの進路しんろに悩なやんでいる。(I'm worried about my future career path.) |
-| 飽あきる | あきる | Lose interest in / Get tired of / Have enough of | このゲームはもう飽あきてしまった。(I'm tired of this game.) |
+| 断 | ことわる | Refuse / Reject / Decline | 友達ともだちの誘さそいを断ことわった。(I turned down an invitation from a friend.) |
+| 誘 | さそう | Invite / Ask | 友達ともだちを映画えいがに誘さそう。(Invite a friend to a movie.) |
+| 流行 | りゅうこう / はやる | Fashion / Trend / Vogue / Come into fashion / Be popular / Spread (disease) | インフルエンザが流行りゅうこうしている。(There's a flu epidemic.) 今いま、コンビニスイーツが流行はやっている。(Convenience store sweets are popular.) |
+| お年寄り | としより | Older person / Elderly | お年とし寄よりに席せきを譲ゆずりましょう。(Let's give up our seats to the elderly.) |
+| 高齢者 | こうれいしゃ | Old people / The aged / The elderly (65+) | 世せ界かい中じゅうで高齢者こうれいしゃが増ふえている。(The number of elderly people around the world is increasing.) |
+| 若者 | わかもの | A young person / Young people / The youth | 渋谷しぶやは若者わかものに人気にんきの街まちだ。(Shibuya is a popular town for young people.) |
+| 迷 | まよう | Get lost / Lose one's way / Hesitate | 道みちに迷まよってしまった。(I've lost my way.) |
+| 悩 | なやむ | Worry / Be troubled about | 将来しょうらいの進路しんろに悩なやんでいる。(I'm worried about my future career path.) |
+| 飽 | あきる | Lose interest in / Get tired of / Have enough of | このゲームはもう飽あきてしまった。(I'm tired of this game.) |
 
 ---
 
-**Last Modified:** Tuesday, 14 July 2026, 8:00 PM
+**Last Modified:** Tuesday, 21 July 2026, 11:50 AM
