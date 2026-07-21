@@ -1,27 +1,28 @@
- 9 Grammar Structures
-
-～たものだ (past habits)
-一方だ (ongoing changes)
-～ば～ほど (proportional relationship)
-～てはじめて (first-time experiences)
-～てばかりいる (repetitive actions)
-～ぶりに (after a long time)
-～ごとに (at regular intervals)
-～たびに (each time)
-～ところが (however/but)
-
-
- 7 Additional Vocabulary Items
-
-すでに, 気になる, さらに, 身につける, ずっと, 結構, この頃, 絶対に, なるべく
-✅ 10 Essential Kanji
-断, 誘, 流行, お年寄り, 高齢者, 若者, 迷, 悩, 飽
-
-
 # JLPT N3 - Day 3: Grammar, Vocabulary & Kanji
 
 ## Overview
 Day 3 covers nine essential grammar structures that express past habits, changes, new experiences, and frequency, along with key vocabulary and kanji for everyday situations.
+
+---
+
+## Quick Reference
+
+### 9 Grammar Structures
+1. ～たものだ (past habits)
+2. 一方だ (ongoing changes)
+3. ～ば～ほど (proportional relationship)
+4. ～てはじめて (first-time experiences)
+5. ～てばかりいる (repetitive actions)
+6. ～ぶりに (after a long time)
+7. ～ごとに (at regular intervals)
+8. ～たびに (each time)
+9. ～ところが (however/but)
+
+### 9 Additional Vocabulary Items
+すでに, 気になる, さらに, 身につける, ずっと, 結構, この頃, 絶対に, なるべく
+
+### 10 Essential Kanji
+断, 誘, 流行, お年寄り, 高齢者, 若者, 迷, 悩, 飽
 
 ---
 
