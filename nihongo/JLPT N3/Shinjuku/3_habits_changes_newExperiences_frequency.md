@@ -247,7 +247,7 @@ Meanings:
 
 ---
 
-### さらに (saraniI)
+### さらに (sarani)
 **Meaning:** Furthermore / On top of that / More
 
 - この部屋へやは安やすい。さらに、駅えきからも近ちかくて便利べんりだ。
