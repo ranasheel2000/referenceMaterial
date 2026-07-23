@@ -7,6 +7,13 @@ Day 4 covers eight essential grammar structures that express tendencies, states,
 
 ## Quick Reference
 
+
+1. ～気味（ぎみ） = tends to; slightly (e.g., 疲れ気味 = feeling a bit tired) 
+2. ～がち = tends to do (usually undesirable actions, e.g., 忘れがち = tends to forget) 
+3. ～だらけ = full of; a lot of 
+4. ～げ = appears to look/seem (e.g., 悲しげ = looks sad) 
+
+
 ### 8 Grammar Structures
 1. がち (often becomes / tends to)
 2. 気味 (feels somewhat / has a sense of)
