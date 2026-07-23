@@ -64,19 +64,24 @@ Often becomes ~; frequently becomes ~
 - Expresses habitual tendencies recognized over time
 
 ### Examples
-- **彼は子どもの頃から体が弱く、学校を休みがちだった。**
+- 彼は子どもの頃から体が弱く、学校を休みがちだった。
+- かれはこどものころからからだがよわく、がっこうをやすみがちだった。
   - *He had been weak since childhood and often missed school.*
 
-- **一人暮らしは栄養のバランスがかたよりがちになる。**
+- 一人暮らしは栄養のバランスがかたよりがちになる。
+- ひとりぐらしはえいようのバランスがかたよりがちになる。
   - *When you live alone, your nutrition tends to be unbalanced.*
 
-- **彼女は仕事が忙しくて、留守がちだ。**
+- 彼女は仕事が忙しくて、留守がちだ。
+- かのじょはしごとがいそがしくて、るすがちだ。
   - *She's busy with work and away a lot.*
 
-- **最近曇りがちの天気が続いて、洗濯物がなかなか乾かない。**
+- 最近曇りがちの天気が続いて、洗濯物がなかなか乾かない。
+- さいきんくもりがちのてんきがつづいて、せんたくものがなかなかかわかない。
   - *The weather has been cloudy lately, and it's hard to get the laundry dry.*
 
-- **これは、三日坊主になりがちな人におすすめの本です。**
+- これは、三日坊主になりがちな人におすすめの本です。
+- これは、みっかぼうずになりがちなひとにおすすめのほんです。
   - *This is a good book for people who can't stick to anything for very long.*
 
 ---
@@ -95,13 +100,16 @@ Feels a bit/somewhat ~
 - Focuses on the present condition rather than a recurring pattern
 
 ### Examples
-- **私の時計は最近遅れ気味だ。電池がなくなってきてるのかもしれない。**
+- 私の時計は最近遅れ気味だ���電池がなくなってきてるのかもしれない。
+- わたしのとけいはさいきんおくれきみだ。でんちがなくなってきてるのかもしれない。
   - *My watch has been running behind lately. Maybe the batteries are running out.*
 
-- **この２、３日、風邪気味でのどが痛い。**
+- この２、３日、風邪気味でのどが痛い。
+- このにさんにち、かぜきみでのどがいたい。
   - *I've had a cold and a sore throat for a couple of days.*
 
-- **疲れ気味の時は、早く寝た方が良い。**
+- 疲れ気味の時は、早く寝た方が良い。
+- つかれきみのときは、はやくねたほうがよい。
   - *If you are feeling tired, you should go to bed earlier.*
 
 ---
@@ -120,13 +128,16 @@ Appears to be ~; looks like ~
 - Used to describe emotional or physical states visible to observers
 
 ### Examples
-- **国の家族の話を聞くと、彼は悲しげな表情になった。**
+- 国の家族の話を聞くと、彼は悲しげな表情になった。
+- くにのかぞくのはなしをきくと、かれはかなしげなひょうじょうになった。
   - *When he heard about his family in the country, he became sad.*
 
-- **名前を聞くと、その女の子は恥ずかしげに答えた。**
+- 名前を聞くと、その女の子は恥ずかしげに答えた。
+- なまえをきくと、そのおんなのこはてずかしげにこたえた。
   - *When I asked her name, the girl answered shyly.*
 
-- **彼が話している間、彼女は退屈げに窓の外を見ていた。**
+- 彼が話している間、彼女は退屈げに窓の外を見ていた。
+- かれがはなしているあいだ、かのじょはたいくつげにまどのそとをみていた。
   - *While he was talking, she was looking out the window in boredom.*
 
 ---
@@ -146,13 +157,16 @@ That's how it feels/appears
 - Describes an inherent quality or tendency
 
 ### Examples
-- **弟は飽きっぽくて、何をしても長く続かない。**
+- 弟は飽きっぽくて、何をしても長く続かない。
+- おとうとはあきっぽくて、なにをしてもながくつづかない。
   - *My brother is easily bored and whatever he does doesn't last long.*
 
-- **この鞄は結構高かったのに、安っぽく見える。**
+- この鞄は結構高かったのに、安っぽく見える。
+- このかばんはけっこうたかかったのに、やすっぽくみえる。
   - *This bag was pretty expensive, but it looks cheap.*
 
-- **彼は20歳を過ぎているのに、言うことが子どもっぽい。**
+- 彼は20歳を過ぎているのに、言うことが子どもっぽい。
+- かれはにじゅっさいをすぎているのに、いうことがこどもっぽい。
   - *He's over 20 years old, but what he says is childish.*
 
 ---
@@ -170,13 +184,16 @@ Full of ~; covered in ~
 - Creates a sense of excess or saturation
 
 ### Examples
-- **この書類は間違いだらけで読みにくい。**
+- この書類は間違いだらけで読みにくい。
+- このしょるいはまちがいだらけでよみにくい。
   - *This document is full of mistakes and hard to read.*
 
-- **雨の日にサッカーの試合をしたので、服も靴も泥だらけになってしまった。**
+- 雨の日にサッカーの試合をしたので、服も靴も泥だらけになってしまった。
+- あめのひにサッカーのしあいをしたので、ふくもくつもどろだらけになってしまった。
   - *We had a soccer game on a rainy day, so our clothes and shoes were covered in mud.*
 
-- **彼は、間違いだらけのテストをごみ箱に捨てた。**
+- 彼は、間違いだらけのテストをごみ箱に捨てた。
+- かれは、まちがいだらけのテストをごみばこにすてた。
   - *He threw the test, full of mistakes, into the trash.*
 
 ---
@@ -196,17 +213,21 @@ Left in a state of ~; still ~; continuing to do ~
 ### Examples
 
 #### Negligence
-- **急いで家を出て、エアコンをつけっぱなしにしてしまった。**
+- 急いで家を出て、エアコンをつけっぱなしにしてしまった。
+- いそいでいえをでて、エアコンをつけっぱなしにしてしまった。
   - *I left the house in a hurry and left the air conditioner on.*
 
-- **もったいないので、水を出しっぱなしにしないでください。**
+- もったいないので、水を出しっぱなしにしないでください。
+- もったいないので、みずをだしっぱなしにしないでください。
   - *Do not leave the water running as it is a waste.*
 
-- **『散らかしっぱなしの人のための整理術』という本が人気だ。**
+- 『散らかしっぱなしの人のための整理術』という本が人気だ。
+- 『ちらかしっぱなしのひとのためのせいりじゅつ』というほんがにんきだ。
   - *A book called "Organizing for the Messy" is very popular.*
 
 #### Continuity
-- **電車が混んでいて、終点までずっと立ちっぱなしだった。**
+- 電車が混んでいて、終点までずっと立ちっぱなしだ��た。
+- でんしゃがこんでいて、しゅうてんまでずっとたちっぱなしだった。
   - *The train was so crowded that I had to stand all the way to the end of the line.*
 
 ---
@@ -224,16 +245,20 @@ Used to confirm something unclear or forgotten
 - Expresses uncertainty about something you should remember
 
 ### Examples
-- **明日、山田さんも会議に来る（んだ）っけ。**
+- 明日、山田さんも会議に来る（んだ）っけ。
+- あした、やまださんもかいぎにくる（んだ）っけ。
   - *I remembered that Yamada-san is coming to the meeting tomorrow.*
 
-- **先週の日曜日って寒かったっけ。**
+- 先週の日曜日って寒かったっけ。
+- せんしゅうのにちようびってさむかったっけ。
   - *I don't remember last Sunday being so cold.*
 
-- **Aさんってチョコレート好きだったっけ。**
+- Aさんってチョコレート好きだったっけ。
+- エーさんってチョコレートすきだったっけ。
   - *Did I mention that Mr. A likes chocolate?*
 
-- **今度の漢字テストっていつだっけ？**
+- 今度の漢字テストっていつだっけ？
+- こんどのかんじテストっていつだっけ？
   - *When's the next kanji test?*
 
 ---
@@ -255,20 +280,26 @@ I think it's probably ~
 ### Examples
 
 **Confirmation/Emphasis:**
-- **A: 駅前に新しいレストランできたじゃないですか。あそこ、もう行きました？**
+- A: 駅前に新しいレストランできたじゃないですか。あそこ、もう行きました？
+- エー：えきまえにあたらしいレストランできたじゃないですか。あそこ、もういきました？
   - *A: There's a new restaurant in front of the station. Have you been there yet?*
-- **B: うん、行きましたよ。結構、おいしかったですよ。**
+- B: うん、行きましたよ。結構、おいしかったですよ。
+- ビー：うん、いきましたよ。けっこう、おいしかったですよ。
   - *B: Yes, I went there. It was quite tasty.*
 
 **Criticism/Surprise:**
-- **A: 先生、N3合格しました。**
+- A: 先生、N3合格しました。
+- エー：せんせい、えぬさんごうかくしました。
   - *A: Sir, I passed the N3 exam.*
-- **B: すごいじゃない！おめでとう。**
+- B: すごいじゃない！おめでとう。
+- ビー：すごいじゃない！おめでとう。
   - *B: That's great! Congratulations.*
 
-- **A: 自信ないっていってたけど、歌、上手じゃない。**
+- A: 自信ないっていってたけど、歌、上���じゃない。
+- エー：じしんないっていってたけど、うた、じょうずじゃない。
   - *A: You said you weren't confident, but you're good at singing.*
-- **B: えー、そんなことないよ。**
+- B: えー、そんなことないよ。
+- ビー：えー、そんなことないよ。
   - *B: No, I'm not.*
 
 ---
@@ -279,6 +310,7 @@ I think it's probably ~
 **Meaning:** A rather B / B is preferable to A
 
 - 私は、都会よりも、むしろ田舎で生活したい。
+- わたしは、としかいよりも、むしろいなかでせいかつしたい。
   - *I would rather live in the country than in the city.*
 
 ---
@@ -287,6 +319,7 @@ I think it's probably ~
 **Meaning:** A is still B
 
 - この地方では、今でも冬になると「かまくら」が作られています。
+- このちほうでは、いまでもふゆになると「かまくら」がつくられています。
   - *In this region, "kamakura" are still made in the winter.*
 
 ---
@@ -295,6 +328,7 @@ I think it's probably ~
 **Meaning:** Suddenly
 
 - 突然大粒の雨が降ってきた。
+- とつぜんおおつぶのあめがふってきた。
   - *Suddenly, a heavy rain began to fall.*
 
 ---
@@ -302,7 +336,8 @@ I think it's probably ~
 ### くれぐれも
 **Meaning:** Please / I earnestly request (with emphasis and repetition)
 
-- くれぐれもお大事になさってください。
+- くれぐれもお大事になさって���ださい。
+- くれぐれもおだいじになさってください。
   - *Please take good care of yourself.*
 
 ---
@@ -311,6 +346,7 @@ I think it's probably ~
 **Meaning:** Before one becomes aware of / without noticing
 
 - いつの間にか外は真っ暗になっていた。
+- いつのまにかそとはまっくらになっていた。
   - *Before I noticed it, it was pitch black outside.*
 
 ---
@@ -319,6 +355,7 @@ I think it's probably ~
 **Meaning:** Moment / for a moment / a very short time
 
 - 弟の顔が、一瞬父に見えた。
+- おとうとのかおが、いっしゅんちちにみえた。
   - *My brother's face looked like my father's for a moment.*
 
 ---
@@ -327,6 +364,7 @@ I think it's probably ~
 **Meaning:** A is now B / Unlike before (A), now it's (B)
 
 - 今では、お正月に着物を着る人は少なくなりました。
+- いまでは、おしょうがつにきものをきるひとはすくなくなりました。
   - *Nowadays, few people wear kimonos on New Year's Day.*
 
 ---
@@ -339,9 +377,11 @@ Meanings:
 2. Be able to pay attention to details
 
 - レジでお金を払おうとして、財布がないことに気がついた。
+- レジでおかねをはらおうとして、さいふがな��ことにきがついた。
   - *As I was about to pay at the register, I realized that my wallet was missing.*
 
 - 彼女は、本当によく気がつく。
+- かのじょは、ほんとうによくきがつく。
   - *She's really attentive (to others).*
 
 ---
@@ -350,6 +390,7 @@ Meanings:
 **Meaning:** Have a feeling that / Have a certain mood or feeling about something
 
 - 誰かに見られている気がする。
+- だれかにみられているきがする。
   - *I feel like someone is watching me.*
 
 ---
@@ -358,8 +399,10 @@ Meanings:
 **Meaning:** Worry about / care about / mind about
 
 - A：借りた本、汚してしまって、ごめんなさい。
+- エー：かりたほん、よごしてしまって、ごめんなさい。
   - *A: I'm sorry about the book I borrowed from you, it got dirty.*
 - B：気にしないで。もともと汚れていたし。
+- ビー：きにしないで。もともときたなれていたし。
   - *B: Don't worry about it. It was dirty to begin with.*
 
 ---
@@ -368,16 +411,16 @@ Meanings:
 
 | Kanji | Reading | Meaning | Example |
 |-------|---------|---------|---------|
-| 風邪 | かぜ | Cold (disease). An inflammatory disease that causes fever, chills, and a cough | 風邪をひいてしまった。(I caught a cold.) |
-| 健康 | けんこう | Health. Of body and mind, to be in good health | 健康に気をつけている。(I take care of my health.) |
-| 栄養 | えいよう | Nutrition. An ingredient or substance necessary to sustain life | 栄養があるものを食べる。(I eat nutritious food.) |
-| 体調 | たいちょう | Physical condition. The condition of one's body | 体調を崩してしまった。(I'm not feeling well.) |
-| 気配 | けはい | Presence. An appearance that can be felt somehow | 誰かがいる気配がする。(I have a feeling that someone is there.) |
-| 保護者 | ほごしゃ | Guardian. A person who has a duty to protect a minor | 小学校の保護者会がある。(There will be a guardian meeting of the elementary school.) |
-| 人身 | じんしん | Human body. The physical body of a human | 人身事故の影響で電車が遅れている。(The train is delayed because of a personal injury accident.) |
-| 事故 | じこ | Accident. A bad unpredicted event | ながらスマホによる事故が増えている。(The number of accidents caused by distracted phone use is increasing.) |
-| 天候 | てんこう | Weather. The state of the atmosphere over a period of time | 週末は天候に恵まれた。(The weather was fine over the weekend.) |
-| 地球 | ちきゅう | Earth (planet). A planet in the solar system where humanity lives | 宇宙から見た地球は青かった。(The earth was blue as seen from space.) |
+| 風邪 | かぜ | Cold (disease). An inflammatory disease that causes fever, chills, and a cough | 風邪をひいてしまった。かぜをひいてしまった。(I caught a cold.) |
+| 健康 | けん��う | Health. Of body and mind, to be in good health | 健康に気をつけている。けんこうにきをつけている。(I take care of my health.) |
+| 栄養 | えいよう | Nutrition. An ingredient or substance necessary to sustain life | 栄養があるものを食べる。えいようがあるものをたべる。(I eat nutritious food.) |
+| 体調 | たいちょう | Physical condition. The condition of one's body | 体調を崩してしまった。たいちょうをくずしてしまった。(I'm not feeling well.) |
+| 気配 | けはい | Presence. An appearance that can be felt somehow | 誰かがいる気配がする。だれかがいるけはいがする。(I have a feeling that someone is there.) |
+| 保護者 | ほごしゃ | Guardian. A person who has a duty to protect a minor | 小学校の保護者会がある。しょうがっこうのほごしゃかいがある。(There will be a guardian meeting of the elementary school.) |
+| 人身 | じんしん | Human body. The physical body of a human | 人身事故の影響で電車が遅れている。じんしんじこのえいきょうででんしゃがおくれている。(The train is delayed because of a personal injury accident.) |
+| 事故 | じこ | Accident. A bad unpredicted event | ながらスマホによる事故が増えている。ながらスマホによるじこがふえている。(The number of accidents caused by distracted phone use is increasing.) |
+| 天候 | てんこう | Weather. The state of the atmosphere over a period of time | 週末は天候に恵まれた。しゅうまつはてんこうにめぐまれた。(The weather was fine over the weekend.) |
+| 地球 | ちきゅう | Earth (planet). A planet in the solar system where humanity lives | 宇宙から見た地球は青かった。うちゅうからみたちきゅうはあおかった。(The earth was blue as seen from space.) |
 
 ---
 
