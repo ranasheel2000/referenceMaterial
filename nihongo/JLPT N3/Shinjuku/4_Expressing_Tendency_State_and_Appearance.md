@@ -6,12 +6,254 @@ Day 4 covers eight essential grammar structures that express tendencies, states,
 ---
 
 ## Quick Reference
+These grammar points are easy to mix up because many express a "feeling" or "tendency." The key is to learn **what each one describes**.
+
+---
+
+# 1. ～がち
+
+**Meaning:** tends to..., often does... (usually something negative)
+
+Use it for **habits or repeated actions**.
+
+### Pattern
+
+* Verb stem + がち
+* Noun + がち (less common)
+
+### Examples
+
+* 忘れがちです。
+  → I tend to forget.
+
+* 遅れがちです。
+  → I tend to be late.
+
+* 病気になりがちです。
+  → I tend to get sick.
+
+**Think:** "This happens often."
+
+---
+
+# 2. ～気味（ぎみ）
+
+**Meaning:** slightly..., somewhat..., showing signs of...
+
+Use it for **temporary conditions or feelings**.
+
+### Pattern
+
+* Noun + 気味
+* Verb stem + 気味
+
+### Examples
+
+* 疲れ気味
+  → a little tired
+
+* 風邪気味
+  → feeling like you're catching a cold
+
+* 太り気味
+  → slightly overweight
+
+**Difference from がち**
+
+* 忘れがち
+  → I often forget.
+
+* 疲れ気味
+  → I feel somewhat tired.
+
+One is a **habit**, the other is a **condition**.
+
+---
+
+# 3. ～げ
+
+**Meaning:** looks..., appears..., seems...
+
+Use it for **how someone appears from the outside**.
+
+### Pattern
+
+Adjective stem + げ
+
+### Examples
+
+* 悲しげ
+  → looks sad
+
+* 幸せげ
+  → looks happy
+
+* 不安げ
+  → looks anxious
+
+You're **guessing from appearance**, not stating a fact.
+
+---
+
+# 4. ～っぽい
+
+**Meaning:**
+
+* looks like...
+* has the characteristics of...
+* tends to...
+
+Very conversational.
+
+### Examples
+
+* 子どもっぽい
+  → childish
+
+* 大人っぽい
+  → mature
+
+* 忘れっぽい
+  → forgetful
+
+* 油っぽい
+  → oily
+
+Unlike **げ**, this describes a **characteristic**, not just appearance.
+
+Example:
+
+彼は子どもっぽい。
+→ He is childish.
+
+彼は子どもげだ。
+❌ Incorrect.
+
+---
+
+# 5. ～だらけ
+
+**Meaning:** full of..., covered with..., filled with...
+
+Usually negative.
+
+### Examples
+
+* ごみだらけ
+  → full of garbage
+
+* 間違いだらけ
+  → full of mistakes
+
+* 傷だらけ
+  → covered in scars
+
+* 知らないことだらけ
+  → full of things I don't know
+
+Think:
+
+"There is **a lot** of something."
+
+---
+
+# 6. ～っぱなし
+
+**Meaning:** left in a certain state; left without changing it
+
+Usually something that **should have been changed or finished**.
+
+### Examples
+
+* ドアを開けっぱなし
+  → left the door open
+
+* 電気をつけっぱなし
+  → left the lights on
+
+* テレビをつけっぱなしで寝た。
+  → Fell asleep with the TV left on.
+
+Think:
+
+"Left as it is."
+
+---
+
+# 7. ～っけ
+
+**Meaning:** "What was it again?"
+
+Used when **trying to remember**.
+
+### Examples
+
+今日は何曜日だっけ。
+→ What day is it again?
+
+名前何だっけ。
+→ What was the name again?
+
+日本へ来たのはいつだっけ。
+→ When did you come to Japan again?
+
+You already knew the information—you've just forgotten it.
+
+---
+
+# 8. ～じゃない
+
+Has two common meanings.
+
+### A. Isn't it?
+
+今日は暑いじゃない。
+→ It's hot, isn't it?
+
+---
+
+### B. I think...
+
+来るって言ってたから、来るんじゃない。
+→ He said he'd come, so I think he will.
+
+Used when making a guess based on some evidence.
+
+---
+
+# Quick Comparison
+
+| Grammar   | Meaning            | Used for                        | Example   |
+| --------- | ------------------ | ------------------------------- | --------- |
+| **～がち**   | tends to           | Habit/action (often negative)   | 忘れがち      |
+| **～気味**   | slightly           | Temporary condition             | 疲れ気味      |
+| **～げ**    | looks              | Visible appearance              | 悲しげ       |
+| **～っぽい**  | seems/ish          | Characteristic or tendency      | 子どもっぽい    |
+| **～だらけ**  | full of            | Large quantity                  | ごみだらけ     |
+| **～っぱなし** | left as is         | State not changed               | ドアを開けっぱなし |
+| **～っけ**   | what was it again? | Recalling forgotten information | 名前何だっけ    |
+| **～じゃない** | I think / isn't it | Guess or confirmation           | 来るんじゃない   |
+
+## A simple way to remember them
+
+* **～がち** → **I often do it.** (habit)
+* **～気味** → **I feel a little...** (condition)
+* **～げ** → **It looks...** (appearance)
+* **～っぽい** → **It has the character of...** (trait)
+* **～だらけ** → **It's full of...** (quantity)
+* **～っぱなし** → **I left it that way.** (unchanged state)
+* **～っけ** → **What was it again?** (memory)
+* **～じゃない** → **I think so / Isn't it?** (opinion or confirmation)
+
+A useful way to distinguish the three that are most commonly confused:
+
+* **忘れがち** = I **often forget** (repeated habit).
+* **忘れっぽい** = I am **a forgetful person** (personal characteristic).
+* **忘れ気味** = I've been **a bit forgetful lately** (temporary condition).
 
 
-1. ～気味（ぎみ） = tends to; slightly (e.g., 疲れ気味 = feeling a bit tired) 
-2. ～がち = tends to do (usually undesirable actions, e.g., 忘れがち = tends to forget) 
-3. ～だらけ = full of; a lot of 
-4. ～げ = appears to look/seem (e.g., 悲しげ = looks sad) 
+
+
 
 
 ### 8 Grammar Structures
