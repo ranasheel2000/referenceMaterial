@@ -5,6 +5,57 @@ Day 4 covers eight essential grammar structures that express tendencies, states,
 
 ---
 
+
+
+
+# Japanese Grammar Comparison
+
+| Grammar | Meaning | Usage | Pattern | Examples | Key Point |
+|---------|---------|-------|---------|----------|-----------|
+| **～がち** | tends to..., often does... (usually negative) | Describes habits or repeated actions that happen frequently. | **Verb stem + がち**<br>**Noun + がち** (less common) | 忘れがちです。→ I tend to forget.<br>遅れがちです。→ I tend to be late.<br>病気になりがちです。→ I tend to get sick. | Refers to a **habit or repeated tendency**. |
+| **～気味（ぎみ）** | slightly..., somewhat..., showing signs of... | Describes a temporary condition or feeling. | **Noun + 気味**<br>**Verb stem + 気味** | 疲れ気味 → a little tired<br>風邪気味 → feeling like you're catching a cold<br>太り気味 → slightly overweight | Refers to a **temporary condition**, not a habit. |
+| **～げ** | looks..., appears..., seems... | Expresses an impression based on someone's appearance or behavior. | **Adjective stem + げ** | 悲しげ → looks sad<br>幸せげ → looks happy<br>不安げ → looks anxious | Describes **appearance**, not an actual characteristic. |
+| **～っぽい** | looks like..., has the characteristics of..., tends to... | Conversational. Describes characteristics, resemblance, or tendencies. | **Noun + っぽい**<br>**Verb stem + っぽい** | 子どもっぽい → childish<br>大人っぽい → mature<br>忘れっぽい → forgetful<br>油っぽい → oily | Describes a **characteristic or tendency**, not just appearance. |
+| **～だらけ** | full of..., covered with..., filled with... | Indicates that something contains a large amount of something, usually negative. | **Noun + だらけ** | ごみだらけ → full of garbage<br>間違いだらけ → full of mistakes<br>傷だらけ → covered in scars<br>知らないことだらけ → full of things I don't know | Means **filled with a lot of something**. |
+| **～っぱなし** | left in a certain state | Something remains unchanged when it should have been changed or finished. | **Verb (ます-stem) + っぱなし** | ドアを開けっぱなし → left the door open<br>電気をつけっぱなし → left the lights on<br>テレビをつけっぱなしで寝た。→ Fell asleep with the TV left on. | Means **left as it is**. |
+| **～っけ** | What was it again? | Used when trying to remember information you already knew. | **Sentence + っけ** | 今日は何曜日だっけ。→ What day is it again?<br>名前何だっけ。→ What was the name again?<br>日本へ来たのはいつだっけ。→ When did you come to Japan again? | Used to **recall forgotten information**. |
+| **～じゃない** | 1. Isn't it? 2. I think... | Used for confirmation or making a guess based on evidence. | **Sentence + じゃない** | 今日は暑いじゃない。→ It's hot, isn't it?<br>来るって言ってたから、来るんじゃない。→ He said he'd come, so I think he will. | Two meanings: **confirmation** or **inference**. |
+
+---
+
+## Quick Comparison
+
+| Grammar | Best Translation | Describes |
+|---------|------------------|-----------|
+| **～がち** | tend to... | Habit or repeated tendency |
+| **～気味** | slightly..., somewhat... | Temporary condition |
+| **～げ** | looks..., seems... | External appearance |
+| **～っぽい** | -ish, like..., tends to... | Characteristic or tendency |
+| **～だらけ** | full of... | Large amount (usually negative) |
+| **～っぱなし** | left... | State left unchanged |
+| **～っけ** | what was it again? | Remembering forgotten information |
+| **～じゃない** | isn't it? / I think... | Confirmation or inference |
+
+## Commonly Confused
+
+| Grammar | Difference |
+|---------|------------|
+| **～がち** vs **～気味** | **～がち** = habitual tendency. **～気味** = temporary condition. |
+| **～げ** vs **～っぽい** | **～げ** = appears to be (appearance). **～っぽい** = actually has that characteristic or tendency. |
+
+### Example
+
+- 忘れがちです。→ I tend to forget. *(habit)*
+- 疲れ気味です。→ I'm feeling a little tired. *(temporary condition)*
+- 彼は悲しげだ。→ He looks sad. *(appearance)*
+- 彼は子どもっぽい。→ He is childish. *(characteristic)*
+- 部屋はごみだらけだ。→ The room is full of garbage.
+- ドアを開けっぱなしにした。→ I left the door open.
+- 名前何だっけ。→ What was the name again?
+- 雨が降るんじゃない？→ I think it's going to rain.
+
+
+
 ## Quick Reference
 These grammar points are easy to mix up because many express a "feeling" or "tendency." The key is to learn **what each one describes**.
 
