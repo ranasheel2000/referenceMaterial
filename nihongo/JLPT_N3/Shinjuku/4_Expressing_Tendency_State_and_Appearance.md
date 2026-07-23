@@ -32,11 +32,20 @@ Day 4 covers eight essential grammar structures that express tendencies, states,
 | (~)気がする | Have a feeling that |
 | (Aを)気にする | Worry about / care about |
 
-### Essential Kanji
+### 10 Essential Kanji
 
 | Kanji | Reading | Meaning |
 |-------|---------|---------|
-| (Placeholder) | (Reading) | (Meaning) |
+| 風邪 | かぜ | Cold (disease) |
+| 健康 | けんこう | Health |
+| 栄養 | えいよう | Nutrition |
+| 体調 | たいちょう | Physical condition |
+| 気配 | けはい | Presence / appearance |
+| 保護者 | ほごしゃ | Guardian |
+| 人身 | じんしん | Human body |
+| 事故 | じこ | Accident |
+| 天候 | てんこう | Weather |
+| 地球 | ちきゅう | Earth (planet) |
 
 ---
 
@@ -359,7 +368,16 @@ Meanings:
 
 | Kanji | Reading | Meaning | Example |
 |-------|---------|---------|---------|
-| (Placeholder) | (Reading) | (Meaning) | (Example) |
+| 風邪 | かぜ | Cold (disease). An inflammatory disease that causes fever, chills, and a cough | 風邪をひいてしまった。(I caught a cold.) |
+| 健康 | けんこう | Health. Of body and mind, to be in good health | 健康に気をつけている。(I take care of my health.) |
+| 栄養 | えいよう | Nutrition. An ingredient or substance necessary to sustain life | 栄養があるものを食べる。(I eat nutritious food.) |
+| 体調 | たいちょう | Physical condition. The condition of one's body | 体調を崩してしまった。(I'm not feeling well.) |
+| 気配 | けはい | Presence. An appearance that can be felt somehow | 誰かがいる気配がする。(I have a feeling that someone is there.) |
+| 保護者 | ほごしゃ | Guardian. A person who has a duty to protect a minor | 小学校の保護者会がある。(There will be a guardian meeting of the elementary school.) |
+| 人身 | じんしん | Human body. The physical body of a human | 人身事故の影響で電車が遅れている。(The train is delayed because of a personal injury accident.) |
+| 事故 | じこ | Accident. A bad unpredicted event | ながらスマホによる事故が増えている。(The number of accidents caused by distracted phone use is increasing.) |
+| 天候 | てんこう | Weather. The state of the atmosphere over a period of time | 週末は天候に恵まれた。(The weather was fine over the weekend.) |
+| 地球 | ちきゅう | Earth (planet). A planet in the solar system where humanity lives | 宇宙から見た地球は青かった。(The earth was blue as seen from space.) |
 
 ---
 
@@ -370,7 +388,8 @@ Meanings:
 3. **Context Matters:** Intonation changes the meaning of じゃない
 4. **Natural Speech:** っけ and じゃん are primarily spoken language patterns
 5. **Feelings and Perceptions:** 気がつく, 気がする, and 気にする all relate to awareness but have different nuances
+6. **Health and Wellness:** Use kanji related to 健康, 栄養, 体調, and 風邪 when discussing physical wellbeing
 
 ---
 
-**Last Modified:** Thursday, 23 July 2026, 12:00 PM
+**Last Modified:** Thursday, 23 July 2026, 12:30 PM
