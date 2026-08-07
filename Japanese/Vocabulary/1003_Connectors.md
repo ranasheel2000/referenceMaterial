@@ -673,3 +673,369 @@ B:
 Really? By the way, where did you go?
 
 
+
+
+# Japanese Connectors.md
+
+# High Frequency Conversation Connectors
+
+---
+
+# 1. Adding Information (and)
+
+| Japanese | Reading | Meaning |
+|---|---|---|
+| そして | soshite | and / then |
+| それから | sorekara | after that |
+| また | mata | also / again |
+| さらに | sarani | furthermore |
+| それに | soreni | besides |
+| 一方 | ippou | on the other hand |
+
+Examples:
+
+日本語を勉強しています。そして英語も勉強しています。
+
+I study Japanese. And I study English too.
+
+---
+
+# 2. Basic "And"
+
+## と
+
+Used for listing nouns.
+
+Example:
+
+りんごとバナナを買いました。
+
+I bought apples and bananas.
+
+---
+
+## て-form
+
+Used to connect actions.
+
+Example:
+
+朝起きて、コーヒーを飲みます。
+
+I wake up and drink coffee.
+
+---
+
+# 3. Contrast (But / However)
+
+| Japanese | Reading | Meaning |
+|---|---|---|
+| でも | demo | but |
+| しかし | shikashi | however |
+| けど | kedo | but |
+| けれども | keredomo | however |
+| なのに | nanoni | despite |
+| それでも | soredemo | even so |
+
+Examples:
+
+日本語は難しいです。でも面白いです。
+
+Japanese is difficult, but interesting.
+
+---
+
+# 4. Reason (Because)
+
+| Japanese | Reading | Meaning |
+|---|---|---|
+| から | kara | because |
+| ので | node | because (polite/soft) |
+| なぜなら | nazenara | because |
+| そのため | sono tame | therefore |
+
+Examples:
+
+雨ですから、行きません。
+
+Because it is raining, I won't go.
+
+
+忙しいので、できません。
+
+Because I am busy, I cannot.
+
+---
+
+# 5. Result / Therefore
+
+| Japanese | Reading | Meaning |
+|---|---|---|
+| だから | dakara | therefore |
+| ですから | desukara | therefore (polite) |
+| そのため | sono tame | because of that |
+| 結果 | kekka | as a result |
+| つまり | tsumari | in other words |
+
+Examples:
+
+時間がありません。だから急ぎます。
+
+I don't have time. Therefore, I will hurry.
+
+---
+
+# 6. Example / Explanation
+
+| Japanese | Reading | Meaning |
+|---|---|---|
+| 例えば | tatoeba | for example |
+| つまり | tsumari | in other words |
+| 実は | jitsu wa | actually |
+| 特に | toku ni | especially |
+| 簡単に言うと | kantan ni iu to | simply put |
+
+Examples:
+
+例えば、日本料理が好きです。
+
+For example, I like Japanese food.
+
+---
+
+# 7. Topic Change
+
+| Japanese | Reading | Meaning |
+|---|---|---|
+| ところで | tokoro de | by the way |
+| ちなみに | chinami ni | by the way |
+| 話は変わりますが | hanashi wa kawarimasu ga | changing topic |
+
+Examples:
+
+ところで、週末は何をしますか？
+
+By the way, what will you do this weekend?
+
+---
+
+# 8. Sequence / Order
+
+| Japanese | Reading | Meaning |
+|---|---|---|
+| まず | mazu | first |
+| 次に | tsugi ni | next |
+| それから | sorekara | after that |
+| 最後に | saigo ni | finally |
+| 初めに | hajime ni | firstly |
+
+Examples:
+
+まず説明します。それから質問します。
+
+First I explain. Then I ask questions.
+
+---
+
+# 9. Condition Connectors
+
+| Japanese | Reading | Meaning |
+|---|---|---|
+| もし | moshi | if |
+| もしも | moshimo | if |
+| なら | nara | if / in that case |
+| では | dewa | then |
+
+Examples:
+
+もし時間があれば、行きます。
+
+If I have time, I will go.
+
+---
+
+# 10. Agreement / Confirmation
+
+| Japanese | Reading | Meaning |
+|---|---|---|
+| そうですね | sou desu ne | that's right |
+| 確かに | tashika ni | certainly |
+| もちろん | mochiron | of course |
+| その通り | sono toori | exactly |
+| 分かりました | wakarimashita | understood |
+
+Examples:
+
+A:
+日本語は難しいですね。
+
+Japanese is difficult, right?
+
+B:
+そうですね。
+
+That's right.
+
+---
+
+# 11. Opinion Starters
+
+| Japanese | Reading | Meaning |
+|---|---|---|
+| 私は | watashi wa | I |
+| 私の意見では | watashi no iken de wa | in my opinion |
+| と思います | to omoimasu | I think |
+| でしょう | deshou | probably |
+| かもしれません | kamo shiremasen | might |
+
+Examples:
+
+私は日本文化が好きだと思います。
+
+I think I like Japanese culture.
+
+---
+
+# 12. Conversation Fillers
+
+| Japanese | Reading | Meaning |
+|---|---|---|
+| えっと | etto | um |
+| あの | ano | well/excuse me |
+| そうですね | sou desu ne | let's see |
+| まあ | maa | well |
+| なんか | nanka | something like |
+
+Examples:
+
+えっと、どう言いますか？
+
+Um, how do I say it?
+
+---
+
+# 13. Comparison Connectors
+
+| Japanese | Reading | Meaning |
+|---|---|---|
+| より | yori | than |
+| ほど | hodo | to the extent |
+| 一番 | ichiban | most |
+| 比べると | kuraberu to | compared to |
+
+Examples:
+
+東京は大阪より大きいです。
+
+Tokyo is bigger than Osaka.
+
+---
+
+# 14. Common Conversation Patterns
+
+## Because → Therefore
+理由 + から + 結果
+
+
+Example:
+
+忙しいから、行きません。
+
+Because I am busy, I won't go.
+
+---
+
+## But
+Sentence + けど + Sentence
+
+
+Example:
+
+高いけど、買います。
+
+It is expensive, but I will buy it.
+
+---
+
+## Also
+AもBも
+
+
+Example:
+
+日本語も英語も話します。
+
+I speak both Japanese and English.
+
+---
+
+## For Example
+例えば + Example
+
+
+Example:
+
+例えば、寿司が好きです。
+
+For example, I like sushi.
+
+---
+
+
+---
+
+# Speaking Examples
+
+## Natural Opinion
+
+日本語は難しいです。でも楽しいです。
+
+Japanese is difficult, but fun.
+
+---
+
+## Giving Reason
+
+日本が好きです。文化が面白いからです。
+
+I like Japan because the culture is interesting.
+
+---
+
+## Explaining
+
+例えば、寿司やラーメンが好きです。
+
+For example, I like sushi and ramen.
+
+---
+
+## Changing Topic
+
+ところで、明日は暇ですか？
+
+By the way, are you free tomorrow?
+
+---
+
+## Uncertainty
+
+たぶん行きます。でもまだ分かりません。
+
+I will probably go, but I don't know yet.
+
+---
+
+## Conversation Flow
+まず
+↓
+そして
+↓
+でも
+↓
+だから
+↓
+例えば
+↓
+最後に
+
