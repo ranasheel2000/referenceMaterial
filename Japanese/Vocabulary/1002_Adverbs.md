@@ -866,3 +866,351 @@ Example:
 見ます。
 
 Tomorrow, I will probably watch a movie with my friend.
+
+
+
+
+
+
+
+# Japanese Adverbs.md
+
+# High Frequency Adverbs for Speaking
+
+---
+
+# 1. Degree / Intensity
+
+| Japanese | Reading | Meaning |
+|---|---|---|
+| とても | totemo | very |
+| すごく | sugoku | extremely |
+| かなり | kanari | quite / considerably |
+| もっと | motto | more |
+| 少し | sukoshi | a little |
+| ちょっと | chotto | a little |
+| あまり | amari | not much |
+| 全然 | zenzen | not at all |
+| いっぱい | ippai | a lot/full |
+| たくさん | takusan | many/a lot |
+
+Examples:
+
+とても美味しいです。
+
+It is very delicious.
+
+
+少し難しいです。
+
+It is a little difficult.
+
+
+---
+
+# 2. Frequency
+
+| Japanese | Reading | Meaning |
+|---|---|---|
+| いつも | itsumo | always |
+| よく | yoku | often/well |
+| 時々 | tokidoki | sometimes |
+| たまに | tamani | occasionally |
+| あまり | amari | not often |
+| 全然 | zenzen | never/not at all |
+| 毎日 | mainichi | every day |
+| 毎週 | maishuu | every week |
+
+Examples:
+
+いつも日本語を勉強します。
+
+I always study Japanese.
+
+
+時々映画を見ます。
+
+I sometimes watch movies.
+
+---
+
+# 3. Time Related Adverbs
+
+| Japanese | Reading | Meaning |
+|---|---|---|
+| 今 | ima | now |
+| もう | mou | already |
+| まだ | mada | still / yet |
+| すぐ | sugu | soon / immediately |
+| 後で | ato de | later |
+| 最近 | saikin | recently |
+| 昔 | mukashi | long ago |
+| 以前 | izen | before |
+| これから | korekara | from now |
+| 先に | saki ni | first/before |
+
+Examples:
+
+もう食べました。
+
+I already ate.
+
+
+まだ分かりません。
+
+I don't know yet.
+
+
+すぐ行きます。
+
+I will go soon.
+
+---
+
+# 4. Probability / Uncertainty
+
+| Japanese | Reading | Meaning |
+|---|---|---|
+| たぶん | tabun | probably |
+| きっと | kitto | surely |
+| おそらく | osoraku | likely |
+| もしかしたら | moshikashitara | maybe |
+| 多分 | tabun | probably |
+
+Examples:
+
+たぶん大丈夫です。
+
+Probably okay.
+
+
+もしかしたら行きません。
+
+Maybe I won't go.
+
+---
+
+# 5. Way / Manner
+
+| Japanese | Reading | Meaning |
+|---|---|---|
+| ゆっくり | yukkuri | slowly |
+| 早く | hayaku | quickly |
+| 一緒に | issho ni | together |
+| 別々に | betsubetsu ni | separately |
+| ちゃんと | chanto | properly |
+| 丁寧に | teinei ni | carefully |
+| 簡単に | kantan ni | easily |
+| 自由に | jiyuu ni | freely |
+
+Examples:
+
+ゆっくり話してください。
+
+Please speak slowly.
+
+
+一緒に行きましょう。
+
+Let's go together.
+
+---
+
+# 6. Order / Sequence
+
+| Japanese | Reading | Meaning |
+|---|---|---|
+| まず | mazu | first |
+| 次に | tsugi ni | next |
+| 最後に | saigo ni | finally |
+| 先に | saki ni | first/before |
+| 後で | ato de | later |
+| 初めて | hajimete | for the first time |
+
+Examples:
+
+まず説明します。
+
+First, I will explain.
+
+
+次に質問します。
+
+Next, I will ask.
+
+---
+
+# 7. Change & Result
+
+| Japanese | Reading | Meaning |
+|---|---|---|
+| だんだん | dandan | gradually |
+| 急に | kyuu ni | suddenly |
+| 特に | toku ni | especially |
+| 結局 | kekkyoku | in the end |
+| やっと | yatto | finally |
+| とうとう | toutou | finally/eventually |
+
+Examples:
+
+だんだん分かりました。
+
+I gradually understood.
+
+
+やっと終わりました。
+
+I finally finished.
+
+---
+
+# 8. Opinion & Conversation Fillers
+
+| Japanese | Reading | Meaning |
+|---|---|---|
+| 実は | jitsu wa | actually |
+| 本当に | hontou ni | really |
+| 確かに | tashika ni | certainly |
+| もちろん | mochiron | of course |
+| 多分 | tabun | probably |
+| 例えば | tatoeba | for example |
+| つまり | tsumari | in other words |
+| でも | demo | but |
+
+Examples:
+
+実は、日本が好きです。
+
+Actually, I like Japan.
+
+
+もちろん大丈夫です。
+
+Of course, it's okay.
+
+---
+
+# 9. Comparison Adverbs
+
+| Japanese | Reading | Meaning |
+|---|---|---|
+| もっと | motto | more |
+| 一番 | ichiban | most |
+| 最も | mottomo | most |
+| 少し | sukoshi | slightly |
+| ほとんど | hotondo | almost |
+| 同じ | onaji | same |
+
+Examples:
+
+これが一番好きです。
+
+I like this the most.
+
+
+もっと練習します。
+
+I will practice more.
+
+---
+
+# 10. Negative Adverbs
+
+| Japanese | Reading | Meaning |
+|---|---|---|
+| あまり | amari | not much |
+| 全然 | zenzen | not at all |
+| ほとんど | hotondo | almost none |
+| 決して | kesshite | never |
+
+Examples:
+
+あまり分かりません。
+
+I don't understand much.
+
+
+全然大丈夫です。
+
+It is totally okay.
+
+---
+
+# 11. Common Speaking Adverbs
+
+| Japanese | Meaning |
+|---|---|
+| たぶん | probably |
+| もちろん | of course |
+| 本当に | really |
+| 実は | actually |
+| 例えば | for example |
+| いつも | always |
+| よく | often |
+| 時々 | sometimes |
+| もう | already |
+| まだ | still |
+| すぐ | soon |
+| 少し | a little |
+| ちょっと | a bit |
+| とても | very |
+| もっと | more |
+| 一番 | most |
+| 一緒に | together |
+| ゆっくり | slowly |
+| ちゃんと | properly |
+| 急に | suddenly |
+
+---
+
+
+---
+
+# Speaking Examples
+
+## Frequency
+
+私はよく日本料理を食べます。
+
+I often eat Japanese food.
+
+
+## Already / Yet
+
+もう終わりました。
+
+I already finished.
+
+
+まだ終わっていません。
+
+I haven't finished yet.
+
+
+## Opinion
+
+本当に面白いです。
+
+It is really interesting.
+
+
+## Probability
+
+たぶん明日行きます。
+
+I will probably go tomorrow.
+
+
+## Sequence
+
+まず勉強します。
+
+First, I study.
+
+
+## Natural Conversation
+
+実は日本語を勉強しています。
+
+Actually, I am studying Japanese.
+
