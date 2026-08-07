@@ -1,3 +1,1 @@
-# Dating
-
-Placeholder: Dating conversation phrases and cultural notes.
+Renamed to Japanese/Speaking/fake_1.md

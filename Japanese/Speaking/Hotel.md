@@ -1,3 +1,1 @@
-# Hotel
-
-Placeholder: Phrases and dialogues for hotel check-in/check-out.
+Renamed to Japanese/Speaking/fake_4.md

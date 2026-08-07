@@ -1,3 +1,1 @@
-# Restaurant
-
-Placeholder: Phrases and dialogues for restaurants.
+Renamed to Japanese/Speaking/fake_6.md

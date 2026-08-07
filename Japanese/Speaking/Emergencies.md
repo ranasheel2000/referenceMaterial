@@ -1,3 +1,1 @@
-# Emergencies
-
-Placeholder: Emergency phrases and important sentences.
+Renamed to Japanese/Speaking/fake_2.md

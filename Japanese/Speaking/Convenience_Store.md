@@ -1,3 +1,1 @@
-# Convenience Store
-
-Placeholder: Convenience store phrases and interactions.
+Renamed to Japanese/Speaking/fake_0.md

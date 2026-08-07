@@ -1,3 +1,1 @@
-# Friends
-
-Placeholder: Casual conversation phrases and topics with friends.
+Renamed to Japanese/Speaking/fake_3.md

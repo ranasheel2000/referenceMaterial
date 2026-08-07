@@ -1,3 +1,1 @@
-# Shopping
-
-Placeholder: Phrases and dialogues for shopping situations.
+Renamed to Japanese/Speaking/fake_7.md
